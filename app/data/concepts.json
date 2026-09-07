@@ -1,0 +1,3349 @@
+{
+  "genres": {
+    "models": {
+      "label": "Mental Models",
+      "code": "MODEL"
+    },
+    "psychology": {
+      "label": "Psychology",
+      "code": "PSYC"
+    },
+    "economics": {
+      "label": "Economics",
+      "code": "ECON"
+    },
+    "investing": {
+      "label": "Investing",
+      "code": "INV"
+    }
+  },
+  "entries": [
+    {
+      "id": "first-principles",
+      "genre": "models",
+      "name": "First-Principles Thinking",
+      "hook": "Reason up from the physics of the problem, not sideways from what everyone else already believes.",
+      "def": "Instead of reasoning by analogy — copying what's already done because it's already done — you break a problem down to its most basic, verifiable truths, then reconstruct a solution from those truths alone.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Belief / assumption",
+            "note": "“Rockets are expensive because they always have been.”"
+          },
+          {
+            "label": "Decompose",
+            "note": "What is it actually made of, physically?"
+          },
+          {
+            "label": "Verify each part",
+            "note": "Raw material cost of aluminum, carbon fiber, fuel..."
+          },
+          {
+            "label": "Rebuild upward",
+            "note": "Reconstruct the cost from real physics, not precedent."
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "SpaceX vs. NASA contractors",
+          "b": "Musk priced a rocket from raw material cost, found it was ~2% of the purchase price, and built from there instead of buying an existing rocket."
+        },
+        {
+          "t": "Kalanick's server math",
+          "b": "Early Uber pricing was rebuilt from per-mile driver economics, not from copying taxi meters."
+        }
+      ]
+    },
+    {
+      "id": "inversion",
+      "genre": "models",
+      "name": "Inversion",
+      "hook": "To solve a hard problem forward, first ask what would guarantee failure — then avoid that.",
+      "def": "Charlie Munger's favorite tool: instead of asking 'how do I succeed at X,' ask 'what would guarantee I fail at X' and systematically avoid every item on that list. Avoiding stupidity is often easier and more reliable than seeking brilliance.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Forward",
+          "note": "“How do I build a long, happy life?” — vague, huge search space."
+        },
+        "right": {
+          "label": "Inverted",
+          "note": "“What guarantees a miserable, short life?” — drugs, resentment, dishonesty, isolation. Avoid those."
+        },
+        "vs": "invert"
+      },
+      "notes": [
+        {
+          "t": "Munger on happiness",
+          "b": "“All I want to know is where I'm going to die, so I'll never go there” — his own summary of inversion."
+        },
+        {
+          "t": "Engineering failure analysis",
+          "b": "Bridge designers study why bridges collapse before designing one that stands."
+        }
+      ]
+    },
+    {
+      "id": "second-order",
+      "genre": "models",
+      "name": "Second-Order Thinking",
+      "hook": "Ask 'and then what?' at least twice before calling a decision good.",
+      "def": "First-order thinking stops at the immediate, obvious consequence of a decision. Second-order thinking traces the consequence of that consequence — where the obvious answer and the eventually-correct answer often point in opposite directions.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Decision",
+            "note": "Cap rent increases city-wide."
+          },
+          {
+            "label": "1st-order effect",
+            "note": "Existing tenants pay less immediately."
+          },
+          {
+            "label": "2nd-order effect",
+            "note": "Landlords stop maintaining or building units."
+          },
+          {
+            "label": "3rd-order effect",
+            "note": "Housing supply shrinks; rents rise long-run."
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Rent control",
+          "b": "Economists across the spectrum point to this exact chain as the textbook case of ignoring second-order effects."
+        },
+        {
+          "t": "Cobra effect",
+          "b": "Colonial Delhi paid a bounty per dead cobra; people started farming cobras to collect it."
+        }
+      ]
+    },
+    {
+      "id": "occams-razor",
+      "genre": "models",
+      "name": "Occam's Razor",
+      "hook": "Among explanations that fit the facts equally well, the one with fewest assumptions is usually right.",
+      "def": "Not 'the simplest answer is always true' — it's a tie-breaker: when two theories explain the same evidence, prefer the one that requires fewer unproven assumptions. Extra assumptions are extra ways to be wrong.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Complex theory",
+          "note": "Coordinated conspiracy across 40 people, no leaks, for 20 years."
+        },
+        "right": {
+          "label": "Simple theory",
+          "note": "One tired engineer made one ordinary mistake."
+        },
+        "vs": "prefer"
+      },
+      "notes": [
+        {
+          "t": "Medical diagnosis",
+          "b": "“When you hear hoofbeats, think horses, not zebras” — common illness beats rare syndrome, all else equal."
+        },
+        {
+          "t": "Copernicus over epicycles",
+          "b": "A sun-centered model needed far fewer patched-on corrections than an Earth-centered one."
+        }
+      ]
+    },
+    {
+      "id": "hanlons-razor",
+      "genre": "models",
+      "name": "Hanlon's Razor",
+      "hook": "Never attribute to malice what is adequately explained by carelessness.",
+      "def": "Most harm you experience from other people isn't a plot against you — it's someone rushed, tired, distracted, or simply not thinking about you at all. Defaulting to 'malice' burns relationships and misdiagnoses the real fix.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Malice reading",
+          "note": "“They ignored my email on purpose to snub me.”"
+        },
+        "right": {
+          "label": "Carelessness reading",
+          "note": "“They have 400 unread emails and missed it.”"
+        },
+        "vs": "default to"
+      },
+      "notes": [
+        {
+          "t": "Team miscommunication",
+          "b": "A missed Slack message reads as a slight until you remember everyone's inbox is on fire."
+        },
+        {
+          "t": "Customer support escalations",
+          "b": "Most 'the company is scamming me' complaints resolve as a genuine system bug, not intent."
+        }
+      ]
+    },
+    {
+      "id": "chestertons-fence",
+      "genre": "models",
+      "name": "Chesterton's Fence",
+      "hook": "Don't tear down a fence until you understand why someone built it.",
+      "def": "A reform-minded principle: if you encounter a rule, structure, or convention that seems useless, the correct first move is to find out why it exists — not to assume its pointlessness and remove it. Understanding precedes reform.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "See the fence",
+            "note": "A strange rule, process, or structure that seems dumb."
+          },
+          {
+            "label": "Resist removing it",
+            "note": "Don't act on the assumption it's pointless."
+          },
+          {
+            "label": "Find the original reason",
+            "note": "Ask who built it and what it prevented."
+          },
+          {
+            "label": "Then decide",
+            "note": "Remove it knowingly, or keep it — either way, informed."
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Legacy code",
+          "b": "That 'pointless' null check in production code is often silently preventing a crash someone hit in 2019."
+        },
+        {
+          "t": "Organizational rules",
+          "b": "An odd approval step often exists because of one specific incident nobody remembers to mention."
+        }
+      ]
+    },
+    {
+      "id": "map-territory",
+      "genre": "models",
+      "name": "The Map Is Not the Territory",
+      "hook": "Every model, plan, and forecast is a simplification — mistake it for reality and reality corrects you.",
+      "def": "A model, spreadsheet, or mental picture of a situation is always a compressed abstraction of the real thing, never the thing itself. The map is useful precisely because it leaves detail out — but the moment you forget it left detail out, it becomes dangerous.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "The map",
+          "note": "A financial model, a strategy deck, a five-year forecast."
+        },
+        "right": {
+          "label": "The territory",
+          "note": "The actual, messy, non-stationary market it's describing."
+        },
+        "vs": "≠"
+      },
+      "notes": [
+        {
+          "t": "2008 risk models",
+          "b": "Elegant models assumed housing prices in different regions moved independently — the territory disagreed, all at once."
+        },
+        {
+          "t": "GPS in a flood",
+          "b": "The map still shows a road that the territory has since washed away."
+        }
+      ]
+    },
+    {
+      "id": "ladder-inference",
+      "genre": "models",
+      "name": "Ladder of Inference",
+      "hook": "Between a fact and your conclusion sit five invisible steps where you can quietly go wrong.",
+      "def": "Chris Argyris's model of how we leap from raw observation to belief to action almost instantly, each rung adding a filter (selected data, added meaning, assumptions, conclusions) we rarely notice we've climbed.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Observable data",
+            "note": "She didn't reply to my message."
+          },
+          {
+            "label": "Selected data",
+            "note": "You notice this, ignore she's in back-to-back meetings."
+          },
+          {
+            "label": "Meaning added",
+            "note": "“She's avoiding me.”"
+          },
+          {
+            "label": "Conclusion + action",
+            "note": "You stop looping her into decisions."
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Workplace conflict",
+          "b": "Most 'they're being difficult' spirals are someone climbing this ladder alone, unchecked."
+        },
+        {
+          "t": "Negotiation coaching",
+          "b": "Skilled negotiators explicitly climb back down the ladder and ask what data the other side actually saw."
+        }
+      ]
+    },
+    {
+      "id": "dunning-kruger",
+      "genre": "psychology",
+      "name": "Dunning-Kruger Effect",
+      "hook": "The less you know about something, the harder it is to know how little you know.",
+      "def": "People with low ability at a task tend to overestimate that ability, because the same skill needed to perform well is needed to judge performance well. As real competence grows, confidence briefly dips before recovering on firmer ground.",
+      "anatomy": {
+        "type": "curve",
+        "xLabel": "Experience",
+        "yLabel": "Confidence",
+        "points": [
+          {
+            "x": 0,
+            "y": 15,
+            "label": "Start"
+          },
+          {
+            "x": 18,
+            "y": 92,
+            "label": "Peak of “Mount Stupid”"
+          },
+          {
+            "x": 45,
+            "y": 20,
+            "label": "Valley of Despair"
+          },
+          {
+            "x": 100,
+            "y": 68,
+            "label": "Slope of Enlightenment"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "New trader, week two",
+          "b": "A few lucky trades feel like proof of skill; the account gives back the gains by week eight."
+        },
+        {
+          "t": "Original 1999 study",
+          "b": "Kruger and Dunning found the bottom-quartile test scorers rated their own performance as above average."
+        }
+      ]
+    },
+    {
+      "id": "stockholm-syndrome",
+      "genre": "psychology",
+      "name": "Stockholm Syndrome",
+      "hook": "Under prolonged threat with no perceived escape, victims can bond with their captor as a survival strategy.",
+      "def": "Named for a 1973 Stockholm bank robbery where hostages defended their captors afterward. Under sustained fear and isolation, small acts of kindness from someone who controls your survival can get reinterpreted as evidence of a real bond — a psychological adaptation to powerlessness, not naivety.",
+      "anatomy": {
+        "type": "cycle",
+        "nodes": [
+          {
+            "label": "Perceived threat to life"
+          },
+          {
+            "label": "Total dependence on captor"
+          },
+          {
+            "label": "Small kindness, relief"
+          },
+          {
+            "label": "Reframed as care, not survival"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "The original case",
+          "b": "Bank robbery hostages later raised money for their captors' legal defense."
+        },
+        {
+          "t": "Coercive-control relationships",
+          "b": "Clinicians see the same loop in abusive relationships with no physical hostage-taking at all."
+        }
+      ]
+    },
+    {
+      "id": "confirmation-bias",
+      "genre": "psychology",
+      "name": "Confirmation Bias",
+      "hook": "You don't see the evidence — you go looking for the evidence that agrees with you.",
+      "def": "The tendency to search for, interpret, and recall information in ways that confirm what you already believe, while unconsciously discounting or under-searching for evidence that would disprove it.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "Existing belief"
+        },
+        "spokes": [
+          {
+            "label": "Search",
+            "note": "Query only sources likely to agree"
+          },
+          {
+            "label": "Interpret",
+            "note": "Read ambiguous data as supportive"
+          },
+          {
+            "label": "Recall",
+            "note": "Remember hits, forget misses"
+          },
+          {
+            "label": "Discount",
+            "note": "Explain away disconfirming data"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Stock thesis",
+          "b": "Once you've bought a stock, you notice every bullish headline and skim past the bearish ones."
+        },
+        {
+          "t": "Political news diets",
+          "b": "Curated feeds quietly turn a belief into an unfalsifiable one over a few months."
+        }
+      ]
+    },
+    {
+      "id": "sunk-cost",
+      "genre": "psychology",
+      "name": "Sunk Cost Fallacy",
+      "hook": "Money and time already spent are gone either way — they shouldn't vote on what you do next.",
+      "def": "A rational decision only weighs future costs and benefits. The sunk cost fallacy is continuing a bad investment, project, or relationship specifically because of what's already been poured into it — spending more to avoid admitting the earlier spend was wasted.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Sunk-cost reasoning",
+          "note": "“We've spent $2M on this, we can't stop now.”"
+        },
+        "right": {
+          "label": "Rational reasoning",
+          "note": "“Given only what it costs from today, is this still the best use of the next dollar?”"
+        },
+        "vs": "replace"
+      },
+      "notes": [
+        {
+          "t": "Concorde fallacy",
+          "b": "The UK/France governments kept funding the supersonic jet years after it was known to be commercially unviable, citing money already spent."
+        },
+        {
+          "t": "A bad relationship",
+          "b": "“We've been together seven years” is a reason to feel sad about it ending, not a reason it should continue."
+        }
+      ]
+    },
+    {
+      "id": "bystander-effect",
+      "genre": "psychology",
+      "name": "Bystander Effect",
+      "hook": "The more people who witness an emergency, the less likely any one of them is to help.",
+      "def": "Responsibility to act diffuses across a crowd — each witness assumes someone else will step in, or reads others' inaction as a signal that it's not really an emergency. A single witness alone is statistically far more likely to intervene than one of ten.",
+      "anatomy": {
+        "type": "curve",
+        "xLabel": "Number of witnesses",
+        "yLabel": "Odds any one person helps",
+        "points": [
+          {
+            "x": 5,
+            "y": 90,
+            "label": "1 witness"
+          },
+          {
+            "x": 35,
+            "y": 55,
+            "label": "3 witnesses"
+          },
+          {
+            "x": 100,
+            "y": 25,
+            "label": "10+ witnesses"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Kitty Genovese, 1964",
+          "b": "The (partly mythologized) case that gave the effect its name — dozens of neighbors, no single 911 call."
+        },
+        {
+          "t": "Office 'reply all' silence",
+          "b": "A visible mistake in a huge email thread often gets flagged faster by one direct reply than by 40 silent readers."
+        }
+      ]
+    },
+    {
+      "id": "halo-effect",
+      "genre": "psychology",
+      "name": "Halo Effect",
+      "hook": "One good trait — often looks — quietly rewrites your judgment of everything else about a person.",
+      "def": "When we perceive someone as strong on one salient trait (attractive, articulate, from a prestigious school), we unconsciously infer they're also more competent, trustworthy, and intelligent — even with zero evidence for those other traits.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "One salient trait"
+        },
+        "spokes": [
+          {
+            "label": "Inferred: competent"
+          },
+          {
+            "label": "Inferred: trustworthy"
+          },
+          {
+            "label": "Inferred: intelligent"
+          },
+          {
+            "label": "Inferred: kind"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Interview bias",
+          "b": "A well-dressed, articulate candidate gets rated higher on 'analytical skill' despite the interview never testing it."
+        },
+        {
+          "t": "Product design",
+          "b": "A beautifully designed app is trusted with your data faster than an ugly one with identical security."
+        }
+      ]
+    },
+    {
+      "id": "impostor-syndrome",
+      "genre": "psychology",
+      "name": "Impostor Syndrome",
+      "hook": "Competent people who attribute their success to luck, timing, or fooling everyone — not skill.",
+      "def": "A persistent internal experience of feeling like a fraud despite external evidence of competence. Success gets explained away (luck, good timing, charming the interviewer) while the next challenge is read as the moment you'll finally be found out.",
+      "anatomy": {
+        "type": "cycle",
+        "nodes": [
+          {
+            "label": "Given a challenge"
+          },
+          {
+            "label": "Anxious over-preparation"
+          },
+          {
+            "label": "Success"
+          },
+          {
+            "label": "Attributed to luck, not skill"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "New senior hires",
+          "b": "Common in people promoted quickly — the growth outpaces their own internal self-image, which lags."
+        },
+        {
+          "t": "Maya Angelou",
+          "b": "Said even after acclaimed books, “I think I've run a game on everybody and they're going to find me out.”"
+        }
+      ]
+    },
+    {
+      "id": "fae",
+      "genre": "psychology",
+      "name": "Fundamental Attribution Error",
+      "hook": "Their mistake is 'who they are.' Your identical mistake is 'just the circumstances.'",
+      "def": "We systematically over-explain other people's behavior by their character ('he's rude') and under-weight their circumstances, while doing the exact opposite for ourselves ('I was rude because I was exhausted').",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Judging others",
+          "note": "Cut me off in traffic → “they're a reckless driver.”"
+        },
+        "right": {
+          "label": "Judging yourself",
+          "note": "You cut someone off → “I was late and distracted.”"
+        },
+        "vs": "asymmetry"
+      },
+      "notes": [
+        {
+          "t": "Performance reviews",
+          "b": "Missed deadlines get attributed to 'poor discipline' in a report the same manager would call 'a busy quarter' for themself."
+        },
+        {
+          "t": "Road rage studies",
+          "b": "Drivers consistently attribute their own errors to situations, others' identical errors to character."
+        }
+      ]
+    },
+    {
+      "id": "opportunity-cost",
+      "genre": "economics",
+      "name": "Opportunity Cost",
+      "hook": "The true cost of anything is the next-best thing you gave up to get it.",
+      "def": "Every choice forecloses every other option you could have made with that same time or money. The real price of a decision isn't the dollar tag — it's the best alternative you didn't take.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Chosen",
+          "note": "4 years, $200K → a degree."
+        },
+        "right": {
+          "label": "Foregone",
+          "note": "4 years of salary + compounding you didn't earn instead."
+        },
+        "vs": "true cost ="
+      },
+      "notes": [
+        {
+          "t": "Buffett's plane analogy",
+          "b": "He famously turned down purchases by asking what else that capital could compound into over decades."
+        },
+        {
+          "t": "Idle cash",
+          "b": "Cash sitting at 0% has an opportunity cost equal to whatever return the next-best safe asset offered."
+        }
+      ]
+    },
+    {
+      "id": "tragedy-commons",
+      "genre": "economics",
+      "name": "Tragedy of the Commons",
+      "hook": "What's shared by everyone gets protected by no one — until it collapses for everyone.",
+      "def": "When a resource is open-access and each individual gains fully from using more of it while the cost of depletion is spread across everyone, rational self-interest at the individual level produces collective ruin.",
+      "anatomy": {
+        "type": "cycle",
+        "nodes": [
+          {
+            "label": "Shared resource, no owner"
+          },
+          {
+            "label": "Each user takes a bit more"
+          },
+          {
+            "label": "Individual gain, shared cost"
+          },
+          {
+            "label": "Resource depleted for all"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Overfished waters",
+          "b": "No single trawler benefits from restraint if every other boat keeps fishing the same stock to zero."
+        },
+        {
+          "t": "Open-plan office fridge",
+          "b": "The smallest-scale version: nobody cleans it because everyone equally 'owns' the mess."
+        }
+      ]
+    },
+    {
+      "id": "moral-hazard",
+      "genre": "economics",
+      "name": "Moral Hazard",
+      "hook": "Insulate someone from the downside of risk, and they will rationally take on more of it.",
+      "def": "When a party is protected from the consequences of a risky decision — by insurance, a bailout, or someone else footing the bill — their incentive to act cautiously erodes, because the cost of failure now falls on someone else.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Risk exists"
+          },
+          {
+            "label": "Party is shielded from downside"
+          },
+          {
+            "label": "Behavior shifts toward more risk"
+          },
+          {
+            "label": "Cost lands on whoever absorbed the shield"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "“Too big to fail” banks",
+          "b": "An implicit bailout guarantee changes the risk appetite of the institution that expects to be rescued."
+        },
+        {
+          "t": "Full insurance deductibles",
+          "b": "A $0 deductible car policy correlates with measurably more claims than a high-deductible one."
+        }
+      ]
+    },
+    {
+      "id": "network-effects",
+      "genre": "economics",
+      "name": "Network Effects",
+      "hook": "A product that gets more valuable to each user as more people use it becomes very hard to dislodge.",
+      "def": "Value scales with the size of the user base itself, not just the product's own features. Past a critical mass, the network's size becomes the actual product — and a better standalone competitor still can't compete with an empty room.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "The network"
+        },
+        "spokes": [
+          {
+            "label": "+1 user"
+          },
+          {
+            "label": "= more value for every existing user"
+          },
+          {
+            "label": "= more reason to join"
+          },
+          {
+            "label": "= faster growth"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Telephone, then internet, then social",
+          "b": "Each new person on the network makes the network worth more to everyone already on it."
+        },
+        {
+          "t": "Why a 'better' social app often fails",
+          "b": "It can out-design the incumbent but still launches with zero of your actual friends on it."
+        }
+      ]
+    },
+    {
+      "id": "prisoners-dilemma",
+      "genre": "economics",
+      "name": "Prisoner's Dilemma",
+      "hook": "Two rational players, acting purely in self-interest, land on the worst outcome for both.",
+      "def": "A game where each player does better by betraying the other regardless of what the other does — so both rationally betray, and both end up worse off than if they'd cooperated. The tension between individual and collective rationality in one clean model.",
+      "anatomy": {
+        "type": "matrix",
+        "xLabel": "Player B",
+        "yLabel": "Player A",
+        "rows": [
+          "Cooperate",
+          "Betray"
+        ],
+        "cols": [
+          "Cooperate",
+          "Betray"
+        ],
+        "cells": [
+          [
+            "Both: 1 yr",
+            "A: 3 yr / B: free"
+          ],
+          [
+            "A: free / B: 3 yr",
+            "Both: 2 yr"
+          ]
+        ]
+      },
+      "notes": [
+        {
+          "t": "Price wars",
+          "b": "Two gas stations both cut prices to compete for the same customers, and both earn less than if neither had."
+        },
+        {
+          "t": "Arms races",
+          "b": "Cold War nuclear buildup: each side's rational move made both sides less secure than mutual restraint would have."
+        }
+      ]
+    },
+    {
+      "id": "diminishing-returns",
+      "genre": "economics",
+      "name": "Diminishing Returns",
+      "hook": "The first unit of input does the most work. Every unit after that does a little less.",
+      "def": "As you keep adding more of one input while holding others fixed, each additional unit eventually contributes less extra output than the one before it — the curve of benefit bends before it breaks.",
+      "anatomy": {
+        "type": "curve",
+        "xLabel": "Input added",
+        "yLabel": "Output gained",
+        "points": [
+          {
+            "x": 10,
+            "y": 30
+          },
+          {
+            "x": 30,
+            "y": 68
+          },
+          {
+            "x": 55,
+            "y": 85
+          },
+          {
+            "x": 100,
+            "y": 92
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Studying for an exam",
+          "b": "Hour one teaches you more than hour nine of the same night."
+        },
+        {
+          "t": "Hiring engineers on one codebase",
+          "b": "Past a certain team size, coordination overhead eats the marginal engineer's output."
+        }
+      ]
+    },
+    {
+      "id": "creative-destruction",
+      "genre": "economics",
+      "name": "Creative Destruction",
+      "hook": "Progress doesn't add on top of the old economy — it dismantles it and builds a new one over the rubble.",
+      "def": "Joseph Schumpeter's term for the process by which innovation continuously destroys old structures — companies, jobs, entire industries — while creating new ones, so that capitalism's growth and its disruption are the same mechanism, not two separate things.",
+      "anatomy": {
+        "type": "cycle",
+        "nodes": [
+          {
+            "label": "Incumbent industry, stable"
+          },
+          {
+            "label": "New technology emerges"
+          },
+          {
+            "label": "Old industry destroyed"
+          },
+          {
+            "label": "New industry created on top"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Film photography → digital",
+          "b": "Kodak didn't get outcompeted by a better film company — the category itself was destroyed and rebuilt."
+        },
+        {
+          "t": "Horse-drawn transport → automobiles",
+          "b": "An entire supply chain (farriers, stables, carriage makers) was replaced within a generation."
+        }
+      ]
+    },
+    {
+      "id": "broken-window",
+      "genre": "economics",
+      "name": "Broken Window Fallacy",
+      "hook": "Paying to fix damage isn't economic growth — it's just money that can no longer go somewhere better.",
+      "def": "Frédéric Bastiat's parable: a broken shop window creates work for the glazier, which looks like economic activity — but it ignores what the shop owner would have bought instead with that same money if the window were never broken. The seen cost hides the unseen one.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Seen",
+          "note": "Glazier gets paid $200 to fix the window."
+        },
+        "right": {
+          "label": "Unseen",
+          "note": "The $200 that would have bought new shoes never gets spent there."
+        },
+        "vs": "hides"
+      },
+      "notes": [
+        {
+          "t": "Disaster 'stimulus' claims",
+          "b": "“The hurricane will boost construction jobs” ignores the wealth destroyed to create that same rebuilding work."
+        },
+        {
+          "t": "Cybersecurity spend after a breach",
+          "b": "Necessary, but it's not new growth — it's capital redirected from wherever it was going before."
+        }
+      ]
+    },
+    {
+      "id": "circle-competence",
+      "genre": "investing",
+      "name": "Circle of Competence",
+      "hook": "Knowing the boundary of what you understand matters more than how much you understand.",
+      "def": "Warren Buffett's rule: your edge comes not from knowing a lot, but from knowing exactly where your real understanding ends — and refusing to act past that line, regardless of how compelling the opportunity outside it looks.",
+      "anatomy": {
+        "type": "circles",
+        "rings": [
+          {
+            "label": "What I truly understand",
+            "note": "Act here with size and conviction."
+          },
+          {
+            "label": "What I sort of understand",
+            "note": "Small size, or stay out."
+          },
+          {
+            "label": "What I don't understand",
+            "note": "Hard no, no matter the story."
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Buffett skipping tech, 1999",
+          "b": "Sat out the dot-com bubble entirely because he couldn't underwrite the businesses — missed gains, avoided the crash."
+        },
+        {
+          "t": "Buffett's own framing",
+          "b": "“The size of that circle is not very important; knowing its boundaries, however, is vital” — from his shareholder letters."
+        }
+      ]
+    },
+    {
+      "id": "margin-safety",
+      "genre": "investing",
+      "name": "Margin of Safety",
+      "hook": "Buy at a big enough discount to your own estimate of value that being somewhat wrong still doesn't hurt you.",
+      "def": "Benjamin Graham's core risk-control idea: never pay full estimated value for an asset. Build in a gap between price and your (necessarily imperfect) estimate of worth, so errors in your own analysis have room to be wrong without becoming losses.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Estimated value",
+          "note": "Your best-effort appraisal — always somewhat uncertain."
+        },
+        "right": {
+          "label": "Price paid",
+          "note": "Well below that estimate, on purpose."
+        },
+        "vs": "gap = safety"
+      },
+      "notes": [
+        {
+          "t": "Graham's cigar-butt stocks",
+          "b": "Buying companies below their liquidation value — wrong about the business, still protected by the assets."
+        },
+        {
+          "t": "Engineering bridges",
+          "b": "The same idea outside finance: rated for 4x the maximum expected load, not the exact expected load."
+        }
+      ]
+    },
+    {
+      "id": "survivorship-bias",
+      "genre": "investing",
+      "name": "Survivorship Bias",
+      "hook": "You only ever see the ones that made it — the failures leave the dataset silently.",
+      "def": "When you study only the surviving examples of something (funds, founders, planes that came home), you draw conclusions from a filtered sample and miss everything that failure would have taught you, because failures disappear from view.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "What you see",
+          "note": "Successful funds, famous dropouts, planes that returned."
+        },
+        "right": {
+          "label": "What's missing",
+          "note": "Every failed fund, every dropout who struggled, every plane that didn't return."
+        },
+        "vs": "invisible"
+      },
+      "notes": [
+        {
+          "t": "WWII bomber armor",
+          "b": "Analysts almost reinforced the bullet-holed spots on returning planes — until Abraham Wald pointed out the planes hit elsewhere never made it back."
+        },
+        {
+          "t": "“Drop out like Zuckerberg” advice",
+          "b": "Built on the handful who succeeded; silent on the much larger number who dropped out and didn't."
+        }
+      ]
+    },
+    {
+      "id": "regression-mean",
+      "genre": "investing",
+      "name": "Regression to the Mean",
+      "hook": "Extreme results tend to be followed by more average ones — not because of any correction, but statistics.",
+      "def": "An unusually good (or bad) result is often partly luck. The next measurement, having less luck attached, tends to land closer to the long-run average — easily mistaken for cause and effect when it's really just noise reverting.",
+      "anatomy": {
+        "type": "curve",
+        "xLabel": "Time",
+        "yLabel": "Performance",
+        "points": [
+          {
+            "x": 10,
+            "y": 40
+          },
+          {
+            "x": 30,
+            "y": 95,
+            "label": "Hot streak"
+          },
+          {
+            "x": 55,
+            "y": 55,
+            "label": "Reverts"
+          },
+          {
+            "x": 100,
+            "y": 48
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "“Last year's #1 fund”",
+          "b": "Top-decile fund managers are, on average, closer to the middle of the pack the following year."
+        },
+        {
+          "t": "Sports Illustrated cover jinx",
+          "b": "Athletes tend to be featured right after a peak performance — which, on average, doesn't repeat."
+        }
+      ]
+    },
+    {
+      "id": "compounding",
+      "genre": "investing",
+      "name": "Compounding",
+      "hook": "Growth on top of already-grown growth looks flat for a long time, then suddenly doesn't.",
+      "def": "When returns are reinvested, each period's growth is calculated on a larger base than the last — producing a curve that looks unremarkable early and then bends sharply upward, which is exactly why it's so often underestimated by people who quit early.",
+      "anatomy": {
+        "type": "curve",
+        "xLabel": "Years",
+        "yLabel": "Value",
+        "points": [
+          {
+            "x": 20,
+            "y": 15
+          },
+          {
+            "x": 45,
+            "y": 28
+          },
+          {
+            "x": 70,
+            "y": 52
+          },
+          {
+            "x": 100,
+            "y": 95,
+            "label": "The bend"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Buffett's net worth timeline",
+          "b": "Roughly 99% of it arrived after age 50 — same annual return, just decades more base to compound on."
+        },
+        {
+          "t": "Skill compounding",
+          "b": "The same curve shows up in learning: early progress feels slow until stacked skills start combining."
+        }
+      ]
+    },
+    {
+      "id": "black-swan",
+      "genre": "investing",
+      "name": "Black Swan",
+      "hook": "The event nobody's model included is the one that ends up mattering most.",
+      "def": "Nassim Taleb's term for an event that is (1) an extreme outlier outside normal expectations, (2) carries a massive impact, and (3) only looks 'predictable' in hindsight. Models built on past data are structurally blind to it by definition.",
+      "anatomy": {
+        "type": "spectrum",
+        "low": "Expected range",
+        "high": "Black swan",
+        "marker": 92,
+        "note": "Everything a model was trained on sits left of the line. The event that actually reshapes the portfolio sits far to the right."
+      },
+      "notes": [
+        {
+          "t": "2008 financial crisis",
+          "b": "Risk models built on decades of correlated-but-not-that-correlated housing data didn't include a nationwide simultaneous collapse."
+        },
+        {
+          "t": "COVID-19 demand shock",
+          "b": "No standard supply-chain model in January 2020 had 'the whole world stops at once' as an input."
+        }
+      ]
+    },
+    {
+      "id": "reflexivity",
+      "genre": "investing",
+      "name": "Reflexivity",
+      "hook": "In markets, what people believe about the price can change the price — which changes what they believe.",
+      "def": "George Soros's idea that market participants' perceptions don't just passively observe fundamentals — those perceptions feed back into the fundamentals themselves, creating self-reinforcing loops that pure efficient-market theory doesn't account for.",
+      "anatomy": {
+        "type": "cycle",
+        "nodes": [
+          {
+            "label": "Rising price"
+          },
+          {
+            "label": "Perceived as validation"
+          },
+          {
+            "label": "More buying, easier credit"
+          },
+          {
+            "label": "Fundamentals actually improve, price rises further"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Soros vs. the pound, 1992",
+          "b": "His own bet against sterling accelerated the very devaluation his thesis depended on."
+        },
+        {
+          "t": "Meme-stock rallies",
+          "b": "Rising price attracts attention, attention drives more buying, more buying validates the original thesis — until it snaps."
+        }
+      ]
+    },
+    {
+      "id": "asymmetric-bets",
+      "genre": "investing",
+      "name": "Asymmetric Bets",
+      "hook": "Look for wagers where being wrong costs little and being right pays enormously.",
+      "def": "Most of the value in a portfolio of bets can come from a small number of positions where the downside is capped near zero but the upside is effectively unbounded — meaning you can be wrong most of the time and still come out far ahead.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Symmetric bet",
+          "note": "Coin flip, double or nothing — fair, but no edge."
+        },
+        "right": {
+          "label": "Asymmetric bet",
+          "note": "Small fixed cost, uncapped payoff if right — an option, an early check, a lottery ticket with a real thesis."
+        },
+        "vs": "seek"
+      },
+      "notes": [
+        {
+          "t": "Early-stage VC math",
+          "b": "One outlier winner (Airbnb, Stripe) can return an entire fund even if 90% of positions go to zero."
+        },
+        {
+          "t": "Buying options vs. selling them",
+          "b": "A long option has capped, known downside and theoretically unlimited upside — the textbook asymmetric structure."
+        }
+      ]
+    },
+    {
+      "id": "pareto",
+      "genre": "models",
+      "name": "Pareto Principle",
+      "hook": "Roughly 80% of outcomes trace back to roughly 20% of causes — check before you assume effort is evenly spread.",
+      "def": "Named for economist Vilfredo Pareto's observation that 80% of Italy's land was owned by 20% of the population. The ratio isn't literal or universal, but the shape recurs everywhere: a small share of inputs disproportionately drives the outcome.",
+      "anatomy": {
+        "type": "spectrum",
+        "low": "The trivial many",
+        "high": "The vital few",
+        "marker": 82,
+        "note": "20% of customers often generate 80% of revenue; 20% of bugs cause 80% of crashes; 20% of features get 80% of use."
+      },
+      "notes": [
+        {
+          "t": "Sales pipeline review",
+          "b": "A handful of accounts usually carry most of a company's actual revenue — worth knowing before spreading attention evenly."
+        },
+        {
+          "t": "Code performance",
+          "b": "Profilers routinely find a small fraction of code paths consuming most of the runtime."
+        }
+      ]
+    },
+    {
+      "id": "antifragility",
+      "genre": "models",
+      "name": "Antifragility",
+      "hook": "Some things don't just resist disorder — they actively need a dose of it to get stronger.",
+      "def": "Nassim Taleb's category beyond 'robust': a robust system merely survives shocks; an antifragile one improves because of them. Muscles, immune systems, and well-run startups can all gain from the right amount of stress — too little makes them brittle, too much breaks them.",
+      "anatomy": {
+        "type": "spectrum",
+        "low": "Fragile — breaks under stress",
+        "high": "Antifragile — strengthens from stress",
+        "marker": 85,
+        "note": "A wine glass is fragile. A boulder is merely robust. A muscle under progressive load is antifragile."
+      },
+      "notes": [
+        {
+          "t": "Vaccination",
+          "b": "A controlled, small stressor trains the immune system to handle the real threat far better."
+        },
+        {
+          "t": "Lean startups",
+          "b": "Frequent small failures (shipped, tested, killed fast) build an organization that improves faster than one insulated from any failure at all."
+        }
+      ]
+    },
+    {
+      "id": "barbell",
+      "genre": "models",
+      "name": "Barbell Strategy",
+      "hook": "Combine extreme safety with small, extreme risk — and skip the comfortable, dangerous middle.",
+      "def": "Instead of putting everything into 'moderately risky' assets or choices — a zone that offers little safety and little upside — put the bulk of your resources in something extremely safe, and a small slice into high-risk, high-optionality bets you can afford to lose entirely.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "90% extremely safe",
+          "note": "Cash, short-term treasuries — protected no matter what happens."
+        },
+        "right": {
+          "label": "10% extremely speculative",
+          "note": "High-risk bets with real, if unlikely, upside — capped loss."
+        },
+        "vs": "+ skip the middle"
+      },
+      "notes": [
+        {
+          "t": "Taleb's own portfolio approach",
+          "b": "Popularized the term specifically to avoid the 'moderate risk' assets that carry real downside without real optionality."
+        },
+        {
+          "t": "Career versions",
+          "b": "A stable day job (the safe end) freeing up real bandwidth for one high-upside side project (the risky end) — no half-committed middle path."
+        }
+      ]
+    },
+    {
+      "id": "law-of-instrument",
+      "genre": "models",
+      "name": "Law of the Instrument",
+      "hook": "If the only tool you have is a hammer, it's tempting to treat everything as if it were a nail.",
+      "def": "Abraham Maslow's observation: deep familiarity with one tool, method, or framework biases you toward applying it everywhere, whether or not it actually fits the problem in front of you — expertise can quietly narrow how you see a situation as easily as it sharpens it.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "The familiar tool",
+          "note": "The framework, language, or method you already know well."
+        },
+        "right": {
+          "label": "The actual problem",
+          "note": "May need a completely different approach."
+        },
+        "vs": "mismatch risk"
+      },
+      "notes": [
+        {
+          "t": "The engineer who solves everything with code",
+          "b": "Even when the real fix is a five-minute conversation or a process change, not a new script."
+        },
+        {
+          "t": "A single-methodology consultant",
+          "b": "A firm expert in one framework tends to diagnose every client's problem as solvable by that exact framework."
+        }
+      ]
+    },
+    {
+      "id": "murphys-law",
+      "genre": "models",
+      "name": "Murphy's Law",
+      "hook": "Anything that can go wrong, will go wrong — and planning as if it might is cheaper than being surprised when it does.",
+      "def": "Less a real physical law than a design discipline in folk-wisdom form: complex systems have so many possible failure points that, given enough time or scale, the unlikely one eventually happens — so the useful move is building in margin for it rather than assuming it won't.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "A failure mode is possible",
+            "note": "Even if it seems unlikely."
+          },
+          {
+            "label": "Enough attempts or time pass",
+            "note": "Scale multiplies the odds it occurs."
+          },
+          {
+            "label": "It eventually happens",
+            "note": "Usually at the least convenient moment."
+          },
+          {
+            "label": "Margin was — or wasn't — built in",
+            "note": "This is the only part actually in your control."
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Edward Murphy's original context",
+          "b": "Coined on a 1949 US Air Force rocket-sled project after a full set of 16 strain-gauge sensors were installed backward — the fix was designing connectors that could only be wired one way."
+        },
+        {
+          "t": "Backups and redundancy engineering",
+          "b": "Aerospace and server infrastructure are built around assuming the rare failure WILL eventually occur, not hoping it won't."
+        }
+      ]
+    },
+    {
+      "id": "anchoring",
+      "genre": "psychology",
+      "name": "Anchoring Bias",
+      "hook": "The first number you hear quietly pulls every later judgment toward it — even a number you know is irrelevant.",
+      "def": "Once a number enters a negotiation or estimate, it becomes a reference point that subsequent judgments drift toward, even when the anchor is arbitrary or explicitly stated to be meaningless. The mind adjusts from the anchor instead of starting fresh.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Anchor set",
+          "note": "“This originally cost $500.”"
+        },
+        "right": {
+          "label": "Judgment pulled toward it",
+          "note": "$180 now feels like a bargain — regardless of what it's actually worth."
+        },
+        "vs": "drifts toward"
+      },
+      "notes": [
+        {
+          "t": "Salary negotiation",
+          "b": "Whoever names a number first shifts the entire remaining conversation's center of gravity toward it."
+        },
+        {
+          "t": "Retail 'was $200, now $89'",
+          "b": "The crossed-out price is doing real psychological work even when few items ever sold at it."
+        }
+      ]
+    },
+    {
+      "id": "availability-heuristic",
+      "genre": "psychology",
+      "name": "Availability Heuristic",
+      "hook": "You judge how common or likely something is by how easily examples come to mind — not by the actual odds.",
+      "def": "Vivid, recent, or heavily reported events are far easier to recall than statistically more common but less dramatic ones — so the mind quietly substitutes 'how easily can I think of an example' for 'how likely is this,' skewing risk perception.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "Ease of recall"
+        },
+        "spokes": [
+          {
+            "label": "Recent news coverage"
+          },
+          {
+            "label": "Vividness / drama"
+          },
+          {
+            "label": "Personal experience"
+          },
+          {
+            "label": "Repetition"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Fear of flying vs. driving",
+          "b": "Plane crashes are rare but vividly covered; car crashes are common but routine — so flying feels riskier despite being far safer per mile."
+        },
+        {
+          "t": "Shark attack headlines",
+          "b": "A single widely shared story can outweigh decades of actual incidence statistics in people's risk assessment."
+        }
+      ]
+    },
+    {
+      "id": "loss-aversion",
+      "genre": "psychology",
+      "name": "Loss Aversion",
+      "hook": "Losing $100 hurts roughly twice as much as gaining $100 feels good.",
+      "def": "From Kahneman and Tversky's prospect theory: the emotional weight of a loss is measurably larger than the emotional weight of an equivalent gain, which quietly biases decisions toward avoiding losses even when the expected value favors taking the risk.",
+      "anatomy": {
+        "type": "curve",
+        "xLabel": "Gain ← 0 → Loss",
+        "yLabel": "Emotional impact",
+        "points": [
+          {
+            "x": 10,
+            "y": 85,
+            "label": "Loss hits hard"
+          },
+          {
+            "x": 35,
+            "y": 40
+          },
+          {
+            "x": 65,
+            "y": 22
+          },
+          {
+            "x": 100,
+            "y": 42,
+            "label": "Equivalent gain, weaker pull"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Holding losing stocks too long",
+          "b": "Investors disproportionately avoid realizing a loss, holding losers far longer than winners even when the math says otherwise."
+        },
+        {
+          "t": "Framing effects in medicine",
+          "b": "“90% survival rate” and “10% mortality rate” describe identical odds but produce very different decisions."
+        }
+      ]
+    },
+    {
+      "id": "peter-principle",
+      "genre": "psychology",
+      "name": "The Peter Principle",
+      "hook": "People get promoted based on their current job — until they land in the one role they're bad at, and stop.",
+      "def": "In a hierarchy, employees are promoted based on success in their current role, not demonstrated skill in the next one. Since promotion only stops at incompetence, every position in the org eventually tends to be filled by someone who has reached their personal ceiling.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Competent at role A",
+            "note": "Promoted."
+          },
+          {
+            "label": "Competent at role B",
+            "note": "Promoted again."
+          },
+          {
+            "label": "Struggles at role C",
+            "note": "The skill set stops matching the job."
+          },
+          {
+            "label": "Stays at role C",
+            "note": "No further promotion — this is where they plateau."
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Great engineer, poor manager",
+          "b": "The classic case: promoting a top individual contributor into management, a fundamentally different skill set."
+        },
+        {
+          "t": "Antidote in practice",
+          "b": "Some firms build 'dual ladders' — senior technical tracks with no management requirement — specifically to sidestep this."
+        }
+      ]
+    },
+    {
+      "id": "groupthink",
+      "genre": "psychology",
+      "name": "Groupthink",
+      "hook": "The desire for consensus can quietly override the desire to be right.",
+      "def": "Cohesive groups under pressure to agree can suppress dissenting views, self-censor doubts, and stop critically evaluating alternatives — producing confident, unanimous decisions that turn out to have never really been examined.",
+      "anatomy": {
+        "type": "cycle",
+        "nodes": [
+          {
+            "label": "Strong group cohesion"
+          },
+          {
+            "label": "Pressure to maintain harmony"
+          },
+          {
+            "label": "Dissent self-censored"
+          },
+          {
+            "label": "Decision made without real scrutiny"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Bay of Pigs invasion",
+          "b": "Irving Janis's original case study — a talented team that suppressed internal doubts and approved a plan few individually believed in."
+        },
+        {
+          "t": "'Yes-man' executive teams",
+          "b": "A founder surrounded only by agreement loses the single most useful input: someone willing to say the plan is wrong."
+        }
+      ]
+    },
+    {
+      "id": "comparative-advantage",
+      "genre": "economics",
+      "name": "Comparative Advantage",
+      "hook": "Even if you're worse at everything than your trading partner, trade can still make you both better off.",
+      "def": "David Ricardo's insight: what matters for trade isn't who's absolutely better at making something, but who gives up less to make it. Each party specializing in their lowest-opportunity-cost activity and trading grows the total pie, even if one side is more skilled at literally everything.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Country A",
+          "note": "Slightly better at both wine and cloth — but gives up MORE cloth to make wine."
+        },
+        "right": {
+          "label": "Country B",
+          "note": "Worse at both — but gives up LESS cloth to make wine."
+        },
+        "vs": "specialize, trade"
+      },
+      "notes": [
+        {
+          "t": "Ricardo's original wine/cloth example",
+          "b": "England and Portugal both gain by each specializing in whichever good costs them less to forgo, not whichever they make in absolute terms best."
+        },
+        {
+          "t": "A star employee delegating",
+          "b": "Even if you're better than your assistant at everything, delegating the lower-value tasks still grows total output."
+        }
+      ]
+    },
+    {
+      "id": "greshams-law",
+      "genre": "economics",
+      "name": "Gresham's Law",
+      "hook": "When both good and bad money are legal tender at the same face value, the bad money drives the good money out of circulation.",
+      "def": "If two forms of currency are required to be accepted at equal value but one is intrinsically worth more (purer metal, more trust), people hoard the good one and spend the debased one — so only the 'bad' money keeps circulating.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Debased currency",
+          "note": "Spent freely — it's worth less than face value anyway."
+        },
+        "right": {
+          "label": "Sound currency",
+          "note": "Hoarded, melted down, or exported — worth more than face value."
+        },
+        "vs": "bad drives out"
+      },
+      "notes": [
+        {
+          "t": "Pre-1965 US silver coins",
+          "b": "Once coins stopped being made of real silver, the older silver coins vanished from circulation almost immediately, hoarded for their metal value."
+        },
+        {
+          "t": "Informal economies with dual currencies",
+          "b": "Whichever currency is trusted less gets spent first; the trusted one gets saved."
+        }
+      ]
+    },
+    {
+      "id": "economies-scale",
+      "genre": "economics",
+      "name": "Economies of Scale",
+      "hook": "Producing more of something often makes each additional unit cheaper to produce.",
+      "def": "As output grows, fixed costs (factories, R&D, software) get spread across more units, and specialization, bulk purchasing, and process efficiency all compound — so average cost per unit falls as volume rises, up to a point.",
+      "anatomy": {
+        "type": "curve",
+        "xLabel": "Production volume",
+        "yLabel": "Cost per unit",
+        "points": [
+          {
+            "x": 10,
+            "y": 95
+          },
+          {
+            "x": 35,
+            "y": 60
+          },
+          {
+            "x": 65,
+            "y": 35
+          },
+          {
+            "x": 100,
+            "y": 22
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Software vs. physical goods",
+          "b": "The marginal cost of one more software install is near zero, producing extreme economies of scale versus a factory-built product."
+        },
+        {
+          "t": "Amazon's fulfillment network",
+          "b": "Each new warehouse and delivery route makes the marginal cost of shipping the next package lower than the last."
+        }
+      ]
+    },
+    {
+      "id": "zero-positive-sum",
+      "genre": "economics",
+      "name": "Zero-Sum vs. Positive-Sum",
+      "hook": "In some games, your win requires my loss. In others, we can both walk away ahead.",
+      "def": "A zero-sum interaction has a fixed pie — one party's gain is exactly another's loss (a poker hand, a stolen good). A positive-sum interaction can grow the total value available to everyone involved (trade, innovation, a well-structured negotiation) — confusing the two leads to needless conflict.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Zero-sum",
+          "note": "Fixed pie. My gain = your loss. A poker table, a stolen item."
+        },
+        "right": {
+          "label": "Positive-sum",
+          "note": "Growing pie. Trade, specialization, and innovation can make both sides better off."
+        },
+        "vs": "which game is this?"
+      },
+      "notes": [
+        {
+          "t": "Trade negotiations",
+          "b": "Treating a mutually beneficial trade deal as zero-sum ('we must win, they must lose') routinely destroys value both sides could have captured."
+        },
+        {
+          "t": "Open-source software",
+          "b": "One contributor's improvement doesn't subtract from anyone else's copy — a genuinely positive-sum system at scale."
+        }
+      ]
+    },
+    {
+      "id": "paradox-thrift",
+      "genre": "economics",
+      "name": "Paradox of Thrift",
+      "hook": "If everyone tries to save more at the same time, the economy can end up with less total savings, not more.",
+      "def": "What's individually rational — spend less, save more — can be collectively self-defeating during a downturn: reduced spending lowers others' income, which lowers their ability to save, shrinking the very pool of aggregate savings everyone was trying to grow.",
+      "anatomy": {
+        "type": "cycle",
+        "nodes": [
+          {
+            "label": "Households cut spending to save more"
+          },
+          {
+            "label": "Businesses see falling demand"
+          },
+          {
+            "label": "Incomes and jobs fall"
+          },
+          {
+            "label": "Aggregate savings fall too"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Keynes's original formulation",
+          "b": "Central to Keynesian arguments for government spending during recessions — to break a cycle individual thrift alone can't fix."
+        },
+        {
+          "t": "Post-2008 household deleveraging",
+          "b": "Widespread simultaneous debt paydown was individually prudent and collectively deepened the demand slump."
+        }
+      ]
+    },
+    {
+      "id": "mr-market",
+      "genre": "investing",
+      "name": "Mr. Market",
+      "hook": "The market is a manic-depressive business partner — use his mood swings, never adopt them.",
+      "def": "Benjamin Graham's parable: imagine a business partner named Mr. Market who shows up daily offering to buy your shares or sell you his, at a price that swings between euphoric and despairing for no good reason. You're free to ignore him entirely, or transact only when his price is absurdly in your favor.",
+      "anatomy": {
+        "type": "spectrum",
+        "low": "Despair — sells cheap",
+        "high": "Euphoria — buys dear",
+        "marker": 50,
+        "note": "You are never obligated to transact at his price. His mood is information about him, not about the business's actual worth."
+      },
+      "notes": [
+        {
+          "t": "March 2020 vs. late 2021",
+          "b": "The same underlying businesses were priced wildly differently within 18 months — Mr. Market's mood, not their fundamentals, moved."
+        },
+        {
+          "t": "Buffett's own summary",
+          "b": "“The market is there to serve you, not to instruct you.”"
+        }
+      ]
+    },
+    {
+      "id": "efficient-market",
+      "genre": "investing",
+      "name": "Efficient Market Hypothesis",
+      "hook": "If all known information is already in the price, no amount of analysis can reliably beat the market.",
+      "def": "The theory that asset prices fully reflect all available information, in one of three strengths — so that consistently 'beating the market' through skill alone should be statistically rare, since any edge gets arbitraged away almost as soon as it's found.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Weak form",
+            "note": "Price reflects all past price/volume data — technical analysis shouldn't work."
+          },
+          {
+            "label": "Semi-strong form",
+            "note": "Price reflects all public information — fundamental analysis shouldn't work either."
+          },
+          {
+            "label": "Strong form",
+            "note": "Price reflects ALL information, public and private — even insiders can't beat it."
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Index fund adoption",
+          "b": "The strongest practical argument for low-cost indexing: if markets are efficient enough, paying for stock-picking skill is a bad bet."
+        },
+        {
+          "t": "Buffett's own rebuttal",
+          "b": "Pointed to a durable cohort of value investors who beat the market for decades as evidence the strong form, at least, doesn't fully hold."
+        }
+      ]
+    },
+    {
+      "id": "moat",
+      "genre": "investing",
+      "name": "Economic Moat",
+      "hook": "A durable structural advantage that keeps competitors from eroding a company's profits, year after year.",
+      "def": "Borrowed from the castle metaphor: a moat is whatever keeps a competitor from simply copying a profitable business and competing the margin away — brand trust, network effects, genuine cost advantages, high switching costs, or protected patents.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "Durable advantage"
+        },
+        "spokes": [
+          {
+            "label": "Brand trust"
+          },
+          {
+            "label": "Network effects"
+          },
+          {
+            "label": "Cost advantage"
+          },
+          {
+            "label": "Switching costs"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Buffett's See's Candies",
+          "b": "A famous case study he cites often — a beloved brand that let them raise prices for decades without losing customers."
+        },
+        {
+          "t": "Enterprise software switching costs",
+          "b": "Ripping out an embedded system is so operationally painful that inferior incumbents often keep customers anyway."
+        }
+      ]
+    },
+    {
+      "id": "skin-in-the-game",
+      "genre": "investing",
+      "name": "Skin in the Game",
+      "hook": "Don't trust advice from someone who doesn't share in the cost of being wrong.",
+      "def": "Nassim Taleb's principle: an advisor, forecaster, or manager whose downside is fully insulated from their own recommendations has a structurally different (and worse) incentive than one who bears real consequences for being wrong.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "No skin in the game",
+          "note": "A pundit gets paid the same whether the forecast is right or wrong."
+        },
+        "right": {
+          "label": "Skin in the game",
+          "note": "A founder's own capital, reputation, and time are on the line alongside the advice."
+        },
+        "vs": "trust the second"
+      },
+      "notes": [
+        {
+          "t": "Fund managers investing their own capital",
+          "b": "Funds where the manager holds a large personal stake tend to attract more investor trust for exactly this reason."
+        },
+        {
+          "t": "Ancient builders under their own bridges",
+          "b": "Taleb's own example: Hammurabi's code held a builder liable with his life if the house he built collapsed — a hard incentive alignment."
+        }
+      ]
+    },
+    {
+      "id": "risk-of-ruin",
+      "genre": "investing",
+      "name": "Risk of Ruin",
+      "hook": "A bet can have positive expected value on average and still bankrupt you if you size it too large, too often.",
+      "def": "Expected value is an average across many parallel outcomes — but you only get to live through one path. If a single bad outcome wipes you out entirely, there is no future bet left to average your way back with, no matter how favorable the odds looked on paper.",
+      "anatomy": {
+        "type": "curve",
+        "xLabel": "Bet size (% of capital)",
+        "yLabel": "Probability of total ruin",
+        "points": [
+          {
+            "x": 10,
+            "y": 5
+          },
+          {
+            "x": 40,
+            "y": 18
+          },
+          {
+            "x": 70,
+            "y": 48
+          },
+          {
+            "x": 100,
+            "y": 90,
+            "label": "All-in, repeated"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Kelly Criterion",
+          "b": "A formal answer to exactly this problem: the bet-sizing rule that maximizes long-run growth while keeping ruin probability near zero."
+        },
+        {
+          "t": "Leveraged trading blowups",
+          "b": "Traders with a genuinely positive edge still go to zero because one oversized, over-leveraged bet met one bad tail event."
+        }
+      ]
+    },
+    {
+      "id": "parkinsons-law",
+      "genre": "models",
+      "name": "Parkinson's Law",
+      "hook": "Work expands to fill the time allotted for its completion — give a task a deadline and watch it use every bit.",
+      "def": "Cyril Northcote Parkinson's observation, first about bureaucracies: the perceived difficulty and duration of a task inflate to consume whatever time is available, independent of the task's actual complexity.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "2 hours allotted",
+          "note": "The report gets written efficiently in about 2 hours."
+        },
+        "right": {
+          "label": "2 weeks allotted",
+          "note": "The same report — expands to fill all 2 weeks."
+        },
+        "vs": "same task"
+      },
+      "notes": [
+        {
+          "t": "Student essays before deadline",
+          "b": "Nearly everyone reports finishing in the final burst regardless of whether they had three days or three weeks."
+        },
+        {
+          "t": "Artificial deadlines at work",
+          "b": "Teams given a tight, real deadline routinely ship the same scope faster than teams given a loose one."
+        }
+      ]
+    },
+    {
+      "id": "goodharts-law",
+      "genre": "models",
+      "name": "Goodhart's Law",
+      "hook": "Once a measure becomes a target, it stops being a good measure.",
+      "def": "Any metric chosen as a proxy for a real goal will, once people know it's being tracked and rewarded, get optimized directly — often at the expense of the actual goal the metric was only ever meant to approximate.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Real goal exists",
+            "note": "e.g. “write good code”"
+          },
+          {
+            "label": "Proxy metric chosen",
+            "note": "Lines of code shipped"
+          },
+          {
+            "label": "Metric becomes the target",
+            "note": "People optimize for lines, not quality"
+          },
+          {
+            "label": "Metric decouples from goal",
+            "note": "More code, not better code"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Call-center handle-time targets",
+          "b": "Agents rush calls to hit the time metric, and the thing the metric was supposed to protect — customer satisfaction — quietly drops."
+        },
+        {
+          "t": "Soviet nail factory (apocryphal but illustrative)",
+          "b": "Quota measured by weight produced one giant, useless nail; measured by count produced thousands of tiny, useless ones."
+        }
+      ]
+    },
+    {
+      "id": "streisand-effect",
+      "genre": "models",
+      "name": "The Streisand Effect",
+      "hook": "Trying to hide or suppress information is often exactly what draws attention to it.",
+      "def": "Named after a 2003 attempt to suppress a photo of Barbra Streisand's home, which drew vastly more public attention to the photo than if it had simply been ignored. Legal or PR efforts to erase something can act as a signal that it's worth looking for.",
+      "anatomy": {
+        "type": "cycle",
+        "nodes": [
+          {
+            "label": "Unflattering info exists, mostly unnoticed"
+          },
+          {
+            "label": "Attempt to suppress or remove it"
+          },
+          {
+            "label": "The suppression itself becomes news"
+          },
+          {
+            "label": "Far more people seek it out than before"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "The original 2003 case",
+          "b": "The photo had ~6 views before the lawsuit; over 400,000 people viewed it in the month after the suit was filed."
+        },
+        {
+          "t": "Corporate takedown requests",
+          "b": "A company demanding a critical post be deleted routinely turns a small complaint into a much bigger public story."
+        }
+      ]
+    },
+    {
+      "id": "analysis-paralysis",
+      "genre": "models",
+      "name": "Analysis Paralysis",
+      "hook": "At some point, more research stops improving a decision and starts substituting for actually making it.",
+      "def": "The point past which additional information, comparison, or deliberation no longer meaningfully improves a decision's quality — but continuing to gather it still feels productive, so the decision keeps getting delayed instead of made.",
+      "anatomy": {
+        "type": "curve",
+        "xLabel": "Time spent analyzing",
+        "yLabel": "Decision quality",
+        "points": [
+          {
+            "x": 10,
+            "y": 30
+          },
+          {
+            "x": 35,
+            "y": 72,
+            "label": "Diminishing value"
+          },
+          {
+            "x": 65,
+            "y": 78
+          },
+          {
+            "x": 100,
+            "y": 76,
+            "label": "No longer improving"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Choosing a laptop for a week",
+          "b": "Comparing 40 spec sheets for a purchase where any of the top 5 options would have been fine."
+        },
+        {
+          "t": "'One more round of research'",
+          "b": "Teams that keep researching well past the point where the next decision was already clear."
+        }
+      ]
+    },
+    {
+      "id": "dunbars-number",
+      "genre": "models",
+      "name": "Dunbar's Number",
+      "hook": "There's a rough cognitive ceiling — about 150 — on how many stable social relationships one person can actually maintain.",
+      "def": "Anthropologist Robin Dunbar's proposed limit, derived from primate brain size, on the number of relationships with enough trust and history to function as a real social bond — beyond that count, relationships tend to become more superficial no matter how much effort is added.",
+      "anatomy": {
+        "type": "spectrum",
+        "low": "Closest circle (~5)",
+        "high": "Stable network ceiling (~150)",
+        "marker": 92,
+        "note": "Concentric layers: ~5 intimate, ~15 close, ~50 meaningful, ~150 stable — beyond that, ties tend to thin out fast."
+      },
+      "notes": [
+        {
+          "t": "Military and corporate unit sizes",
+          "b": "Many armies and companies independently converge on unit sizes near 150 for cohesive, high-trust teams."
+        },
+        {
+          "t": "Social media 'friend' counts",
+          "b": "A count of 2,000 online contacts doesn't reflect 2,000 real relationships — the cognitive ceiling doesn't move just because the platform allows more."
+        }
+      ]
+    },
+    {
+      "id": "butterfly-effect",
+      "genre": "models",
+      "name": "The Butterfly Effect",
+      "hook": "In a complex system, a tiny, unnoticed change at the start can cascade into a wildly different outcome down the line.",
+      "def": "From chaos theory: complex systems are so sensitive to their starting conditions that a change too small to measure can compound through feedback loops into an enormous difference in outcome — named for the illustrative idea that a butterfly's wings in Brazil could, in theory, set off a tornado in Texas.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Tiny initial difference",
+            "note": "Too small to detect or measure."
+          },
+          {
+            "label": "Feeds into the system",
+            "note": "Interacts with countless other variables."
+          },
+          {
+            "label": "Compounds over iterations",
+            "note": "Small deviation, repeatedly amplified."
+          },
+          {
+            "label": "Wildly different outcome",
+            "note": "Unrecognizable from the starting point."
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Edward Lorenz's weather models",
+          "b": "Rounding a variable to 3 decimals instead of 6 produced a completely different forecast — the discovery that named the effect."
+        },
+        {
+          "t": "One early hire at a startup",
+          "b": "A single chance meeting can be traced through a decade of a company's entire later trajectory."
+        }
+      ]
+    },
+    {
+      "id": "negativity-bias",
+      "genre": "psychology",
+      "name": "Negativity Bias",
+      "hook": "Bad experiences weigh more heavily on the mind, pound for pound, than equally sized good ones.",
+      "def": "Negative events, feedback, and information get processed more thoroughly and remembered more vividly than positive ones of the same magnitude — a bias with deep evolutionary logic (missing a threat costs more than missing a reward) that persists even where it's no longer useful.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "1 harsh criticism",
+          "note": "Replayed in your head for days."
+        },
+        "right": {
+          "label": "5 genuine compliments",
+          "note": "Barely register by comparison."
+        },
+        "vs": "negativity still wins"
+      },
+      "notes": [
+        {
+          "t": "Performance review focus",
+          "b": "Employees typically remember the one critical line in a review far longer than the ten positive ones."
+        },
+        {
+          "t": "Online review behavior",
+          "b": "Angry customers are measurably more likely to leave a review than satisfied ones — the sample itself is negativity-skewed."
+        }
+      ]
+    },
+    {
+      "id": "placebo-effect",
+      "genre": "psychology",
+      "name": "Placebo Effect",
+      "hook": "Believing you're being treated can produce a real, measurable improvement — even when the treatment itself is inert.",
+      "def": "Expectation of benefit triggers genuine physiological and psychological responses, from pain relief to measurable changes in brain chemistry, independent of any active ingredient — which is precisely why real drug trials require a placebo arm to isolate the treatment's true effect.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Inert treatment given",
+            "note": "A sugar pill, presented as real medicine."
+          },
+          {
+            "label": "Belief in efficacy forms",
+            "note": "Expectation of relief."
+          },
+          {
+            "label": "Real physiological response",
+            "note": "Measurable changes — endorphins, blood pressure."
+          },
+          {
+            "label": "Genuine symptom improvement",
+            "note": "Not imagined — actually measured."
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Pain medication trials",
+          "b": "Placebo arms routinely show 20-40% of the pain relief seen in the actual drug arm."
+        },
+        {
+          "t": "Branded vs. generic aspirin",
+          "b": "Identical formulations report different perceived effectiveness purely based on packaging and price expectation."
+        }
+      ]
+    },
+    {
+      "id": "self-serving-bias",
+      "genre": "psychology",
+      "name": "Self-Serving Bias",
+      "hook": "Your wins are skill. Your losses are bad luck. Rarely does the story run the other way.",
+      "def": "People systematically attribute their successes to internal factors (talent, effort) and their failures to external ones (bad luck, unfair circumstances) — a protective distortion that's the mirror image of how the same person judges others' outcomes.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "On success",
+          "note": "“I closed that deal because I'm good at this.”"
+        },
+        "right": {
+          "label": "On failure",
+          "note": "“We lost that deal because the market was against us.”"
+        },
+        "vs": "same person, opposite logic"
+      },
+      "notes": [
+        {
+          "t": "Trading journals",
+          "b": "Winning trades get attributed to skillful analysis; losing trades get attributed to 'unforeseeable' market moves — in the same trader's own notes."
+        },
+        {
+          "t": "Student exam post-mortems",
+          "b": "High scores are attributed to studying hard; low scores are attributed to an unfair test — even for the same student, same class."
+        }
+      ]
+    },
+    {
+      "id": "spotlight-effect",
+      "genre": "psychology",
+      "name": "Spotlight Effect",
+      "hook": "You dramatically overestimate how much other people notice you, your mistakes, and your appearance.",
+      "def": "Because you're the center of your own experience, it feels like others are watching just as closely — but a well-documented gap exists between how much attention you think you're getting and how much you actually receive, since everyone else is equally absorbed in their own spotlight.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Perceived attention on you",
+          "note": "“Everyone definitely noticed that stain on my shirt.”"
+        },
+        "right": {
+          "label": "Actual attention on you",
+          "note": "Almost no one registered it at all."
+        },
+        "vs": "large gap"
+      },
+      "notes": [
+        {
+          "t": "Gilovich's T-shirt study",
+          "b": "Students wearing an embarrassing T-shirt guessed ~50% of peers noticed; the real figure was closer to 25%, and often far lower."
+        },
+        {
+          "t": "Public speaking anxiety",
+          "b": "A visibly shaky hand or stumble is remembered by the speaker for years and by the audience for minutes, if at all."
+        }
+      ]
+    },
+    {
+      "id": "cognitive-dissonance",
+      "genre": "psychology",
+      "name": "Cognitive Dissonance",
+      "hook": "Holding two conflicting beliefs — or a belief and a contradicting action — creates real mental discomfort your mind rushes to resolve.",
+      "def": "When your actions and beliefs clash, the tension is uncomfortable enough that the mind will often change the belief rather than the action — reinterpreting facts, adding justification, or minimizing the conflict, rather than sitting with the contradiction.",
+      "anatomy": {
+        "type": "cycle",
+        "nodes": [
+          {
+            "label": "Belief + contradicting action"
+          },
+          {
+            "label": "Uncomfortable tension"
+          },
+          {
+            "label": "Belief quietly adjusted"
+          },
+          {
+            "label": "Tension resolved, action unchanged"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Festinger's doomsday cult study",
+          "b": "When the predicted apocalypse didn't happen, believers didn't abandon the belief — many became more convinced, reinterpreting the failure as a test."
+        },
+        {
+          "t": "Smokers who know the risks",
+          "b": "'I'll probably be fine' or 'it relieves my stress more than it hurts me' are common resolutions that let the belief and habit coexist."
+        }
+      ]
+    },
+    {
+      "id": "paradox-of-choice",
+      "genre": "psychology",
+      "name": "Paradox of Choice",
+      "hook": "More options can make you less satisfied with whatever you eventually pick, not more.",
+      "def": "Barry Schwartz's finding: beyond a certain point, additional choice increases the mental cost of deciding, raises expectations, and increases regret over the road not taken — satisfaction with a choice can peak with moderate options and decline as options keep growing.",
+      "anatomy": {
+        "type": "curve",
+        "xLabel": "Number of options",
+        "yLabel": "Satisfaction with the choice made",
+        "points": [
+          {
+            "x": 10,
+            "y": 40
+          },
+          {
+            "x": 35,
+            "y": 78,
+            "label": "Peak satisfaction"
+          },
+          {
+            "x": 65,
+            "y": 55
+          },
+          {
+            "x": 100,
+            "y": 30,
+            "label": "Choice overload"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Retirement plan enrollment",
+          "b": "Studies found participation rates FELL as the number of fund options offered climbed into the dozens."
+        },
+        {
+          "t": "Streaming service scrolling",
+          "b": "The now-common experience of spending longer choosing what to watch than actually watching it."
+        }
+      ]
+    },
+    {
+      "id": "adverse-selection",
+      "genre": "economics",
+      "name": "Adverse Selection",
+      "hook": "When one side of a deal knows more than the other, the deals that get made skew toward the worst ones.",
+      "def": "In a market with information asymmetry, the party with less information can't tell good from bad — so they price everything as average, which drives out sellers of genuinely good goods (who won't accept an average price) and leaves mostly the bad ones, the classic 'market for lemons.'",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Seller",
+          "note": "Knows the used car's true condition."
+        },
+        "right": {
+          "label": "Buyer",
+          "note": "Can't tell good cars from bad — assumes average, prices low."
+        },
+        "vs": "good sellers exit, only 'lemons' remain"
+      },
+      "notes": [
+        {
+          "t": "Akerlof's 'Market for Lemons'",
+          "b": "The Nobel-winning paper that formalized exactly this — used-car markets skewing toward low-quality vehicles."
+        },
+        {
+          "t": "Health insurance pools",
+          "b": "Without mandated enrollment, disproportionately sicker people seek insurance, pushing prices up for everyone left in the pool."
+        }
+      ]
+    },
+    {
+      "id": "winners-curse",
+      "genre": "economics",
+      "name": "The Winner's Curse",
+      "hook": "In a competitive bidding process, the winning bid is disproportionately likely to be the one that most overestimated the item's value.",
+      "def": "When many bidders independently estimate an uncertain value and the highest bidder wins, the winner is systematically the person whose estimate had the largest positive error — meaning winning the auction is itself weak evidence you overpaid.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "True value",
+          "note": "Uncertain — every bidder is only estimating it."
+        },
+        "right": {
+          "label": "Winning bid",
+          "note": "Statistically the most optimistic estimate in the room."
+        },
+        "vs": "winner ≈ most overpaid"
+      },
+      "notes": [
+        {
+          "t": "Offshore oil-lease auctions",
+          "b": "The pattern that gave the concept its name — winning bidders on drilling rights systematically underperformed their own projections."
+        },
+        {
+          "t": "Corporate M&A premiums",
+          "b": "The winning bidder in a contested acquisition frequently overpays relative to the eventual realized value of the deal."
+        }
+      ]
+    },
+    {
+      "id": "supply-demand",
+      "genre": "economics",
+      "name": "Supply and Demand",
+      "hook": "Price is where how much people want and how much exists actually meet — push either side, and price moves.",
+      "def": "The most basic mechanism in economics: as price rises, quantity demanded tends to fall and quantity supplied tends to rise, and vice versa. The point where the two curves cross is the market-clearing price — where buyers and sellers agree.",
+      "anatomy": {
+        "type": "curve",
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "points": [
+          {
+            "x": 10,
+            "y": 85,
+            "label": "High price, low demand"
+          },
+          {
+            "x": 40,
+            "y": 55
+          },
+          {
+            "x": 70,
+            "y": 30
+          },
+          {
+            "x": 100,
+            "y": 15,
+            "label": "Low price, high demand"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Concert ticket scalping",
+          "b": "Fixed face-value prices below the market-clearing point create exactly the shortage that resale markets then profit from."
+        },
+        {
+          "t": "Housing supply shocks",
+          "b": "A sudden restriction on new construction, demand unchanged, reliably shows up as rising prices within a few years."
+        }
+      ]
+    },
+    {
+      "id": "externalities",
+      "genre": "economics",
+      "name": "Externalities",
+      "hook": "A transaction between two parties can quietly impose real costs — or benefits — on people who were never part of the deal.",
+      "def": "When the private cost (or benefit) of an action differs from its full social cost (or benefit), someone outside the transaction bears a cost they didn't agree to, or captures a benefit they didn't pay for — the gap between the two is exactly what markets, left alone, tend to ignore.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Private cost",
+          "note": "What the factory actually pays to produce."
+        },
+        "right": {
+          "label": "Social cost",
+          "note": "Private cost + pollution borne by nearby residents."
+        },
+        "vs": "gap = externality"
+      },
+      "notes": [
+        {
+          "t": "Factory pollution",
+          "b": "The textbook negative externality — costs of dirty air are borne by neighbors, not priced into the product."
+        },
+        {
+          "t": "A well-tended front garden",
+          "b": "A positive externality — the neighborhood benefits from beauty they didn't pay a cent toward."
+        }
+      ]
+    },
+    {
+      "id": "price-elasticity",
+      "genre": "economics",
+      "name": "Price Elasticity of Demand",
+      "hook": "Some goods' demand barely moves when price changes; others' demand swings wildly — knowing which is which changes everything about pricing.",
+      "def": "Elasticity measures how much quantity demanded shifts in response to a price change. Necessities with no substitute (insulin) are inelastic — demand barely moves. Discretionary goods with many substitutes (a specific soda brand) are elastic — small price changes shift demand a lot.",
+      "anatomy": {
+        "type": "curve",
+        "xLabel": "Price change",
+        "yLabel": "Quantity demanded change",
+        "points": [
+          {
+            "x": 10,
+            "y": 8,
+            "label": "Inelastic good"
+          },
+          {
+            "x": 40,
+            "y": 22
+          },
+          {
+            "x": 70,
+            "y": 68
+          },
+          {
+            "x": 100,
+            "y": 92,
+            "label": "Elastic good"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Insulin pricing",
+          "b": "Demand stays nearly flat even as prices rise sharply — patients have no substitute and can't simply buy less."
+        },
+        {
+          "t": "Branded vs. generic groceries",
+          "b": "A small price hike on one brand of pasta sauce can shift huge volumes of demand to the shelf next to it."
+        }
+      ]
+    },
+    {
+      "id": "free-rider",
+      "genre": "economics",
+      "name": "Free-Rider Problem",
+      "hook": "If you can benefit from something without paying for it, the rational move is to let someone else pay — which means it stays underfunded for everyone.",
+      "def": "Public goods that are non-excludable (you can't stop anyone from using them, whether they paid or not) tempt every individual to under-contribute and rely on others — and when everyone reasons the same way, the good ends up chronically underfunded relative to its real value.",
+      "anatomy": {
+        "type": "cycle",
+        "nodes": [
+          {
+            "label": "Public good exists, non-excludable"
+          },
+          {
+            "label": "Individuals can benefit without paying"
+          },
+          {
+            "label": "Rational to withhold contribution"
+          },
+          {
+            "label": "Good stays underfunded for everyone"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Public radio and open-source software",
+          "b": "Both rely heavily on a small fraction of users voluntarily funding something the vast majority uses for free."
+        },
+        {
+          "t": "National defense funding",
+          "b": "The original textbook example — everyone is protected regardless of individual tax contribution, which is exactly why it's funded by compulsory taxation rather than donation."
+        }
+      ]
+    },
+    {
+      "id": "dollar-cost-averaging",
+      "genre": "investing",
+      "name": "Dollar-Cost Averaging",
+      "hook": "Investing a fixed amount on a fixed schedule trades away the chance of perfect timing for the certainty of never buying at the very worst possible moment either.",
+      "def": "Instead of committing a lump sum at one uncertain moment, spreading purchases across regular intervals averages your entry price over market ups and downs — statistically it usually underperforms a lump sum in a rising market, but it removes the single biggest behavioral risk: freezing up, or buying everything right before a crash.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Lump sum",
+          "note": "One entry price — best expected return, but full timing risk."
+        },
+        "right": {
+          "label": "Dollar-cost averaged",
+          "note": "Many entry prices, averaged — lower timing risk, smoother ride."
+        },
+        "vs": "different risk, not free"
+      },
+      "notes": [
+        {
+          "t": "401(k) payroll contributions",
+          "b": "Most retirement investing is unintentional DCA — a fixed amount, every paycheck, regardless of market conditions."
+        },
+        {
+          "t": "Behavioral value",
+          "b": "Its biggest edge isn't mathematical — it's that it removes the paralyzing decision of 'is right now a good time to invest?' entirely."
+        }
+      ]
+    },
+    {
+      "id": "greater-fool",
+      "genre": "investing",
+      "name": "Greater Fool Theory",
+      "hook": "You can profit buying something overpriced, as long as someone even more optimistic buys it from you later — until that someone stops showing up.",
+      "def": "A strategy (often unstated) of purchasing an asset at a price detached from its underlying value, betting purely on being able to resell it to a 'greater fool' at an even higher price — which works reliably right up until sentiment turns and no bigger buyer remains.",
+      "anatomy": {
+        "type": "cycle",
+        "nodes": [
+          {
+            "label": "Buy an overpriced asset"
+          },
+          {
+            "label": "Price keeps climbing on sentiment"
+          },
+          {
+            "label": "Sell to an even more optimistic buyer"
+          },
+          {
+            "label": "Eventually: no bigger fool left"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Dutch tulip mania, 1637",
+          "b": "Single bulbs traded for the price of houses — purely on the expectation someone else would pay more tomorrow."
+        },
+        {
+          "t": "Speculative meme-asset rallies",
+          "b": "Assets with no cash flow or fundamental anchor rely entirely on this dynamic, and its abrupt end is what a crash actually is."
+        }
+      ]
+    },
+    {
+      "id": "diversification",
+      "genre": "investing",
+      "name": "Diversification",
+      "hook": "Spreading capital across genuinely uncorrelated bets reduces total risk without necessarily reducing expected return.",
+      "def": "Combining assets that don't move in lockstep smooths out a portfolio's overall volatility, because losses in one holding are statistically likely to be offset by gains or stability in another — the closest thing to a 'free lunch' finance actually offers, but only when the assets are truly uncorrelated, not just numerous.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "Portfolio risk"
+        },
+        "spokes": [
+          {
+            "label": "Equities"
+          },
+          {
+            "label": "Bonds"
+          },
+          {
+            "label": "Real assets"
+          },
+          {
+            "label": "Cash / short-term"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "2008 'diversified' portfolios that weren't",
+          "b": "Many holdings believed to be uncorrelated turned out to be tied to the same underlying credit risk and fell together."
+        },
+        {
+          "t": "Markowitz's own line",
+          "b": "Called diversification “the only free lunch in finance” — reducing risk without proportionally reducing expected return."
+        }
+      ]
+    },
+    {
+      "id": "herd-mentality",
+      "genre": "investing",
+      "name": "Herd Mentality",
+      "hook": "It feels safer to do what everyone else is doing — right up until the whole herd is running toward a cliff.",
+      "def": "Investors often follow the crowd's behavior rather than independent analysis, partly because being wrong alongside everyone else feels psychologically safer, and partly because a rising price itself looks like confirmation — a dynamic that can inflate bubbles and deepen crashes well past what fundamentals justify.",
+      "anatomy": {
+        "type": "cycle",
+        "nodes": [
+          {
+            "label": "Price starts rising"
+          },
+          {
+            "label": "More investors pile in"
+          },
+          {
+            "label": "Rising price 'confirms' the move"
+          },
+          {
+            "label": "Herd grows until sentiment reverses"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Dot-com bubble, 1999-2000",
+          "b": "Capital poured into companies with no revenue, largely because everyone else was doing it too."
+        },
+        {
+          "t": "Bank run dynamics",
+          "b": "A bank run is rational herd behavior once it starts — being the last depositor in line is the worst outcome, regardless of the bank's actual health."
+        }
+      ]
+    },
+    {
+      "id": "hedging",
+      "genre": "investing",
+      "name": "Hedging",
+      "hook": "Deliberately taking a position that loses money if your main bet is right, specifically so a big loss can't happen.",
+      "def": "Pairing a primary position with a second position that moves in the opposite direction under the scenario you're worried about — accepting a known, smaller cost (the hedge) in exchange for removing an unbounded, unpredictable one.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Primary position",
+          "note": "Long the stock — profits if it rises."
+        },
+        "right": {
+          "label": "Hedge",
+          "note": "A put option — pays off if it falls."
+        },
+        "vs": "net downside capped"
+      },
+      "notes": [
+        {
+          "t": "Airlines hedging fuel costs",
+          "b": "Locking in future fuel prices removes a huge source of unpredictable cost, at the price of a known hedging fee."
+        },
+        {
+          "t": "Farmers and futures contracts",
+          "b": "Selling a crop's future price in advance protects against a bad harvest-season price crash, at the cost of missing a possible price spike."
+        }
+      ]
+    },
+    {
+      "id": "four-percent-rule",
+      "genre": "investing",
+      "name": "The 4% Rule",
+      "hook": "A widely used rule of thumb for how much you can withdraw from a retirement portfolio each year without running out of money.",
+      "def": "Based on historical market returns, withdrawing about 4% of a diversified portfolio's initial value each year (adjusted for inflation) has historically had a high probability of lasting at least 30 years — a simple heuristic for turning a lump sum of savings into a sustainable income.",
+      "anatomy": {
+        "type": "spectrum",
+        "low": "Withdraw too much — risk running out",
+        "high": "Withdraw too little — underspend a life's savings",
+        "marker": 45,
+        "note": "The 4% figure aims to sit near the sustainable middle, based on historical worst-case market sequences."
+      },
+      "notes": [
+        {
+          "t": "The Trinity Study",
+          "b": "The 1998 academic study that popularized the figure, testing withdrawal rates against real historical market data across rolling 30-year periods."
+        },
+        {
+          "t": "FIRE movement math",
+          "b": "Widely used in reverse: needing $40K/year implies roughly $1M saved (40K ÷ 4%)."
+        }
+      ]
+    },
+    {
+      "id": "domino-effect",
+      "genre": "models",
+      "name": "The Domino Effect",
+      "hook": "One small push at the start of a chain can topple a sequence far larger than the push itself.",
+      "def": "When events or systems are tightly coupled in sequence, triggering the first one can cascade automatically through every linked one after it — the outcome is driven by the chain's structure as much as by the size of the original trigger.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "First domino falls",
+            "note": "A single, often small, trigger."
+          },
+          {
+            "label": "Tips the next"
+          },
+          {
+            "label": "Tips the next"
+          },
+          {
+            "label": "Whole chain down",
+            "note": "Final scale unrelated to the size of the first push."
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "1997 Asian financial crisis",
+          "b": "A currency devaluation in Thailand cascaded through tightly linked regional economies within months."
+        },
+        {
+          "t": "Supply chain shutdowns",
+          "b": "One factory closure can halt production lines on the other side of the world through a chain of dependent suppliers."
+        }
+      ]
+    },
+    {
+      "id": "snowball-effect",
+      "genre": "models",
+      "name": "The Snowball Effect",
+      "hook": "A small effort that grows with each repetition ends up far bigger than the sum of the individual pushes.",
+      "def": "Like a snowball rolling downhill, each pass picks up more than the last simply because it's already bigger — small, consistent action compounds into disproportionate results over time, in habits and momentum as much as in money.",
+      "anatomy": {
+        "type": "curve",
+        "xLabel": "Time / repetitions",
+        "yLabel": "Size of the effect",
+        "points": [
+          {
+            "x": 15,
+            "y": 10
+          },
+          {
+            "x": 40,
+            "y": 25
+          },
+          {
+            "x": 70,
+            "y": 55
+          },
+          {
+            "x": 100,
+            "y": 95,
+            "label": "Momentum takes over"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Debt snowball method",
+          "b": "Paying off the smallest debt first builds momentum and behavioral confidence, even when it isn't the mathematically optimal order."
+        },
+        {
+          "t": "Early social proof for a new creator",
+          "b": "The first few genuine fans make the next hundred easier to reach than the first few were."
+        }
+      ]
+    },
+    {
+      "id": "pygmalion-effect",
+      "genre": "models",
+      "name": "The Pygmalion Effect",
+      "hook": "Being expected to do well can itself make you more likely to do well.",
+      "def": "Higher expectations from a teacher, manager, or parent tend to produce higher performance — not through magic, but because expectation quietly changes how much encouragement, attention, and opportunity the expecting party actually gives.",
+      "anatomy": {
+        "type": "cycle",
+        "nodes": [
+          {
+            "label": "Higher expectation set"
+          },
+          {
+            "label": "More encouragement, attention, opportunity given"
+          },
+          {
+            "label": "Performance genuinely improves"
+          },
+          {
+            "label": "Confirms the original expectation"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Rosenthal and Jacobson's classroom study",
+          "b": "Students randomly labeled as 'high potential' to their teachers showed real, measured gains — the label changed teacher behavior, not the students' actual starting ability."
+        },
+        {
+          "t": "Manager expectations at work",
+          "b": "Employees told they're on a 'high-potential' track are typically given more stretch opportunities — which then produce the very growth that 'justified' the label."
+        }
+      ]
+    },
+    {
+      "id": "10000-hour-rule",
+      "genre": "models",
+      "name": "The 10,000-Hour Rule",
+      "hook": "Popularized as the amount of deliberate practice it takes to reach world-class mastery of a complex skill.",
+      "def": "Drawn from research on expert performers (originally violinists) and popularized by Malcolm Gladwell: elite skill correlates strongly with an enormous volume of practice — though the original research specifically emphasized deliberate, feedback-driven practice, not just any 10,000 hours of repetition.",
+      "anatomy": {
+        "type": "curve",
+        "xLabel": "Hours of deliberate practice",
+        "yLabel": "Skill level",
+        "points": [
+          {
+            "x": 10,
+            "y": 20
+          },
+          {
+            "x": 35,
+            "y": 42
+          },
+          {
+            "x": 65,
+            "y": 68
+          },
+          {
+            "x": 100,
+            "y": 90,
+            "label": "~10,000 hrs"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Ericsson's original violinist study",
+          "b": "The elite group had accumulated roughly 10,000 hours of practice by age 20 — but the number was an average, not a threshold guarantee."
+        },
+        {
+          "t": "The common misreading",
+          "b": "Gladwell's own later clarifications stressed that unstructured repetition doesn't count the same as deliberate, corrected practice."
+        }
+      ]
+    },
+    {
+      "id": "streetlight-effect",
+      "genre": "models",
+      "name": "The Streetlight Effect",
+      "hook": "We tend to search for answers where it's easiest to look, not where the answer actually is.",
+      "def": "Named for the joke about a man searching for his lost keys under a streetlight, not because he lost them there, but because that's where the light is. Data availability quietly substitutes for data relevance — the easy-to-measure thing becomes the thing studied, whether or not it's the right thing.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Where it's easy to look",
+          "note": "Data that's already measured, visible, convenient."
+        },
+        "right": {
+          "label": "Where the answer actually is",
+          "note": "Often harder to observe, unmeasured, or inconvenient."
+        },
+        "vs": "search bias"
+      },
+      "notes": [
+        {
+          "t": "Drug research funding",
+          "b": "Well-studied, patentable compounds get investigated far more than equally promising but unpatentable natural compounds — not because they're more effective, but because they're easier to fund."
+        },
+        {
+          "t": "Judging companies by public metrics",
+          "b": "Analysts over-rely on whatever a company chooses to disclose, which is rarely a neutral sample of what actually matters."
+        }
+      ]
+    },
+    {
+      "id": "unintended-consequences",
+      "genre": "models",
+      "name": "Law of Unintended Consequences",
+      "hook": "Actions — especially large-scale ones — routinely produce effects nobody intended and few predicted.",
+      "def": "Complex systems have so many interacting parts that even well-designed interventions reliably produce side effects outside the original goal, often because the system adapts to the intervention in ways the designers didn't model.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Action taken",
+            "note": "With one clear, intended goal."
+          },
+          {
+            "label": "Intended effect occurs",
+            "note": "The goal is partly achieved."
+          },
+          {
+            "label": "System adapts around it",
+            "note": "Other actors respond in unmodeled ways."
+          },
+          {
+            "label": "Unintended side effect emerges",
+            "note": "Sometimes larger than the intended one."
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Prohibition-era organized crime",
+          "b": "Banning alcohol didn't eliminate demand — it handed an entire market to organized crime, arguably the more consequential outcome."
+        },
+        {
+          "t": "Well-meaning safety regulations",
+          "b": "Mandating a specific safety feature can raise costs enough to keep people using older, less safe alternatives longer."
+        }
+      ]
+    },
+    {
+      "id": "mandela-effect",
+      "genre": "psychology",
+      "name": "The Mandela Effect",
+      "hook": "Large numbers of people can confidently, independently 'remember' the same thing that never actually happened.",
+      "def": "A collective false memory: many unconnected people share a specific, detailed, and wrong memory of the same fact — named after the false but widespread memory that Nelson Mandela died in prison in the 1980s. Memory is reconstructive, and shared cultural cues can plant the same error in many minds independently.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "What actually happened",
+          "note": "The Monopoly mascot has never worn a monocle."
+        },
+        "right": {
+          "label": "What many confidently recall",
+          "note": "A large share of people picture him with one."
+        },
+        "vs": "shared false memory"
+      },
+      "notes": [
+        {
+          "t": "'Berenstein' vs. Berenstain Bears",
+          "b": "A huge number of readers confidently recall the book series being spelled with an 'e' — it has always been spelled with an 'a.'"
+        },
+        {
+          "t": "Why it spreads",
+          "b": "Once a false detail is voiced online, cross-contamination between people's memories can make an error feel like independent, corroborated recall."
+        }
+      ]
+    },
+    {
+      "id": "barnum-effect",
+      "genre": "psychology",
+      "name": "The Barnum Effect",
+      "hook": "Vague, generic statements can feel like they were written specifically about you.",
+      "def": "Also called the Forer effect: broad, flattering, universally applicable statements ('you have a need for people to like you, yet you can be critical of yourself') are readily accepted as uniquely personal — the basis for why horoscopes and generic personality tests feel eerily accurate.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "The statement",
+          "note": "“You sometimes doubt decisions you've already made.”"
+        },
+        "right": {
+          "label": "How it's read",
+          "note": "“That's exactly me — how did they know?”"
+        },
+        "vs": "true of nearly everyone"
+      },
+      "notes": [
+        {
+          "t": "Forer's original 1948 experiment",
+          "b": "Students rated a 'personalized' personality description as highly accurate — every student had received the identical text."
+        },
+        {
+          "t": "Horoscopes and cold readings",
+          "b": "Both lean on the same structure: broad enough to fit almost anyone, specific-sounding enough to feel targeted."
+        }
+      ]
+    },
+    {
+      "id": "social-proof",
+      "genre": "psychology",
+      "name": "Social Proof",
+      "hook": "When you're unsure what to do, you copy what everyone else appears to be doing.",
+      "def": "In ambiguous situations, people use others' behavior as evidence of the correct action — a genuinely useful shortcut most of the time, and a powerfully exploitable one whenever the visible 'crowd' can be manufactured or misread.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "What should I do?"
+        },
+        "spokes": [
+          {
+            "label": "What are others doing?"
+          },
+          {
+            "label": "Reviews & ratings"
+          },
+          {
+            "label": "Visible crowds / queues"
+          },
+          {
+            "label": "Testimonials"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Restaurant lines as marketing",
+          "b": "A visible queue outside a restaurant recruits more customers than an empty one, regardless of the food's actual quality."
+        },
+        {
+          "t": "'Bestseller' and 'most popular' labels",
+          "b": "Explicitly engineered social proof — the label itself increases the very sales it claims to describe."
+        }
+      ]
+    },
+    {
+      "id": "reciprocity",
+      "genre": "psychology",
+      "name": "Reciprocity",
+      "hook": "Receiving something — even something small and unrequested — creates a real felt obligation to give something back.",
+      "def": "One of the most consistent findings in social psychology: an initial gift, favor, or concession creates disproportionate pressure to reciprocate, often with something larger than what was originally given.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Something is given",
+            "note": "A free sample, a favor, a concession."
+          },
+          {
+            "label": "Felt obligation forms",
+            "note": "Rarely consciously chosen."
+          },
+          {
+            "label": "Reciprocation follows",
+            "note": "Often disproportionate to the original gift."
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Free samples in retail",
+          "b": "A small, genuinely free sample measurably increases purchase rates well beyond the sample's own value."
+        },
+        {
+          "t": "Negotiation concessions",
+          "b": "Conceding a minor point early in a negotiation reliably increases the other side's willingness to concede something bigger later."
+        }
+      ]
+    },
+    {
+      "id": "ikea-effect",
+      "genre": "psychology",
+      "name": "The IKEA Effect",
+      "hook": "You value something more — sometimes irrationally more — simply because you built it yourself.",
+      "def": "Labor creates attachment: people consistently assign higher value to an object they assembled themselves than to an identical, pre-assembled one, even when the assembly required no particular skill.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Bought pre-assembled",
+          "note": "Same object, no labor invested."
+        },
+        "right": {
+          "label": "Assembled yourself",
+          "note": "Same object — valued noticeably higher."
+        },
+        "vs": "labor adds perceived value"
+      },
+      "notes": [
+        {
+          "t": "Norton, Mochon & Ariely's 2012 paper",
+          "b": "Participants who built their own IKEA storage box valued it significantly higher than an identical pre-built one, and similarly to expert-made furniture."
+        },
+        {
+          "t": "Meal kits and DIY culture",
+          "b": "Part of their appeal is exactly this — the modest effort of assembly increases satisfaction with the result."
+        }
+      ]
+    },
+    {
+      "id": "cognitive-load",
+      "genre": "psychology",
+      "name": "Cognitive Load",
+      "hook": "Working memory has a hard limit — push past it, and performance doesn't degrade gently, it falls off a cliff.",
+      "def": "The mind can only actively hold and process a limited amount of information at once. Once a task's demands exceed that capacity, errors, forgetting, and decision quality all degrade sharply — good design and communication work to keep demands under that ceiling.",
+      "anatomy": {
+        "type": "spectrum",
+        "low": "Well within capacity",
+        "high": "Overloaded — performance degrades",
+        "marker": 78,
+        "note": "Interfaces, instructions, and lessons designed near the ceiling routinely produce mistakes that have nothing to do with the user's actual ability."
+      },
+      "notes": [
+        {
+          "t": "Cockpit and control-room design",
+          "b": "Aviation safety redesigns are frequently just cognitive-load reduction — fewer competing displays, clearer priority signaling."
+        },
+        {
+          "t": "Complicated checkout forms",
+          "b": "Every additional required field measurably raises abandonment — each one adds to the same finite budget."
+        }
+      ]
+    },
+    {
+      "id": "invisible-hand",
+      "genre": "economics",
+      "name": "The Invisible Hand",
+      "hook": "Individuals pursuing their own self-interest can, without intending to, produce outcomes that benefit society as a whole.",
+      "def": "Adam Smith's foundational metaphor: in a competitive market, no central planner needs to coordinate producers and consumers — self-interested decisions, guided by prices, tend to allocate resources efficiently as if directed by an unseen hand.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Individual self-interest",
+            "note": "A baker prices bread to maximize their own profit."
+          },
+          {
+            "label": "No central coordination",
+            "note": "No one is directing the overall outcome."
+          },
+          {
+            "label": "Price signals coordinate anyway",
+            "note": "Supply and demand align without a planner."
+          },
+          {
+            "label": "Broad social benefit",
+            "note": "Bread gets made and reaches those who want it."
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Smith's own 1776 phrasing",
+          "b": "From The Wealth of Nations — the baker doesn't sell you bread out of benevolence, but out of self-interest, and you're fed regardless."
+        },
+        {
+          "t": "Where it breaks down",
+          "b": "Smith himself noted limits — externalities and monopolies are the classic cases where self-interest stops aligning with the social good."
+        }
+      ]
+    },
+    {
+      "id": "inflation",
+      "genre": "economics",
+      "name": "Inflation",
+      "hook": "When the general price level rises, each unit of currency buys a little less than it did before.",
+      "def": "A sustained rise in the overall price level, eroding purchasing power over time. It has two classic engines: demand-pull (too much money chasing too few goods) and cost-push (rising input costs forcing prices up) — and distinguishing which is driving it changes what actually fixes it.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Demand-pull",
+          "note": "Spending/demand outpaces the economy's ability to supply."
+        },
+        "right": {
+          "label": "Cost-push",
+          "note": "Input costs (energy, wages, materials) rise and get passed on."
+        },
+        "vs": "same symptom, different cause"
+      },
+      "notes": [
+        {
+          "t": "Post-2020 supply chain inflation",
+          "b": "Widely attributed to a mix of both: pent-up demand meeting genuinely constrained global supply chains at once."
+        },
+        {
+          "t": "1970s oil shocks",
+          "b": "A textbook cost-push case — oil price spikes flowed directly into the price of nearly everything else."
+        }
+      ]
+    },
+    {
+      "id": "first-mover-advantage",
+      "genre": "economics",
+      "name": "First-Mover Advantage",
+      "hook": "Being early to a market can create structural advantages a better, later competitor can't easily undo.",
+      "def": "The first credible entrant into a market can lock in brand recognition, scarce resources, distribution relationships, and — where applicable — network effects, before competitors even arrive. It isn't guaranteed (fast followers often win instead), but when it works, it compounds.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "First mover",
+          "note": "Captures early brand recognition, resources, network effects."
+        },
+        "right": {
+          "label": "Fast follower",
+          "note": "Learns from the pioneer's mistakes, often at lower cost."
+        },
+        "vs": "both are real strategies"
+      },
+      "notes": [
+        {
+          "t": "Amazon vs. later e-commerce entrants",
+          "b": "Years of early logistics and customer-data investment became very hard for a later, even well-funded, entrant to replicate quickly."
+        },
+        {
+          "t": "When fast-follower wins instead",
+          "b": "Facebook was not the first social network — it beat earlier movers like Myspace and Friendster by executing better, not by being first."
+        }
+      ]
+    },
+    {
+      "id": "trickle-down",
+      "genre": "economics",
+      "name": "Trickle-Down Economics",
+      "hook": "The theory that policies benefiting those at the top of the income scale eventually broaden into benefits for everyone.",
+      "def": "A characterization of supply-side policies — tax cuts or incentives concentrated at businesses and higher earners — on the theory that resulting investment, hiring, and spending 'trickles down' to the broader economy. It's one of the most empirically contested ideas in economics, with real economists disagreeing sharply on how much, if any, actually trickles.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Tax cuts / incentives at the top",
+            "note": "Concentrated on businesses, investors, high earners."
+          },
+          {
+            "label": "Theorized: more investment, hiring",
+            "note": "The claimed mechanism."
+          },
+          {
+            "label": "Contested: how much reaches others",
+            "note": "Empirical evidence is genuinely mixed."
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "1980s US tax policy debates",
+          "b": "The term itself was popularized largely by critics of these policies, not by their proponents."
+        },
+        {
+          "t": "Ongoing empirical debate",
+          "b": "Economists across the spectrum still actively dispute the actual size of any 'trickle,' making this one of the more politically loaded entries in this catalog."
+        }
+      ]
+    },
+    {
+      "id": "stagflation",
+      "genre": "economics",
+      "name": "Stagflation",
+      "hook": "The economic scenario standard theory said shouldn't be able to happen: high unemployment and high inflation, together.",
+      "def": "Classical economic models generally expect unemployment and inflation to move in opposite directions — but stagflation is stagnant growth, high unemployment, AND high inflation occurring simultaneously, a combination that forced a real rethink of mid-20th-century economic theory when it first appeared.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Normal recession",
+          "note": "High unemployment + falling prices."
+        },
+        "right": {
+          "label": "Stagflation",
+          "note": "High unemployment + rising prices, together."
+        },
+        "vs": "the 'impossible' combination"
+      },
+      "notes": [
+        {
+          "t": "1970s oil-shock stagflation",
+          "b": "The defining case: an oil supply shock drove prices up while growth stalled — textbook demand-side tools couldn't fix both at once."
+        },
+        {
+          "t": "Policy dilemma it creates",
+          "b": "Fighting inflation (raising rates) worsens unemployment; fighting unemployment (stimulus) worsens inflation — there's no clean lever."
+        }
+      ]
+    },
+    {
+      "id": "multiplier-effect",
+      "genre": "economics",
+      "name": "The Multiplier Effect",
+      "hook": "A dollar of new spending can generate more than a dollar of total economic activity, as it changes hands again and again.",
+      "def": "When money is spent, the recipient doesn't hoard all of it — they re-spend a portion, and the next recipient re-spends a portion of that, and so on. The cumulative effect of one injection of spending can exceed the original amount, which is the core logic behind government stimulus spending.",
+      "anatomy": {
+        "type": "cycle",
+        "nodes": [
+          {
+            "label": "Initial spending occurs"
+          },
+          {
+            "label": "Recipient re-spends a portion"
+          },
+          {
+            "label": "Next recipient re-spends a portion"
+          },
+          {
+            "label": "Cumulative activity exceeds the original amount"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Government infrastructure spending",
+          "b": "A construction contract pays workers, who spend at local businesses, who pay their own staff — the original dollar circulates several times over."
+        },
+        {
+          "t": "Local sports stadium subsidies",
+          "b": "Often justified by multiplier claims that many economists find are, in practice, considerably smaller than advertised."
+        }
+      ]
+    },
+    {
+      "id": "buy-low-sell-high",
+      "genre": "investing",
+      "name": "Buy Low, Sell High",
+      "hook": "Everyone knows the rule. Almost no one finds it easy to actually follow.",
+      "def": "The simplest possible investing advice is also one of the hardest to execute, because 'low' usually coincides with genuine fear and bad news, and 'high' usually coincides with genuine excitement and good news — the rule asks you to act against exactly the emotions the moment is generating.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "What everyone knows",
+          "note": "Buy when prices are down, sell when they're up."
+        },
+        "right": {
+          "label": "What's psychologically hard",
+          "note": "'Down' feels like danger. 'Up' feels like safety. Instinct fights the rule."
+        },
+        "vs": "simple ≠ easy"
+      },
+      "notes": [
+        {
+          "t": "March 2020 market bottom",
+          "b": "The objectively 'lowest' prices coincided with the scariest headlines — exactly when buying felt hardest to justify."
+        },
+        {
+          "t": "Retail investor flow data",
+          "b": "Fund flow data consistently shows retail money pouring in near market tops and fleeing near bottoms — the opposite of the rule, driven by emotion."
+        }
+      ]
+    },
+    {
+      "id": "bull-bear-market",
+      "genre": "investing",
+      "name": "Bull Market vs. Bear Market",
+      "hook": "One word for a sustained climb, one for a sustained slide — and the line between them is a specific, commonly used threshold.",
+      "def": "A bull market describes a prolonged period of rising prices and investor optimism; a bear market is conventionally defined as a decline of 20% or more from a recent peak, typically accompanied by pessimism and reduced economic activity.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Bull market",
+          "note": "Sustained rise, optimism, expanding activity."
+        },
+        "right": {
+          "label": "Bear market",
+          "note": "20%+ decline from a peak, pessimism, contraction."
+        },
+        "vs": "opposite regimes"
+      },
+      "notes": [
+        {
+          "t": "2009-2020 US bull market",
+          "b": "One of the longest bull runs on record, over a decade of broadly rising prices before the 2020 disruption."
+        },
+        {
+          "t": "Where the animal names come from",
+          "b": "A bull attacks upward with its horns; a bear swipes downward with its claws — the imagery, if not the etymology, is at least memorable."
+        }
+      ]
+    },
+    {
+      "id": "market-correction",
+      "genre": "investing",
+      "name": "Market Correction",
+      "hook": "Not every drop is a crash — there's a specific, common name for the 'normal' kind of pullback.",
+      "def": "A correction is conventionally a decline of 10-20% from a recent high — common, historically routine, and distinct from the deeper, more prolonged decline that earns the label 'bear market.' Knowing the difference helps calibrate how alarmed a given drop actually warrants being.",
+      "anatomy": {
+        "type": "spectrum",
+        "low": "Correction (−10%)",
+        "high": "Bear market (−20%+)",
+        "marker": 45,
+        "note": "Corrections happen roughly once a year on average, historically; bear markets are rarer and more consequential."
+      },
+      "notes": [
+        {
+          "t": "How often corrections actually occur",
+          "b": "Historically, the S&P 500 has seen a correction-sized pullback in most calendar years — far more routine than headlines often suggest."
+        },
+        {
+          "t": "2018 Q4 correction",
+          "b": "A roughly 20% drawdown that stopped just short of the bear-market threshold before recovering within months."
+        }
+      ]
+    },
+    {
+      "id": "blue-chip",
+      "genre": "investing",
+      "name": "Blue Chip Stocks",
+      "hook": "The large, stable, market-leading companies whose stock is treated as a relatively conservative core holding.",
+      "def": "Borrowed from poker, where blue chips carry the highest value: blue-chip stocks are large, well-established companies with a long history of stable earnings, often paying reliable dividends, and generally viewed as lower-risk (though never risk-free) core holdings.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "Blue chip"
+        },
+        "spokes": [
+          {
+            "label": "Large market cap"
+          },
+          {
+            "label": "Long earnings history"
+          },
+          {
+            "label": "Market leadership"
+          },
+          {
+            "label": "Often pays dividends"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Dow Jones Industrial Average",
+          "b": "A curated index of exactly this category — 30 large, established US companies used as a market bellwether."
+        },
+        {
+          "t": "'Boring' as a feature, not a bug",
+          "b": "Blue chips are rarely the fastest-growing holding in a portfolio — their appeal is stability, not excitement."
+        }
+      ]
+    },
+    {
+      "id": "dead-cat-bounce",
+      "genre": "investing",
+      "name": "Dead Cat Bounce",
+      "hook": "A sharp, temporary price recovery in the middle of a longer decline — that fools people into thinking the bottom is in.",
+      "def": "After a steep drop, a short-lived rally can occur (from short-covering, bargain-hunting, or simple mean-reversion) before the underlying downtrend reasserts itself — the grim trading-floor phrase being that even a dead cat will bounce if it falls from high enough.",
+      "anatomy": {
+        "type": "curve",
+        "xLabel": "Time",
+        "yLabel": "Price",
+        "points": [
+          {
+            "x": 10,
+            "y": 85
+          },
+          {
+            "x": 30,
+            "y": 35,
+            "label": "Sharp drop"
+          },
+          {
+            "x": 50,
+            "y": 58,
+            "label": "The bounce"
+          },
+          {
+            "x": 100,
+            "y": 20,
+            "label": "Downtrend resumes"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Dot-com crash rallies, 2000-2002",
+          "b": "Several sharp multi-week rallies occurred during the broader decline, each mistaken by some for the actual bottom."
+        },
+        {
+          "t": "Why it's hard to identify in real time",
+          "b": "A dead cat bounce and a genuine recovery look identical in the moment — the label only applies with hindsight."
+        }
+      ]
+    },
+    {
+      "id": "value-growth-investing",
+      "genre": "investing",
+      "name": "Value vs. Growth Investing",
+      "hook": "One style hunts for businesses priced below their worth today. The other pays a premium now, betting on tomorrow.",
+      "def": "Value investing looks for companies trading below their estimated intrinsic worth by current fundamentals — the Graham/Buffett tradition. Growth investing willingly pays a higher current price for companies expected to grow earnings fast enough to justify it later — different philosophies about where the actual edge comes from.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Value investing",
+          "note": "Cheap relative to current earnings, assets, or cash flow."
+        },
+        "right": {
+          "label": "Growth investing",
+          "note": "Expensive now, priced for a future growth rate to catch up."
+        },
+        "vs": "different bets"
+      },
+      "notes": [
+        {
+          "t": "Buffett's own evolution",
+          "b": "Moved over decades from strict Graham-style deep value toward paying up for durable, high-quality growth businesses like Coca-Cola and Apple."
+        },
+        {
+          "t": "2010s tech vs. value cycles",
+          "b": "Growth strategies dramatically outperformed value for most of the decade, reversing sharply in other periods — neither style wins permanently."
+        }
+      ]
+    }
+  ]
+}

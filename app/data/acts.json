@@ -1,0 +1,3646 @@
+{
+  "genres": {
+    "econ": {
+      "label": "Economic Policy",
+      "code": "ECON"
+    },
+    "war": {
+      "label": "War & Politics",
+      "code": "WAR"
+    },
+    "biz": {
+      "label": "Business",
+      "code": "BIZ"
+    },
+    "geo": {
+      "label": "Geopolitics",
+      "code": "GEO"
+    }
+  },
+  "entries": [
+    {
+      "id": "bretton-woods",
+      "genre": "econ",
+      "year": "1944",
+      "name": "Bretton Woods Agreement",
+      "hook": "44 nations built a new global monetary order around the dollar — and the dollar around gold.",
+      "def": "Delegates from 44 Allied nations, meeting in New Hampshire in July 1944, pegged their currencies to the US dollar within a narrow band, and pegged the dollar itself to gold at $35/oz. It created the IMF and World Bank and made the dollar the world's reserve currency for the next 27 years.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "Bretton Woods"
+        },
+        "spokes": [
+          {
+            "label": "IMF founded",
+            "note": "Monitors exchange rates, lends reserves"
+          },
+          {
+            "label": "World Bank founded",
+            "note": "Postwar reconstruction financing"
+          },
+          {
+            "label": "Dollar pegged to gold",
+            "note": "$35/oz, fixed"
+          },
+          {
+            "label": "Currencies pegged to dollar",
+            "note": "Adjustable within 1%"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "27 years of fixed exchange rates",
+          "b": "Gave postwar trade and investment a stable currency backdrop that hadn't existed since before WWI."
+        },
+        {
+          "t": "Ended by the Nixon Shock, 1971",
+          "b": "The system depended on the US holding enough gold to honor the peg — it didn't, and the peg broke."
+        }
+      ]
+    },
+    {
+      "id": "marshall-plan",
+      "genre": "econ",
+      "year": "1948",
+      "name": "The Marshall Plan",
+      "hook": "The US rebuilt its former enemies' continent, on the theory that a poor Europe was a dangerous one.",
+      "def": "Formally the European Recovery Program: roughly $13 billion (well over $100 billion today) in US aid to 16 Western European countries between 1948 and 1951, aimed at rebuilding industry, restoring trade, and — explicitly — blocking the spread of communism into a devastated postwar Europe.",
+      "anatomy": {
+        "type": "curve",
+        "xLabel": "Years since 1948",
+        "yLabel": "Western European industrial output",
+        "points": [
+          {
+            "x": 10,
+            "y": 20,
+            "label": "1948: shattered"
+          },
+          {
+            "x": 35,
+            "y": 55
+          },
+          {
+            "x": 65,
+            "y": 85
+          },
+          {
+            "x": 100,
+            "y": 100,
+            "label": "1951: above prewar levels"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Explicit Cold War logic",
+          "b": "Secretary of State George Marshall framed it as fighting 'hunger, poverty, desperation, and chaos' — the conditions communism was seen to exploit."
+        },
+        {
+          "t": "West Germany's inclusion",
+          "b": "Extending aid to a recently defeated enemy, not just allies, was itself the controversial and consequential part of the plan."
+        }
+      ]
+    },
+    {
+      "id": "nixon-shock",
+      "genre": "econ",
+      "year": "1971",
+      "name": "The Nixon Shock",
+      "hook": "In one Sunday-night TV address, the US unilaterally ended the monetary system the whole world had run on for 27 years.",
+      "def": "On August 15, 1971, President Nixon suspended the dollar's convertibility into gold, imposed a 90-day wage-price freeze, and added a 10% import surcharge — ending the Bretton Woods system without consulting any other country, and moving the world onto floating, fiat exchange rates.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Gold convertibility suspended",
+            "note": "Aug 15, 1971 — no warning to allies"
+          },
+          {
+            "label": "Dollar floats",
+            "note": "Value now set by markets, not gold"
+          },
+          {
+            "label": "Other currencies follow",
+            "note": "Fixed-rate system unravels globally"
+          },
+          {
+            "label": "Modern fiat era begins",
+            "note": "No major currency backed by gold since"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Why it happened",
+          "b": "The US had promised more gold than it held once other countries started actually redeeming dollars for it."
+        },
+        {
+          "t": "Still the world's monetary baseline",
+          "b": "Every currency since has floated or been managed relative to other currencies, not gold — this is the moment that started."
+        }
+      ]
+    },
+    {
+      "id": "federal-reserve-act",
+      "genre": "econ",
+      "year": "1913",
+      "name": "Federal Reserve Act",
+      "hook": "After a century of banking panics, the US finally built a central bank — on its third attempt.",
+      "def": "Signed by Woodrow Wilson after the Panic of 1907 exposed the danger of having no lender of last resort, the Act created the Federal Reserve System: 12 regional reserve banks under a central board, with the power to issue currency, set interest rates, and act as a backstop to the banking system.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "The Federal Reserve"
+        },
+        "spokes": [
+          {
+            "label": "Lender of last resort"
+          },
+          {
+            "label": "Sets interest rates"
+          },
+          {
+            "label": "Issues currency"
+          },
+          {
+            "label": "Supervises banks"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Two earlier failed attempts",
+          "b": "The First and Second Banks of the United States were both allowed to lapse in the 1800s over fears of centralized financial power."
+        },
+        {
+          "t": "Every US recession response since",
+          "b": "From the Depression to 2008 to 2020, the Fed's tools trace directly back to the powers this Act created."
+        }
+      ]
+    },
+    {
+      "id": "glass-steagall",
+      "genre": "econ",
+      "year": "1933",
+      "name": "Glass-Steagall Act",
+      "hook": "After the 1929 crash, the US legally forced a wall between your savings account and Wall Street speculation.",
+      "def": "Passed in the depths of the Depression, the Banking Act of 1933 (its formal name) barred any single institution from both taking customer deposits and underwriting securities — separating commercial banking from investment banking to stop banks from gambling with depositors' money.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Before, 1933",
+          "note": "One bank could take deposits AND underwrite risky securities with them."
+        },
+        "right": {
+          "label": "After, 1933",
+          "note": "Commercial banking and investment banking legally forced apart."
+        },
+        "vs": "the wall"
+      },
+      "notes": [
+        {
+          "t": "Created the FDIC in the same act",
+          "b": "Deposit insurance, still in place today, was bundled with the separation requirement."
+        },
+        {
+          "t": "Its core provision repealed in 1999",
+          "b": "The Gramm-Leach-Bliley Act tore down the wall — a decision still debated as a contributor to the 2008 crisis."
+        }
+      ]
+    },
+    {
+      "id": "sherman-antitrust",
+      "genre": "econ",
+      "year": "1890",
+      "name": "Sherman Antitrust Act",
+      "hook": "The first US law declaring that a company could simply be too dominant to be legal.",
+      "def": "Passed nearly unanimously in response to the era's oil, rail, and steel trusts, the Act outlawed 'every contract, combination, or conspiracy in restraint of trade' and any 'monopolization' of a market — establishing, for the first time, that market dominance itself could be prosecuted.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Trusts dominate an industry",
+            "note": "Standard Oil, railroads, sugar"
+          },
+          {
+            "label": "Act gives government standing to sue",
+            "note": "1890"
+          },
+          {
+            "label": "Courts order breakups",
+            "note": "e.g. Standard Oil, 1911"
+          },
+          {
+            "label": "Still the foundation of US antitrust law",
+            "note": "Used against Microsoft, and again today"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Named for Senator John Sherman",
+          "b": "Passed 51-1 in the Senate — a rare near-unanimous rebuke of the era's industrial trusts."
+        },
+        {
+          "t": "Still actively used",
+          "b": "Modern cases against Big Tech companies are brought under the same 1890 statute."
+        }
+      ]
+    },
+    {
+      "id": "social-security-act",
+      "genre": "econ",
+      "year": "1935",
+      "name": "Social Security Act",
+      "hook": "The US built its first national safety net directly into every worker's paycheck.",
+      "def": "Part of Franklin Roosevelt's New Deal, the Act created a federal system of old-age pensions funded by a dedicated payroll tax, alongside unemployment insurance and aid for dependent children — the first time the US government guaranteed income security to its citizens by law.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "Social Security Act"
+        },
+        "spokes": [
+          {
+            "label": "Old-age pensions"
+          },
+          {
+            "label": "Unemployment insurance"
+          },
+          {
+            "label": "Aid to dependent children"
+          },
+          {
+            "label": "Payroll tax funding"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "First check issued in 1940",
+          "b": "Ida May Fuller of Vermont received the first monthly retirement check — $22.54."
+        },
+        {
+          "t": "Still the largest federal program",
+          "b": "Social Security remains the single largest line item in the US federal budget nearly a century later."
+        }
+      ]
+    },
+    {
+      "id": "smoot-hawley",
+      "genre": "econ",
+      "year": "1930",
+      "name": "Smoot-Hawley Tariff Act",
+      "hook": "A tariff bill meant to protect American farmers instead triggered a global trade war during the Great Depression.",
+      "def": "Signed by Hoover despite a petition from over 1,000 economists urging a veto, the Act raised US tariffs on some 20,000 imported goods, with average increases of 40-60% on covered items. Trading partners retaliated with tariffs of their own, and global trade collapsed by roughly 65% over the following years.",
+      "anatomy": {
+        "type": "cycle",
+        "nodes": [
+          {
+            "label": "US raises tariffs sharply"
+          },
+          {
+            "label": "Trading partners retaliate"
+          },
+          {
+            "label": "Global trade volume collapses"
+          },
+          {
+            "label": "US exports fall from $7B to $2.5B"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "1,000+ economists warned against it",
+          "b": "One of the largest economist petitions in US history — signed and sent directly to Hoover before he signed the bill anyway."
+        },
+        {
+          "t": "Widely cited as deepening the Depression",
+          "b": "Not the sole cause, but consistently named by economists as a major amplifier of the global downturn."
+        }
+      ]
+    },
+    {
+      "id": "plaza-accord",
+      "genre": "econ",
+      "year": "1985",
+      "name": "Plaza Accord",
+      "hook": "Five of the world's largest economies met in a New York hotel and agreed to jointly devalue the dollar.",
+      "def": "The US, Japan, West Germany, France, and the UK agreed at the Plaza Hotel to coordinate intervention in currency markets to weaken an overvalued US dollar, which had made American exports uncompetitive. It worked — arguably too well, contributing to the asset bubble that led to Japan's 1990s 'Lost Decade.'",
+      "anatomy": {
+        "type": "curve",
+        "xLabel": "Months after September 1985",
+        "yLabel": "US dollar value vs. yen",
+        "points": [
+          {
+            "x": 10,
+            "y": 90
+          },
+          {
+            "x": 35,
+            "y": 65
+          },
+          {
+            "x": 65,
+            "y": 45
+          },
+          {
+            "x": 100,
+            "y": 35,
+            "label": "Dollar roughly halved vs. yen"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Rare coordinated currency action",
+          "b": "Deliberate multilateral currency intervention on this scale has been attempted only a handful of times since."
+        },
+        {
+          "t": "Japan's asset bubble aftermath",
+          "b": "The resulting cheap yen and loose Japanese monetary policy is widely linked to the bubble that burst into Japan's 1990s stagnation."
+        }
+      ]
+    },
+    {
+      "id": "china-reform-opening",
+      "genre": "econ",
+      "year": "1978",
+      "name": "China's Reform and Opening Up",
+      "hook": "One policy shift under Deng Xiaoping turned a closed, centrally planned economy into the world's manufacturing engine.",
+      "def": "Following Mao's death, Deng Xiaoping steered China away from strict central planning toward market mechanisms, foreign investment, and private enterprise — starting with agricultural decollectivization and expanding into special economic zones that opened the country to global trade for the first time since 1949.",
+      "anatomy": {
+        "type": "curve",
+        "xLabel": "Years since 1978",
+        "yLabel": "China's GDP (real terms)",
+        "points": [
+          {
+            "x": 10,
+            "y": 8
+          },
+          {
+            "x": 40,
+            "y": 20
+          },
+          {
+            "x": 70,
+            "y": 55
+          },
+          {
+            "x": 100,
+            "y": 100,
+            "label": "40+ years of sustained growth"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Hundreds of millions lifted from poverty",
+          "b": "The World Bank has repeatedly cited China's post-1978 growth as the largest poverty reduction in human history."
+        },
+        {
+          "t": "Began with agriculture, not industry",
+          "b": "The household responsibility system let farmers sell surplus crops for profit — the first crack in central planning."
+        }
+      ]
+    },
+    {
+      "id": "india-1991",
+      "genre": "econ",
+      "year": "1991",
+      "name": "India's 1991 Economic Liberalization",
+      "hook": "A balance-of-payments crisis forced India to dismantle decades of licensing and protectionism in a matter of months.",
+      "def": "Facing a foreign exchange crisis so severe India had to airlift gold reserves to London as collateral, Finance Minister Manmohan Singh's 1991 budget dismantled the 'License Raj' — the dense web of permits and import controls that had constrained Indian industry since independence — and opened the economy to foreign investment and trade.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "1991 balance-of-payments crisis",
+            "note": "Weeks of import cover left"
+          },
+          {
+            "label": "Industrial licensing abolished",
+            "note": "For most sectors"
+          },
+          {
+            "label": "Foreign investment permitted",
+            "note": "Previously heavily restricted"
+          },
+          {
+            "label": "Decades of accelerated growth follow"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Gold reserves airlifted as collateral",
+          "b": "A vivid, literal marker of how close to the edge India's foreign reserves had fallen before the reforms."
+        },
+        {
+          "t": "Set up India's IT and services boom",
+          "b": "The opening to global markets is widely credited as the precondition for India's later software and outsourcing industries."
+        }
+      ]
+    },
+    {
+      "id": "maastricht-treaty",
+      "genre": "econ",
+      "year": "1992",
+      "name": "Maastricht Treaty",
+      "hook": "European nations agreed to eventually share one currency — and built the rulebook for what would become the Euro.",
+      "def": "Signed by the 12 members of the European Community, the Treaty formally created the European Union and laid out convergence criteria (deficit, debt, and inflation limits) that member states had to meet to join a future single currency, which launched as the Euro in 1999.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "European Union formally created",
+            "note": "1993, on treaty ratification"
+          },
+          {
+            "label": "Convergence criteria set",
+            "note": "Deficit, debt, inflation limits"
+          },
+          {
+            "label": "European Central Bank founded",
+            "note": "1998"
+          },
+          {
+            "label": "Euro launches",
+            "note": "1999 (accounts), 2002 (cash)"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Built the fault line, too",
+          "b": "Countries joined the Euro without a shared fiscal union — a gap widely blamed for the severity of the 2010s Eurozone debt crisis."
+        },
+        {
+          "t": "Still the EU's founding constitutional document",
+          "b": "Later treaties (Amsterdam, Lisbon) amended it, but Maastricht remains the base layer."
+        }
+      ]
+    },
+    {
+      "id": "china-wto",
+      "genre": "econ",
+      "year": "2001",
+      "name": "China's WTO Accession",
+      "hook": "China joined the world trading system and, within a decade, became its factory floor.",
+      "def": "After 15 years of negotiation, China formally joined the World Trade Organization, agreeing to slash tariffs, open sectors to foreign competition, and adopt international trade rules — unlocking a surge of foreign manufacturing investment that reshaped global supply chains within a generation.",
+      "anatomy": {
+        "type": "curve",
+        "xLabel": "Years since 2001",
+        "yLabel": "China's share of world exports",
+        "points": [
+          {
+            "x": 10,
+            "y": 20
+          },
+          {
+            "x": 40,
+            "y": 45
+          },
+          {
+            "x": 70,
+            "y": 75
+          },
+          {
+            "x": 100,
+            "y": 100,
+            "label": "World's largest exporter"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "The 'China shock' debate",
+          "b": "Economists (notably Autor, Dorn, Hanson) later traced significant US manufacturing job losses directly to the surge in Chinese import competition that followed."
+        },
+        {
+          "t": "Reshaped where the world manufactures",
+          "b": "Supply chains for electronics, textiles, and consumer goods reorganized around Chinese manufacturing within roughly a decade."
+        }
+      ]
+    },
+    {
+      "id": "tarp",
+      "genre": "econ",
+      "year": "2008",
+      "name": "Troubled Asset Relief Program (TARP)",
+      "hook": "The US government spent $700 billion to stop its own banking system from collapsing in real time.",
+      "def": "Passed at the height of the 2008 financial crisis, TARP authorized the Treasury to purchase or insure up to $700 billion in troubled bank assets and inject capital directly into banks — a deeply unpopular bailout at the time, most of which was later recovered as banks repaid the government.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Major banks near collapse",
+            "note": "Post-Lehman, Sept 2008"
+          },
+          {
+            "label": "Congress authorizes $700B",
+            "note": "After an initial House rejection"
+          },
+          {
+            "label": "Capital injected into banks",
+            "note": "Stabilizes the system"
+          },
+          {
+            "label": "Most funds recovered",
+            "note": "Final cost far below headline figure"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Initially rejected by the House",
+          "b": "The first vote failed and the stock market fell sharply the same day — Congress passed a revised version days later."
+        },
+        {
+          "t": "Ended up costing far less than $700B",
+          "b": "Treasury reporting shows most TARP funds for banks were eventually repaid, with the final net cost far below the authorized ceiling."
+        }
+      ]
+    },
+    {
+      "id": "dodd-frank",
+      "genre": "econ",
+      "year": "2010",
+      "name": "Dodd-Frank Act",
+      "hook": "The US rewrote the rules of finance after 2008 — creating a new watchdog and a new way to unwind a failing megabank.",
+      "def": "The most sweeping US financial reform since the Depression, Dodd-Frank created the Consumer Financial Protection Bureau, imposed new capital and stress-testing requirements on large banks, restricted proprietary trading via the Volcker Rule, and established a legal process for winding down a failing 'too big to fail' institution.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "Dodd-Frank Act"
+        },
+        "spokes": [
+          {
+            "label": "CFPB created"
+          },
+          {
+            "label": "Volcker Rule"
+          },
+          {
+            "label": "Bank stress tests"
+          },
+          {
+            "label": "Orderly liquidation authority"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Named for its two sponsors",
+          "b": "Senator Chris Dodd and Representative Barney Frank, who chaired the respective banking committees during its drafting."
+        },
+        {
+          "t": "Partially rolled back in 2018",
+          "b": "Legislation raised the asset threshold for 'systemically important' bank oversight, easing rules for many mid-sized banks."
+        }
+      ]
+    },
+    {
+      "id": "volcker-shock",
+      "genre": "econ",
+      "year": "1979",
+      "name": "The Volcker Shock",
+      "hook": "The Fed deliberately triggered a recession to break inflation that had run for over a decade.",
+      "def": "Facing US inflation above 13%, new Fed Chair Paul Volcker pushed the federal funds rate above 19% — a punishing, deliberately induced squeeze that caused a sharp recession and double-digit unemployment, but broke the back of 1970s inflation within a few years.",
+      "anatomy": {
+        "type": "curve",
+        "xLabel": "Years from 1979",
+        "yLabel": "US inflation rate",
+        "points": [
+          {
+            "x": 10,
+            "y": 90,
+            "label": "~13-14%"
+          },
+          {
+            "x": 35,
+            "y": 60
+          },
+          {
+            "x": 65,
+            "y": 25
+          },
+          {
+            "x": 100,
+            "y": 10,
+            "label": "~3-4% by mid-80s"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Unemployment hit nearly 11%",
+          "b": "The deliberate recession this triggered was among the worst since the Depression at the time."
+        },
+        {
+          "t": "Set the modern template for central banks",
+          "b": "'Whatever it takes' inflation-fighting credibility, still cited by every Fed chair since."
+        }
+      ]
+    },
+    {
+      "id": "reagan-tax-cuts",
+      "genre": "econ",
+      "year": "1981",
+      "name": "Reagan's Economic Recovery Tax Act",
+      "hook": "The top US income tax rate was cut from 70% to 50% in one bill — the opening move of the supply-side era.",
+      "def": "Signed in Reagan's first year, the Act cut the top marginal income tax rate from 70% to 50% (a further 1986 reform later took it to 28%), accelerated business depreciation, and indexed tax brackets to inflation — the foundational legislation of what became known as 'Reaganomics.'",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Before, 1981",
+          "note": "Top marginal rate: 70%."
+        },
+        "right": {
+          "label": "After ERTA + 1986 reform",
+          "note": "Top marginal rate cut to 50%, later 28%."
+        },
+        "vs": "supply-side shift"
+      },
+      "notes": [
+        {
+          "t": "Paired with sharp spending cuts elsewhere",
+          "b": "Domestic discretionary spending was cut even as defense spending rose sharply — a distinctly 1980s combination."
+        },
+        {
+          "t": "Deficit rose despite the growth theory",
+          "b": "Federal deficits grew substantially through the decade, a still-debated point in assessing supply-side economics' track record."
+        }
+      ]
+    },
+    {
+      "id": "thatcher-privatization",
+      "genre": "econ",
+      "year": "1984",
+      "name": "Thatcher's Privatization Program",
+      "hook": "The UK sold off state-owned telecoms, gas, and airlines to the public — and exported the idea to the world.",
+      "def": "Beginning with British Telecom's 1984 share sale, Margaret Thatcher's government privatized dozens of state-owned industries — gas, water, electricity, steel, airlines — raising billions and reshaping the relationship between the British state and its economy, a model soon copied across Europe and beyond.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "UK privatization"
+        },
+        "spokes": [
+          {
+            "label": "British Telecom, 1984"
+          },
+          {
+            "label": "British Gas, 1986"
+          },
+          {
+            "label": "British Airways, 1987"
+          },
+          {
+            "label": "Water & electricity, 1989-90"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "'Popular capitalism'",
+          "b": "Share sales were deliberately marketed to ordinary citizens, not just institutions, to widen public share ownership."
+        },
+        {
+          "t": "Became a global export",
+          "b": "Privatization programs across Latin America, Eastern Europe, and Asia through the 1990s explicitly followed the UK template."
+        }
+      ]
+    },
+    {
+      "id": "basel-iii",
+      "genre": "econ",
+      "year": "2010",
+      "name": "Basel III Accords",
+      "hook": "After 2008, the world's regulators agreed banks needed to hold far more of their own capital against losses.",
+      "def": "Developed by the Basel Committee on Banking Supervision in response to the 2008 crisis, Basel III raised the minimum quality and quantity of capital banks must hold, introduced new liquidity requirements, and added a leverage ratio — voluntary standards adopted into binding law by most major economies.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Pre-2008 capital rules",
+          "note": "Thinner capital buffers, weaker liquidity requirements."
+        },
+        "right": {
+          "label": "Basel III",
+          "note": "Higher-quality capital required, new liquidity coverage ratios."
+        },
+        "vs": "raised the floor"
+      },
+      "notes": [
+        {
+          "t": "Phased in over more than a decade",
+          "b": "Full implementation stretched from 2013 well into the 2020s across different jurisdictions."
+        },
+        {
+          "t": "Not a treaty — a standard",
+          "b": "Basel III has no legal force on its own; its effect comes entirely from national regulators choosing to adopt it into law."
+        }
+      ]
+    },
+    {
+      "id": "nafta",
+      "genre": "econ",
+      "year": "1994",
+      "name": "NAFTA",
+      "hook": "The US, Canada, and Mexico tore down tariffs between them and created the world's largest free-trade zone at the time.",
+      "def": "The North American Free Trade Agreement eliminated most tariffs among the three countries over a phased schedule, integrating supply chains — especially in autos and agriculture — across the continent. It was replaced in 2020 by the USMCA, which kept its core structure while adding updated labor and digital-trade provisions.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "NAFTA, 1994"
+        },
+        "spokes": [
+          {
+            "label": "Tariffs phased out"
+          },
+          {
+            "label": "Auto supply chains integrated"
+          },
+          {
+            "label": "Agricultural trade opened"
+          },
+          {
+            "label": "Replaced by USMCA, 2020"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Deeply contested from the start",
+          "b": "Ross Perot's 1992 warning of a 'giant sucking sound' of jobs leaving for Mexico became a defining soundbite of the debate over it."
+        },
+        {
+          "t": "Reshaped North American manufacturing",
+          "b": "Cross-border auto-parts supply chains built under NAFTA are now so integrated that a single vehicle's parts often cross the US-Mexico border multiple times during assembly."
+        }
+      ]
+    },
+    {
+      "id": "homestead-act",
+      "genre": "econ",
+      "year": "1862",
+      "name": "Homestead Act",
+      "hook": "The US gave away 160 free acres to anyone willing to farm it — reshaping the country's entire economic geography.",
+      "def": "Signed during the Civil War, the Act granted 160 acres of public land to any adult who lived on and improved it for five years. Over the following decades it distributed roughly 270 million acres — about 10% of all US land — driving mass westward migration and settlement.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Claim filed on public land",
+            "note": "160 acres"
+          },
+          {
+            "label": "Land lived on and farmed",
+            "note": "5-year requirement"
+          },
+          {
+            "label": "Title granted",
+            "note": "Land becomes the settler's own"
+          },
+          {
+            "label": "~270 million acres distributed total"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Displaced Native American land claims",
+          "b": "The land distributed was land the US government had taken from Native nations, a core and consequential part of the Act's history."
+        },
+        {
+          "t": "Built the American Midwest and Plains",
+          "b": "The rural county map of much of the central US still visibly reflects the original homestead land grants."
+        }
+      ]
+    },
+    {
+      "id": "opec-embargo",
+      "genre": "econ",
+      "year": "1973",
+      "name": "OPEC Oil Embargo",
+      "hook": "Arab oil producers cut off supply to the West in response to the Yom Kippur War — and quadrupled the price of oil in months.",
+      "def": "In response to US support for Israel during the 1973 Yom Kippur War, Arab members of OPEC imposed an oil embargo on the United States and other supporters, cutting production and cutting off exports outright to some countries. Oil prices roughly quadrupled, triggering a global energy crisis and stagflation across Western economies.",
+      "anatomy": {
+        "type": "curve",
+        "xLabel": "Months from Oct 1973",
+        "yLabel": "Price of crude oil",
+        "points": [
+          {
+            "x": 10,
+            "y": 22,
+            "label": "~$3/barrel"
+          },
+          {
+            "x": 40,
+            "y": 55
+          },
+          {
+            "x": 70,
+            "y": 85
+          },
+          {
+            "x": 100,
+            "y": 95,
+            "label": "~$12/barrel"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "First use of oil as a geopolitical weapon at this scale",
+          "b": "Established a precedent for energy exports as leverage that has recurred repeatedly since."
+        },
+        {
+          "t": "Triggered lasting Western energy policy shifts",
+          "b": "Strategic petroleum reserves, fuel efficiency standards, and a search for alternative suppliers all trace back to this shock."
+        }
+      ]
+    },
+    {
+      "id": "ecsc",
+      "genre": "econ",
+      "year": "1951",
+      "name": "European Coal and Steel Community",
+      "hook": "France and West Germany pooled the two industries that had fueled three wars between them — and started the EU.",
+      "def": "Six European countries, led by France and West Germany, agreed to place their coal and steel production under a shared supranational authority — explicitly to make another war between them 'not merely unthinkable, but materially impossible' by intertwining the industries needed to wage one.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Coal & steel pooled under joint authority",
+            "note": "1951, 6 founding members"
+          },
+          {
+            "label": "Wages war between members materially harder",
+            "note": "The explicit design goal"
+          },
+          {
+            "label": "Expands into European Economic Community",
+            "note": "1957, Treaty of Rome"
+          },
+          {
+            "label": "Eventually becomes the European Union"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "The direct ancestor of the EU",
+          "b": "Every subsequent European treaty — Rome, Maastricht, Lisbon — builds on this founding structure."
+        },
+        {
+          "t": "Named for a very specific fear",
+          "b": "Coal and steel were THE industrial inputs for building an army — pooling them was a peace mechanism disguised as an economic one."
+        }
+      ]
+    },
+    {
+      "id": "wto-founding",
+      "genre": "econ",
+      "year": "1995",
+      "name": "WTO Founding",
+      "hook": "The end of a 7-year trade negotiation created the institution that now referees almost all global trade disputes.",
+      "def": "The Uruguay Round of GATT negotiations, concluded in 1994, created the World Trade Organization as a permanent institution with binding dispute-resolution power — replacing the looser, treaty-based GATT system and extending trade rules into services and intellectual property for the first time.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "GATT era",
+          "note": "A series of trade treaties, no permanent enforcement body."
+        },
+        "right": {
+          "label": "WTO, 1995",
+          "note": "Permanent institution with binding dispute rulings."
+        },
+        "vs": "enforcement added"
+      },
+      "notes": [
+        {
+          "t": "Introduced binding dispute settlement",
+          "b": "For the first time, a losing country in a trade dispute could face authorized retaliation if it didn't comply with a ruling."
+        },
+        {
+          "t": "China's 2001 accession followed this framework",
+          "b": "The WTO's rules are the exact system China formally joined six years after its founding."
+        }
+      ]
+    },
+    {
+      "id": "euro-introduction",
+      "genre": "econ",
+      "year": "1999",
+      "name": "Introduction of the Euro",
+      "hook": "Eleven countries gave up their national currencies at once — the largest monetary union in modern history.",
+      "def": "The Euro launched as an electronic accounting currency in 1999 among 11 EU members, with physical notes and coins entering circulation in 2002. National currencies like the French franc and German mark were phased out entirely — a monetary union without the full fiscal and political union economists generally consider its precondition.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Euro launches, accounts only",
+            "note": "1999, 11 countries"
+          },
+          {
+            "label": "Notes and coins enter circulation",
+            "note": "2002"
+          },
+          {
+            "label": "National currencies retired",
+            "note": "Franc, mark, lira, etc."
+          },
+          {
+            "label": "Fiscal union still incomplete",
+            "note": "A gap exposed by the 2010s debt crisis"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Now used by 20 EU countries",
+          "b": "The Eurozone has grown well beyond its 11 founding members in the following decades."
+        },
+        {
+          "t": "The 'one size fits all' interest rate problem",
+          "b": "A single ECB interest rate for economies as different as Germany and Greece is a persistent structural tension of the union."
+        }
+      ]
+    },
+    {
+      "id": "treaty-versailles",
+      "genre": "war",
+      "year": "1919",
+      "name": "Treaty of Versailles",
+      "hook": "The treaty meant to end 'the war to end all wars' is widely blamed for helping start the next one.",
+      "def": "The formal peace treaty ending WWI forced Germany to accept sole responsibility for the war, pay massive reparations, cede territory, and drastically limit its military — terms so punitive that economist John Maynard Keynes resigned from the British delegation in protest, predicting they would destabilize Europe.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "Treaty of Versailles"
+        },
+        "spokes": [
+          {
+            "label": "War guilt clause"
+          },
+          {
+            "label": "Reparations imposed"
+          },
+          {
+            "label": "Territory ceded"
+          },
+          {
+            "label": "Military strictly capped"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Keynes's own prediction",
+          "b": "In 'The Economic Consequences of the Peace' (1919), he warned the reparations burden would cause lasting European instability."
+        },
+        {
+          "t": "Widely cited as fueling WWII",
+          "b": "The resentment over these terms is a standard part of historical explanations for the rise of Nazism in the 1930s."
+        }
+      ]
+    },
+    {
+      "id": "magna-carta",
+      "genre": "war",
+      "year": "1215",
+      "name": "Magna Carta",
+      "hook": "English barons forced their king to accept that even he was bound by law — the root of constitutional government.",
+      "def": "Facing rebellion, King John of England sealed a charter agreeing that the monarch could not act above the law, that free men couldn't be imprisoned without lawful judgment, and that the king couldn't levy certain taxes without the consent of his barons — principles that would echo through English common law and, eventually, most modern constitutions.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Barons rebel against King John",
+            "note": "Over arbitrary taxation and justice"
+          },
+          {
+            "label": "Charter sealed at Runnymede",
+            "note": "1215"
+          },
+          {
+            "label": "Establishes rule of law over the king",
+            "note": "Even the monarch is bound"
+          },
+          {
+            "label": "Echoes into modern constitutions",
+            "note": "Due process, consent to taxation"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Annulled within weeks, reissued for centuries",
+          "b": "The Pope voided the original almost immediately, but reissued versions were repeatedly confirmed by later English kings."
+        },
+        {
+          "t": "Cited directly by the US Constitution's framers",
+          "b": "Its due-process language is a direct ancestor of the Fifth and Fourteenth Amendments."
+        }
+      ]
+    },
+    {
+      "id": "emancipation-proclamation",
+      "genre": "war",
+      "year": "1863",
+      "name": "Emancipation Proclamation",
+      "hook": "A wartime executive order reframed the entire purpose of the US Civil War around ending slavery.",
+      "def": "Issued by Abraham Lincoln using his war powers, the Proclamation declared enslaved people in Confederate-held territory 'forever free' — it did not free enslaved people in border states that remained in the Union, but it reframed the war's stakes and allowed formerly enslaved men to enlist in the Union Army.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Confederate territory",
+          "note": "Enslaved people declared free by the Proclamation."
+        },
+        "right": {
+          "label": "Union border states",
+          "note": "Not covered — slavery there ended only by the 13th Amendment, 1865."
+        },
+        "vs": "a wartime, partial order"
+      },
+      "notes": [
+        {
+          "t": "Nearly 200,000 Black soldiers enlisted",
+          "b": "Union Army enlistment of Black troops, enabled by the Proclamation, became a significant factor in the war's later stages."
+        },
+        {
+          "t": "Full abolition required a constitutional amendment",
+          "b": "Slavery was only abolished nationwide by the 13th Amendment, ratified after the war ended in 1865."
+        }
+      ]
+    },
+    {
+      "id": "civil-rights-act-1964",
+      "genre": "war",
+      "year": "1964",
+      "name": "Civil Rights Act of 1964",
+      "hook": "One law made it illegal in the US to discriminate by race in employment, schools, and public places, all at once.",
+      "def": "Passed after a decade of civil rights organizing and Lyndon Johnson's push following JFK's assassination, the Act outlawed segregation in public accommodations, banned employment discrimination based on race, color, religion, sex, or national origin, and gave the federal government real enforcement power for the first time.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "Civil Rights Act of 1964"
+        },
+        "spokes": [
+          {
+            "label": "Ends segregation in public places"
+          },
+          {
+            "label": "Bans employment discrimination"
+          },
+          {
+            "label": "Bans discrimination in federal programs"
+          },
+          {
+            "label": "Creates the EEOC"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "The longest Senate filibuster in US history at the time",
+          "b": "Southern senators filibustered for 60 working days before it was finally broken."
+        },
+        {
+          "t": "'Sex' was added late in the process",
+          "b": "Its inclusion as a protected category is often noted as a pivotal, contested addition during House debate."
+        }
+      ]
+    },
+    {
+      "id": "voting-rights-act",
+      "genre": "war",
+      "year": "1965",
+      "name": "Voting Rights Act of 1965",
+      "hook": "A law that finally gave federal enforcement teeth to the 15th Amendment, nearly a century after it was ratified.",
+      "def": "Passed after the Selma marches, the Act banned literacy tests and other discriminatory voting requirements and — critically — required jurisdictions with a history of discrimination to get federal approval ('preclearance') before changing voting laws, dramatically increasing Black voter registration across the South.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Selma marches, 1965",
+            "note": "'Bloody Sunday' draws national attention"
+          },
+          {
+            "label": "Act passed",
+            "note": "Bans literacy tests, mandates preclearance"
+          },
+          {
+            "label": "Black voter registration surges",
+            "note": "In previously excluded Southern counties"
+          },
+          {
+            "label": "Preclearance struck down, 2013",
+            "note": "Shelby County v. Holder"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Preclearance formula invalidated in 2013",
+          "b": "The Supreme Court ruled the formula determining which jurisdictions needed federal approval was outdated, effectively ending that provision's enforcement."
+        },
+        {
+          "t": "Still the primary US voting-rights statute",
+          "b": "Its remaining provisions continue to be the basis for most federal voting-rights litigation."
+        }
+      ]
+    },
+    {
+      "id": "us-declaration",
+      "genre": "war",
+      "year": "1776",
+      "name": "US Declaration of Independence",
+      "hook": "Thirteen colonies didn't just declare independence — they declared a new philosophical basis for government itself.",
+      "def": "Adopted by the Continental Congress, the Declaration announced the American colonies' separation from Britain and grounded that separation in the then-radical claim that governments derive their authority from the consent of the governed, and exist to secure individual rights — a framing that influenced revolutionary movements worldwide.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Grievances against the Crown listed"
+          },
+          {
+            "label": "Natural rights asserted",
+            "note": "Life, liberty, pursuit of happiness"
+          },
+          {
+            "label": "Government by consent claimed",
+            "note": "As the source of legitimate authority"
+          },
+          {
+            "label": "Independence formally declared",
+            "note": "July 4, 1776"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Influenced later revolutions directly",
+          "b": "Its language and framing were explicitly cited by French revolutionaries and numerous 19th- and 20th-century independence movements."
+        },
+        {
+          "t": "Its ideals outran its immediate reality",
+          "b": "Its claims of universal rights coexisted, at the time, with slavery — a tension central to later US constitutional and civil rights history."
+        }
+      ]
+    },
+    {
+      "id": "atlantic-charter",
+      "genre": "war",
+      "year": "1941",
+      "name": "Atlantic Charter",
+      "hook": "Roosevelt and Churchill sketched the postwar world on a ship, months before the US had even entered WWII.",
+      "def": "Meeting secretly off the coast of Newfoundland, Roosevelt and Churchill issued a joint statement of principles for the postwar world — self-determination, freer trade, disarmament of aggressor nations — that became the ideological blueprint for the later United Nations, before the US was even a combatant.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "Atlantic Charter"
+        },
+        "spokes": [
+          {
+            "label": "National self-determination"
+          },
+          {
+            "label": "Freer global trade"
+          },
+          {
+            "label": "Disarmament of aggressors"
+          },
+          {
+            "label": "Blueprint for the UN"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Signed before US entry into WWII",
+          "b": "Issued in August 1941 — Pearl Harbor was still four months away."
+        },
+        {
+          "t": "Directly shaped the UN Charter's language",
+          "b": "Many of its principles reappear nearly verbatim in the 1945 UN founding document."
+        }
+      ]
+    },
+    {
+      "id": "yalta-conference",
+      "genre": "war",
+      "year": "1945",
+      "name": "Yalta Conference",
+      "hook": "Three leaders sketched the postwar borders of Europe before the war they were still fighting had even ended.",
+      "def": "Meeting in Crimea as WWII's end neared, Roosevelt, Churchill, and Stalin agreed on the division of Germany into occupation zones, Soviet entry into the Pacific war, and the framework for the United Nations — decisions that effectively set the opening lines of the Cold War's map of Europe.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "Yalta, Feb 1945"
+        },
+        "spokes": [
+          {
+            "label": "Germany divided into occupation zones"
+          },
+          {
+            "label": "USSR to enter Pacific war"
+          },
+          {
+            "label": "UN framework agreed"
+          },
+          {
+            "label": "Eastern Europe left in Soviet orbit"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Still controversial as a 'sellout'",
+          "b": "Critics have long argued Roosevelt conceded too much of Eastern Europe to Stalin's sphere of influence."
+        },
+        {
+          "t": "Directly set up the Iron Curtain's line",
+          "b": "The occupation zones agreed here became the basis for East and West Germany, and much of the Cold War's European border."
+        }
+      ]
+    },
+    {
+      "id": "potsdam-agreement",
+      "genre": "war",
+      "year": "1945",
+      "name": "Potsdam Agreement",
+      "hook": "The last wartime summit finalized Germany's fate — and marked the visible start of Allied unity fracturing.",
+      "def": "Meeting after Germany's surrender, Truman, Churchill (replaced mid-conference by Attlee), and Stalin finalized German demilitarization, denazification, and reparations, and set the stage for postwar Japan's unconditional surrender terms — while visible friction between the Soviets and Western Allies foreshadowed the Cold War to come.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Germany's occupation terms finalized"
+          },
+          {
+            "label": "Reparations and demilitarization set"
+          },
+          {
+            "label": "Potsdam Declaration issued to Japan",
+            "note": "Unconditional surrender demand"
+          },
+          {
+            "label": "Visible Allied friction over Eastern Europe"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Leadership changed mid-conference",
+          "b": "Churchill lost the UK general election partway through and was replaced at the table by incoming PM Clement Attlee."
+        },
+        {
+          "t": "Directly preceded the atomic bombings",
+          "b": "Japan's rejection of the Potsdam Declaration's surrender terms preceded the Hiroshima and Nagasaki bombings within weeks."
+        }
+      ]
+    },
+    {
+      "id": "un-charter",
+      "genre": "war",
+      "year": "1945",
+      "name": "UN Charter",
+      "hook": "50 nations, fresh off the deadliest war in history, wrote a constitution for preventing the next one.",
+      "def": "Signed in San Francisco by 50 founding nations, the Charter established the United Nations, its General Assembly, and a Security Council with five permanent veto-holding members — an attempt, informed directly by the League of Nations' failure to stop WWII, to build an international body with real enforcement teeth.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "UN Charter, 1945"
+        },
+        "spokes": [
+          {
+            "label": "General Assembly created"
+          },
+          {
+            "label": "Security Council + veto power"
+          },
+          {
+            "label": "Collective security framework"
+          },
+          {
+            "label": "Learned from the League's failure"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "The veto was the deliberate price of buy-in",
+          "b": "Great powers wouldn't join a body that could bind them against their will — the veto was the compromise that got them to sign."
+        },
+        {
+          "t": "Still the basic framework of international law",
+          "b": "Nearly every international legal dispute today is argued at least partly in reference to Charter provisions."
+        }
+      ]
+    },
+    {
+      "id": "nato-founding",
+      "genre": "war",
+      "year": "1949",
+      "name": "NATO Founding (North Atlantic Treaty)",
+      "hook": "Twelve countries agreed that an attack on one was an attack on all — the alliance that defined the Cold War's Western half.",
+      "def": "Signed by the US, Canada, and 10 European nations, the treaty's core Article 5 established collective defense: an armed attack against one member is treated as an attack against all. Formed explicitly to deter Soviet expansion into Western Europe, it remains the world's largest military alliance.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "12 founding members sign",
+            "note": "1949"
+          },
+          {
+            "label": "Article 5 collective defense established"
+          },
+          {
+            "label": "Alliance deters Soviet expansion west"
+          },
+          {
+            "label": "Expands to 30+ members post-Cold War"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Article 5 invoked only once",
+          "b": "The only time it has ever been triggered was by the US itself, after the September 11, 2001 attacks."
+        },
+        {
+          "t": "Post-Soviet expansion remains contentious",
+          "b": "NATO's growth into Eastern Europe after 1991 is a central, disputed factor cited in later Russia-West tensions."
+        }
+      ]
+    },
+    {
+      "id": "truman-doctrine",
+      "genre": "war",
+      "year": "1947",
+      "name": "Truman Doctrine",
+      "hook": "One speech committed the US to opposing communism anywhere in the world — the opening line of the Cold War.",
+      "def": "Responding to communist pressure on Greece and Turkey, Truman told Congress the US would support 'free peoples who are resisting attempted subjugation by armed minorities or by outside pressures' — a doctrine of containment that became the organizing logic of US foreign policy for the next four decades.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Greece and Turkey under communist pressure",
+            "note": "1947"
+          },
+          {
+            "label": "Truman requests aid + declares doctrine",
+            "note": "To Congress"
+          },
+          {
+            "label": "'Containment' becomes US Cold War strategy"
+          },
+          {
+            "label": "Underpins US policy through Korea, Vietnam"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Drafted with George Kennan's containment thinking",
+          "b": "Kennan's 1946 'Long Telegram' laid the intellectual groundwork the doctrine formalized into policy."
+        },
+        {
+          "t": "Directly preceded the Marshall Plan",
+          "b": "The two are often taught as a pair — military/political containment and economic containment, months apart."
+        }
+      ]
+    },
+    {
+      "id": "camp-david-accords",
+      "genre": "war",
+      "year": "1978",
+      "name": "Camp David Accords",
+      "hook": "Thirteen days of secluded negotiation produced the first peace treaty between Israel and an Arab nation.",
+      "def": "Brokered by President Carter at the Camp David presidential retreat, the Accords between Israeli PM Menachem Begin and Egyptian President Anwar Sadat led directly to the 1979 Egypt-Israel Peace Treaty — the first time an Arab state formally recognized Israel — in exchange for Israel's withdrawal from the Sinai Peninsula.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "13 days of secluded talks",
+            "note": "Camp David, Sept 1978"
+          },
+          {
+            "label": "Framework agreed",
+            "note": "Egypt-Israel peace + Sinai withdrawal"
+          },
+          {
+            "label": "Formal treaty signed",
+            "note": "1979"
+          },
+          {
+            "label": "Egypt suspended from Arab League",
+            "note": "For years afterward"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Cost Sadat his life",
+          "b": "Anwar Sadat was assassinated in 1981 by Islamist militants opposed to the peace treaty with Israel."
+        },
+        {
+          "t": "Still holding, over 45 years later",
+          "b": "The Egypt-Israel treaty remains in force and is one of the longest-standing Arab-Israeli peace agreements."
+        }
+      ]
+    },
+    {
+      "id": "helsinki-accords",
+      "genre": "war",
+      "year": "1975",
+      "name": "Helsinki Accords",
+      "hook": "A Cold War agreement that traded recognition of Soviet borders for a human-rights clause that later helped unravel the USSR.",
+      "def": "Signed by 35 nations including the US, USSR, and most of Europe, the Accords recognized existing postwar European borders in exchange for Soviet commitments to human rights and freer movement of information — commitments dissidents in the Eastern Bloc later used as legal and moral leverage against their own governments.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "West's concession",
+          "note": "Formal recognition of Soviet-era European borders."
+        },
+        "right": {
+          "label": "Soviet concession",
+          "note": "Human rights and information-flow commitments, on paper."
+        },
+        "vs": "a real trade"
+      },
+      "notes": [
+        {
+          "t": "Fueled dissident movements directly",
+          "b": "Groups like Czechoslovakia's Charter 77 and Soviet 'Helsinki Watch' groups explicitly organized around holding governments to these commitments."
+        },
+        {
+          "t": "An unintended long-run consequence",
+          "b": "Historians widely credit the human-rights clause with providing genuine ideological ammunition that outlasted the border deal's original purpose."
+        }
+      ]
+    },
+    {
+      "id": "good-friday-agreement",
+      "genre": "war",
+      "year": "1998",
+      "name": "Good Friday Agreement",
+      "hook": "One agreement ended three decades of sectarian violence in Northern Ireland known simply as 'the Troubles.'",
+      "def": "Negotiated among the UK, Ireland, and Northern Ireland's political parties (with US mediation), the Agreement created a power-sharing government requiring cooperation between unionist and nationalist parties, and let Northern Ireland's constitutional status be decided by future referendum rather than force.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "Good Friday Agreement"
+        },
+        "spokes": [
+          {
+            "label": "Power-sharing government created"
+          },
+          {
+            "label": "Paramilitary disarmament"
+          },
+          {
+            "label": "Status-by-referendum, not force"
+          },
+          {
+            "label": "~3,600 Troubles-era deaths ended"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Approved by referendum on both sides of the border",
+          "b": "Voters in both Northern Ireland and the Republic of Ireland separately approved the deal, a key part of its legitimacy."
+        },
+        {
+          "t": "Brexit later strained its arrangements",
+          "b": "Post-2016 Brexit negotiations repeatedly returned to the Irish border question this Agreement had settled."
+        }
+      ]
+    },
+    {
+      "id": "dayton-accords",
+      "genre": "war",
+      "year": "1995",
+      "name": "Dayton Accords",
+      "hook": "Three weeks of negotiation on a US Air Force base ended the deadliest European conflict since WWII.",
+      "def": "Negotiated at Wright-Patterson Air Force Base in Ohio among the presidents of Bosnia, Croatia, and Serbia, the Accords ended the Bosnian War by splitting Bosnia and Herzegovina into two semi-autonomous entities under a weak central government — a compromise structure still in place, and still criticized as institutionally dysfunctional.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Bosnian War, ~100,000 dead",
+            "note": "Including the Srebrenica massacre"
+          },
+          {
+            "label": "3 weeks of talks in Dayton, Ohio",
+            "note": "1995"
+          },
+          {
+            "label": "Bosnia split into two entities",
+            "note": "Under one weak central state"
+          },
+          {
+            "label": "Structure remains, still contested today"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Stopped the killing, froze the politics",
+          "b": "The war ended immediately, but the power-sharing structure it created is widely described by analysts as institutionally paralyzing decades later."
+        },
+        {
+          "t": "NATO peacekeepers enforced it",
+          "b": "A NATO-led force was deployed to enforce the ceasefire and territorial lines the Accords established."
+        }
+      ]
+    },
+    {
+      "id": "molotov-ribbentrop",
+      "genre": "war",
+      "year": "1939",
+      "name": "Molotov-Ribbentrop Pact",
+      "hook": "Nazi Germany and the Soviet Union signed a non-aggression pact — with a secret clause to divide Eastern Europe between them.",
+      "def": "Publicly a non-aggression agreement between two ideological enemies, the Pact contained a secret protocol dividing Poland, the Baltic states, and parts of Romania into German and Soviet 'spheres of influence.' Germany invaded Poland from the west nine days later; the USSR invaded from the east weeks after that.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Public treaty",
+          "note": "Non-aggression pact between Germany and the USSR."
+        },
+        "right": {
+          "label": "Secret protocol",
+          "note": "Eastern Europe divided into spheres of influence."
+        },
+        "vs": "hidden clause"
+      },
+      "notes": [
+        {
+          "t": "Directly triggered WWII's start in Europe",
+          "b": "Germany's invasion of Poland nine days later is conventionally dated as WWII's European outbreak."
+        },
+        {
+          "t": "The secret protocol's existence was denied for decades",
+          "b": "The USSR officially denied the protocol existed until 1989, despite captured German copies being public evidence since the Nuremberg trials."
+        }
+      ]
+    },
+    {
+      "id": "geneva-conventions",
+      "genre": "war",
+      "year": "1949",
+      "name": "Geneva Conventions",
+      "hook": "Four treaties set the modern legal floor for how human beings must be treated, even in war.",
+      "def": "Building on earlier 19th-century agreements, the 1949 Conventions (ratified after WWII's atrocities) established binding international rules protecting wounded soldiers, shipwrecked combatants, prisoners of war, and civilians in occupied territory — the legal basis for what counts as a war crime today.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "Geneva Conventions"
+        },
+        "spokes": [
+          {
+            "label": "Wounded soldiers protected"
+          },
+          {
+            "label": "POW treatment standards"
+          },
+          {
+            "label": "Civilians in occupied territory"
+          },
+          {
+            "label": "Basis for modern war-crime law"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Nearly universal ratification",
+          "b": "The Conventions have been ratified by essentially every UN member state — among the most universally adopted treaties in existence."
+        },
+        {
+          "t": "Underpin the International Criminal Court's charges",
+          "b": "Modern war-crimes prosecutions consistently cite Geneva Convention violations as core charges."
+        }
+      ]
+    },
+    {
+      "id": "nuremberg-charter",
+      "genre": "war",
+      "year": "1945",
+      "name": "Nuremberg Trials / Charter",
+      "hook": "For the first time, individual leaders — not just nations — were put on trial for starting a war and committing atrocities.",
+      "def": "The London Charter, agreed by the Allied powers, established the legal basis for the Nuremberg trials of senior Nazi leadership, creating entirely new legal categories — 'crimes against humanity' and 'crimes against peace' — and rejecting 'I was following orders' as a legal defense.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Allied powers agree the London Charter",
+            "note": "1945"
+          },
+          {
+            "label": "New crime categories created",
+            "note": "Crimes against humanity/peace"
+          },
+          {
+            "label": "'Following orders' rejected as a defense"
+          },
+          {
+            "label": "Basis for the later International Criminal Court"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "24 senior Nazi officials tried",
+          "b": "Including Hermann Göring; 12 were sentenced to death, others to imprisonment or acquittal."
+        },
+        {
+          "t": "Created the template for all later war-crimes tribunals",
+          "b": "The Rwanda, Yugoslavia, and International Criminal Court tribunals all explicitly built on Nuremberg's legal precedents."
+        }
+      ]
+    },
+    {
+      "id": "patriot-act",
+      "genre": "war",
+      "year": "2001",
+      "name": "USA PATRIOT Act",
+      "hook": "Passed 45 days after 9/11 with almost no debate, it dramatically expanded US government surveillance power.",
+      "def": "Rushed through Congress after the September 11 attacks (passing the Senate 98-1), the Act expanded federal agencies' ability to conduct surveillance, search records, and detain suspects with reduced judicial oversight — provisions that remain a central reference point in debates over security versus civil liberties.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "September 11, 2001 attacks"
+          },
+          {
+            "label": "Act drafted and passed in weeks",
+            "note": "Senate: 98-1"
+          },
+          {
+            "label": "Surveillance and search powers expanded"
+          },
+          {
+            "label": "Key provisions repeatedly extended, some later curtailed"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Passed the Senate 98-1",
+          "b": "One of the most lopsided votes for a bill of this consequence in modern Congressional history — reflecting the immediate post-9/11 mood."
+        },
+        {
+          "t": "Edward Snowden's 2013 leaks",
+          "b": "Later revelations about bulk surveillance programs traced legal authority in part back to this Act's provisions, reigniting the original debate."
+        }
+      ]
+    },
+    {
+      "id": "npt",
+      "genre": "war",
+      "year": "1968",
+      "name": "Non-Proliferation Treaty",
+      "hook": "The treaty that persuaded most of the world's nuclear-capable nations not to build the bomb after all.",
+      "def": "The NPT created a bargain: nations without nuclear weapons agreed not to acquire them, in exchange for access to peaceful nuclear technology and a commitment from existing nuclear powers to eventually disarm. It remains the cornerstone of global non-proliferation, with 190+ signatories — though not all nuclear-armed states have joined.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Non-nuclear states",
+          "note": "Agree never to acquire nuclear weapons."
+        },
+        "right": {
+          "label": "Nuclear-armed states",
+          "note": "Agree to share peaceful tech, pursue eventual disarmament."
+        },
+        "vs": "the core bargain"
+      },
+      "notes": [
+        {
+          "t": "India, Pakistan, Israel, and North Korea are outside it",
+          "b": "Notable nuclear-capable states that never joined or later withdrew — a persistent gap in its coverage."
+        },
+        {
+          "t": "Widely credited with limiting proliferation",
+          "b": "Far fewer states possess nuclear weapons today than Cold War-era projections once feared."
+        }
+      ]
+    },
+    {
+      "id": "salt-abm",
+      "genre": "war",
+      "year": "1972",
+      "name": "SALT I / ABM Treaty",
+      "hook": "The US and USSR agreed to stop building the missile defenses that were making both sides trigger-happy.",
+      "def": "Signed by Nixon and Brezhnev, the Strategic Arms Limitation Talks capped the number of strategic ballistic missiles each superpower could deploy, while the linked Anti-Ballistic Missile Treaty restricted missile-defense systems — the theory being that defenseless populations made both sides less likely to risk striking first.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Arms race escalates through the 1960s"
+          },
+          {
+            "label": "SALT I caps strategic missile numbers",
+            "note": "1972"
+          },
+          {
+            "label": "ABM Treaty restricts missile defenses"
+          },
+          {
+            "label": "US withdraws from ABM Treaty, 2002"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Based on 'mutually assured destruction'",
+          "b": "The logic: if neither side can defend against the other's missiles, neither can risk striking first."
+        },
+        {
+          "t": "ABM Treaty later abandoned",
+          "b": "The US withdrew unilaterally in 2002 to pursue missile defense systems, a move Russia strongly protested."
+        }
+      ]
+    },
+    {
+      "id": "treaty-westphalia",
+      "genre": "war",
+      "year": "1648",
+      "name": "Treaty of Westphalia",
+      "hook": "The treaties that ended Europe's most brutal religious war invented the modern idea of a sovereign nation-state.",
+      "def": "Ending the Thirty Years' War, which killed an estimated 8 million people, the Peace of Westphalia established the principle that each state has exclusive sovereignty over its own territory and internal affairs — the foundational concept, still cited today, behind the entire modern system of international relations.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Thirty Years' War, ~8M dead"
+          },
+          {
+            "label": "Peace negotiated across multiple treaties",
+            "note": "1648"
+          },
+          {
+            "label": "State sovereignty over territory established"
+          },
+          {
+            "label": "Becomes the basis of the modern nation-state system"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "'Westphalian sovereignty' is still the term of art",
+          "b": "International relations scholars and diplomats use this exact phrase today to describe the norm of non-interference in other states' internal affairs."
+        },
+        {
+          "t": "Ended the era of religious wars as the norm",
+          "b": "It shifted European conflict's primary justification away from religious authority and toward state interest."
+        }
+      ]
+    },
+    {
+      "id": "congress-vienna",
+      "genre": "war",
+      "year": "1815",
+      "name": "Congress of Vienna",
+      "hook": "After 25 years of Napoleonic war, Europe's powers redrew the continent's map and kept it largely at peace for a century.",
+      "def": "Following Napoleon's defeat, the major European powers met to redraw borders, restore monarchies, and establish a balance-of-power system designed to prevent any single nation from dominating the continent again — a diplomatic order that, while imperfect, prevented a general European war for roughly 100 years.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Napoleonic Wars end",
+            "note": "25 years of continental conflict"
+          },
+          {
+            "label": "Major powers redraw European borders",
+            "note": "Vienna, 1814-15"
+          },
+          {
+            "label": "Balance-of-power system established"
+          },
+          {
+            "label": "No general European war until 1914"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Often called the birth of modern diplomacy",
+          "b": "Its structured, multilateral negotiating format influenced essentially every major peace conference that followed, including Versailles."
+        },
+        {
+          "t": "Prioritized stability over self-determination",
+          "b": "It largely restored old monarchies rather than recognizing emerging nationalist movements — a tension that resurfaced repeatedly through the 19th century."
+        }
+      ]
+    },
+    {
+      "id": "19th-amendment",
+      "genre": "war",
+      "year": "1920",
+      "name": "19th Amendment (US Women's Suffrage)",
+      "hook": "After a 72-year organized campaign, half the US population finally won the constitutional right to vote.",
+      "def": "Ratified in August 1920, the 19th Amendment prohibited denying the right to vote 'on account of sex' — the culmination of a movement dating back to the 1848 Seneca Falls Convention, and part of a broader global wave of women's suffrage movements in the early 20th century.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Seneca Falls Convention",
+            "note": "1848 — movement's formal start"
+          },
+          {
+            "label": "Decades of organizing, protest, arrests"
+          },
+          {
+            "label": "Amendment passes Congress",
+            "note": "1919"
+          },
+          {
+            "label": "Ratified by 3/4 of states",
+            "note": "Aug 1920"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Took 72 years from Seneca Falls to ratification",
+          "b": "None of the original 1848 organizers lived to see it become law."
+        },
+        {
+          "t": "Did not guarantee the vote for all women in practice",
+          "b": "Many Black women, especially in the South, continued to face effective disenfranchisement until the 1965 Voting Rights Act."
+        }
+      ]
+    },
+    {
+      "id": "clayton-antitrust",
+      "genre": "biz",
+      "year": "1914",
+      "name": "Clayton Antitrust Act",
+      "hook": "Congress closed the loopholes in the Sherman Act — and gave labor unions explicit legal protection in the same bill.",
+      "def": "Passed to strengthen the Sherman Act's vaguer language, the Clayton Act specifically banned price discrimination, exclusive dealing contracts, and mergers that would substantially lessen competition — and explicitly exempted labor unions from being prosecuted as illegal 'combinations in restraint of trade.'",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "Clayton Act, 1914"
+        },
+        "spokes": [
+          {
+            "label": "Bans anticompetitive mergers"
+          },
+          {
+            "label": "Bans price discrimination"
+          },
+          {
+            "label": "Bans exclusive dealing"
+          },
+          {
+            "label": "Exempts labor unions"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Samuel Gompers called it labor's 'Magna Carta'",
+          "b": "The union exemption was seen as a landmark protection after decades of unions being prosecuted as illegal trusts."
+        },
+        {
+          "t": "Still the basis for US merger review",
+          "b": "Modern merger challenges by US antitrust regulators are still brought primarily under Clayton Act provisions."
+        }
+      ]
+    },
+    {
+      "id": "standard-oil-breakup",
+      "genre": "biz",
+      "year": "1911",
+      "name": "Standard Oil Breakup",
+      "hook": "The Supreme Court split the world's most powerful company into 34 pieces — several of which are oil majors today.",
+      "def": "Ruling that Rockefeller's Standard Oil had illegally monopolized the US oil industry, the Supreme Court ordered it broken into 34 independent companies. Several — Exxon, Mobil, Chevron, Amoco — remain among the largest oil companies in the world, now often descended back into just a few giant firms through later mergers.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Standard Oil controls ~90% of US refining"
+          },
+          {
+            "label": "Sherman Act suit filed, 1906"
+          },
+          {
+            "label": "Supreme Court orders breakup",
+            "note": "1911"
+          },
+          {
+            "label": "34 companies created",
+            "note": "Several remerge later into today's oil majors"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Rockefeller's wealth actually grew after the breakup",
+          "b": "The separated companies' combined share value rose, since each was freed to be valued and run independently."
+        },
+        {
+          "t": "The template for the Microsoft case decades later",
+          "b": "Antitrust scholars still compare and contrast the two cases as the major structural-breakup precedents in US history."
+        }
+      ]
+    },
+    {
+      "id": "att-divestiture",
+      "genre": "biz",
+      "year": "1984",
+      "name": "AT&T Divestiture",
+      "hook": "The US government broke up the phone monopoly that had run American telecommunications for over a century.",
+      "def": "Settling a Justice Department antitrust suit, AT&T agreed to split off its regional local phone service into seven independent 'Baby Bell' companies, while keeping long-distance and manufacturing — ending the Bell System's near-total monopoly and opening the US telecom market to competition for the first time.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "AT&T, 1984"
+        },
+        "spokes": [
+          {
+            "label": "7 regional 'Baby Bells' spun off"
+          },
+          {
+            "label": "Local phone monopoly ends"
+          },
+          {
+            "label": "Long-distance market opens to competition"
+          },
+          {
+            "label": "Baby Bells later remerge into today's Verizon, AT&T"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Long-distance prices fell sharply",
+          "b": "Competition from MCI and Sprint in the newly opened long-distance market drove prices down substantially through the late 1980s."
+        },
+        {
+          "t": "Many Baby Bells eventually recombined",
+          "b": "Mergers over the following decades reconstituted much of the old Bell System under names like Verizon and the current AT&T."
+        }
+      ]
+    },
+    {
+      "id": "microsoft-antitrust",
+      "genre": "biz",
+      "year": "2001",
+      "name": "Microsoft Antitrust Case",
+      "hook": "The US tried to break up Microsoft for bundling a web browser into Windows — and settled for behavioral rules instead.",
+      "def": "After a federal judge initially ordered Microsoft split into separate operating-system and applications companies for illegally protecting its Windows monopoly (partly via bundling Internet Explorer), an appeals court reversed the breakup order, and the case settled with conduct restrictions rather than a structural breakup.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "DOJ sues over Windows/IE bundling",
+            "note": "1998"
+          },
+          {
+            "label": "Judge orders a breakup",
+            "note": "2000"
+          },
+          {
+            "label": "Appeals court reverses the breakup",
+            "note": "2001"
+          },
+          {
+            "label": "Settles with behavioral restrictions only"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Widely credited with clearing space for Google",
+          "b": "Antitrust scholars have argued the scrutiny constrained Microsoft's aggressiveness in web services just as Google was emerging."
+        },
+        {
+          "t": "The direct template for today's Big Tech cases",
+          "b": "Current antitrust suits against Google, Amazon, Meta, and Apple regularly reference this case's legal reasoning."
+        }
+      ]
+    },
+    {
+      "id": "sarbanes-oxley",
+      "genre": "biz",
+      "year": "2002",
+      "name": "Sarbanes-Oxley Act",
+      "hook": "After Enron and WorldCom collapsed from accounting fraud, US CEOs became personally, criminally liable for their books.",
+      "def": "Passed almost unanimously after a wave of corporate accounting scandals wiped out billions in shareholder value, SOX required CEOs and CFOs to personally certify financial statements under criminal penalty, mandated auditor independence, and created a new board to oversee public-company audits.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "Sarbanes-Oxley, 2002"
+        },
+        "spokes": [
+          {
+            "label": "CEO/CFO personal certification"
+          },
+          {
+            "label": "Auditor independence required"
+          },
+          {
+            "label": "PCAOB oversight board created"
+          },
+          {
+            "label": "Criminal penalties for fraud"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Enron's collapse alone destroyed ~$74B in value",
+          "b": "The scale of the Enron and WorldCom frauds is the direct backdrop that made near-unanimous passage politically possible."
+        },
+        {
+          "t": "Significantly raised the cost of going public",
+          "b": "Compliance costs are frequently cited as a factor in the later trend of companies staying private longer."
+        }
+      ]
+    },
+    {
+      "id": "gdpr",
+      "genre": "biz",
+      "year": "2018",
+      "name": "GDPR",
+      "hook": "One EU regulation forced nearly every company on the internet to rewrite how it handles personal data, worldwide.",
+      "def": "The General Data Protection Regulation gave EU citizens explicit rights over their personal data — access, correction, deletion, portability — and imposed fines of up to 4% of global revenue for violations. Because it applies to any company serving EU users, it became a de facto global standard almost overnight.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "GDPR, 2018"
+        },
+        "spokes": [
+          {
+            "label": "Right to access your data"
+          },
+          {
+            "label": "Right to be forgotten"
+          },
+          {
+            "label": "Consent required for data use"
+          },
+          {
+            "label": "Fines up to 4% of global revenue"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "The 'Brussels Effect' in action",
+          "b": "Rather than build separate systems per region, most global companies applied GDPR-level protections to all users everywhere — exporting EU law worldwide by default."
+        },
+        {
+          "t": "Directly inspired later laws elsewhere",
+          "b": "California's CCPA and Brazil's LGPD both explicitly modeled significant provisions on GDPR."
+        }
+      ]
+    },
+    {
+      "id": "telecom-act-1996",
+      "genre": "biz",
+      "year": "1996",
+      "name": "Telecommunications Act of 1996",
+      "hook": "The first major US telecom law rewrite since 1934 tried to open every market to every competitor — and reshaped media consolidation instead.",
+      "def": "Aiming to spur competition by letting phone, cable, and broadcast companies enter each other's markets, the Act also loosened media ownership caps — leading to rapid radio and TV station consolidation, most famously by companies like Clear Channel, rather than the broad new competition regulators had hoped for.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "The goal",
+          "note": "Open competition across phone, cable, and broadcast markets."
+        },
+        "right": {
+          "label": "What largely happened",
+          "note": "Rapid consolidation, especially in radio ownership."
+        },
+        "vs": "unintended outcome"
+      },
+      "notes": [
+        {
+          "t": "Radio station ownership caps were gutted",
+          "b": "One company was allowed to own far more stations nationally, leading to unprecedented radio consolidation within a few years."
+        },
+        {
+          "t": "Still the baseline US telecom law",
+          "b": "Every major FCC ruling on internet/cable/phone competition since traces its authority back to this Act."
+        }
+      ]
+    },
+    {
+      "id": "taft-hartley",
+      "genre": "biz",
+      "year": "1947",
+      "name": "Taft-Hartley Act",
+      "hook": "Congress overrode a presidential veto to significantly rein in the union powers granted just 12 years earlier.",
+      "def": "Passed over President Truman's veto, the Act banned certain union practices (secondary boycotts, closed shops), let states pass 'right-to-work' laws banning mandatory union membership, and gave the president power to force a cooling-off period during strikes threatening national security — a major rollback of the 1935 Wagner Act's pro-union framework.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Wagner Act, 1935",
+          "note": "Strongly favored union organizing power."
+        },
+        "right": {
+          "label": "Taft-Hartley, 1947",
+          "note": "Restricted union tactics, enabled 'right-to-work' state laws."
+        },
+        "vs": "the pendulum swings back"
+      },
+      "notes": [
+        {
+          "t": "Truman called it a 'slave-labor bill'",
+          "b": "His veto was overridden by a Republican-controlled Congress — a rare instance of a major labor law passing against a sitting president's direct objection."
+        },
+        {
+          "t": "'Right-to-work' laws still trace to this Act",
+          "b": "Every state right-to-work law in the US today derives its legal authority from Taft-Hartley's provisions."
+        }
+      ]
+    },
+    {
+      "id": "wagner-act",
+      "genre": "biz",
+      "year": "1935",
+      "name": "Wagner Act (National Labor Relations Act)",
+      "hook": "The law that gave American workers a legally protected right to unionize and bargain collectively.",
+      "def": "Part of the New Deal, the Wagner Act guaranteed private-sector workers the right to organize unions and bargain collectively, and created the National Labor Relations Board to enforce it and police unfair labor practices by employers — triggering a rapid surge in US union membership over the following decade.",
+      "anatomy": {
+        "type": "curve",
+        "xLabel": "Years since 1935",
+        "yLabel": "US union membership rate",
+        "points": [
+          {
+            "x": 10,
+            "y": 25
+          },
+          {
+            "x": 30,
+            "y": 55
+          },
+          {
+            "x": 55,
+            "y": 75
+          },
+          {
+            "x": 100,
+            "y": 90,
+            "label": "Peak: ~1/3 of workers, 1950s"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Union membership roughly tripled within a decade",
+          "b": "The legal protection directly enabled the rapid unionization wave of the late 1930s and 1940s."
+        },
+        {
+          "t": "Significantly narrowed by Taft-Hartley, 1947",
+          "b": "The pro-union framework it established was reined in just over a decade later."
+        }
+      ]
+    },
+    {
+      "id": "flsa",
+      "genre": "biz",
+      "year": "1938",
+      "name": "Fair Labor Standards Act",
+      "hook": "One law created the minimum wage, the 40-hour work week, and banned most child labor in the US, all at once.",
+      "def": "A cornerstone New Deal labor law, the FLSA established a federal minimum wage (25 cents/hour at the time), mandated overtime pay for hours worked beyond 40 per week, and prohibited most forms of child labor in interstate commerce — standards that still structure the basic American workday.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "Fair Labor Standards Act"
+        },
+        "spokes": [
+          {
+            "label": "Federal minimum wage created"
+          },
+          {
+            "label": "40-hour week + overtime pay"
+          },
+          {
+            "label": "Child labor restricted"
+          },
+          {
+            "label": "Still the base US labor-standards law"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Started at 25 cents an hour",
+          "b": "The original 1938 minimum wage — the federal minimum has been raised by subsequent legislation many times since."
+        },
+        {
+          "t": "The 40-hour week is still the American default",
+          "b": "Nearly a century later, this Act's overtime threshold remains the standard reference point for full-time work in the US."
+        }
+      ]
+    },
+    {
+      "id": "uk-companies-act-1862",
+      "genre": "biz",
+      "year": "1862",
+      "name": "UK Companies Act 1862",
+      "hook": "This consolidation made 'limited liability' a routine, easy default for starting a business — not a rare royal privilege.",
+      "def": "Consolidating earlier UK company law, the 1862 Act made it straightforward for any group of people to register a limited liability company by simple registration, rather than needing a royal charter or act of Parliament — a shift widely credited with unleashing the wave of Victorian-era industrial and commercial investment.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Before",
+          "note": "Limited liability required a royal charter or specific act of Parliament."
+        },
+        "right": {
+          "label": "After, 1862",
+          "note": "Any group could register a limited company by simple filing."
+        },
+        "vs": "democratized incorporation"
+      },
+      "notes": [
+        {
+          "t": "Made investing less personally catastrophic",
+          "b": "Before limited liability was routine, a failed business could bankrupt an investor's entire personal estate — this Act capped the downside at what was invested."
+        },
+        {
+          "t": "The direct ancestor of modern company law",
+          "b": "Most common-law countries' corporate registration systems today still follow this basic 'incorporate by simple filing' model."
+        }
+      ]
+    },
+    {
+      "id": "buttonwood-agreement",
+      "genre": "biz",
+      "year": "1792",
+      "name": "Buttonwood Agreement",
+      "hook": "24 stockbrokers signed a short agreement under a tree in lower Manhattan — and founded what became the New York Stock Exchange.",
+      "def": "Facing chaotic, unregulated securities trading, 24 New York brokers agreed under a buttonwood tree to trade securities only among themselves and to charge a fixed minimum commission — a simple mutual-trust pact that evolved over decades into the New York Stock Exchange, still the world's largest exchange by market value.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Chaotic, untrusted securities trading"
+          },
+          {
+            "label": "24 brokers agree to trade only with each other",
+            "note": "1792"
+          },
+          {
+            "label": "Fixed commission structure established"
+          },
+          {
+            "label": "Evolves into the NYSE"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Only 24 signatories",
+          "b": "A remarkably small founding group for what became the anchor institution of global equity markets."
+        },
+        {
+          "t": "The panic that prompted it",
+          "b": "The agreement followed America's first stock market crash in 1792, driven by speculative trading in bank shares."
+        }
+      ]
+    },
+    {
+      "id": "dutch-east-india",
+      "genre": "biz",
+      "year": "1602",
+      "name": "Dutch East India Company Founding",
+      "hook": "The first company to sell shares to the public — and the first to be worth more, adjusted for inflation, than any company since.",
+      "def": "Chartered by the Dutch government with a monopoly on Asian trade, the VOC was the first company to issue tradable shares to the general public, creating the first modern stock exchange in Amsterdam to trade them. At its 17th-century peak it's estimated to have been worth more, in today's terms, than nearly any company in history.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Dutch government grants trade monopoly",
+            "note": "1602"
+          },
+          {
+            "label": "Shares sold publicly for the first time"
+          },
+          {
+            "label": "Amsterdam exchange created to trade them"
+          },
+          {
+            "label": "Becomes the template for the modern corporation"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "The first modern IPO",
+          "b": "Its 1602 public share offering is widely cited as the origin point of the publicly traded corporation as a legal form."
+        },
+        {
+          "t": "Also had its own army and could wage war",
+          "b": "As a chartered monopoly, the VOC held quasi-governmental powers unimaginable for a company today — a reminder of how differently 'business' and 'state' were separated at the time."
+        }
+      ]
+    },
+    {
+      "id": "british-east-india",
+      "genre": "biz",
+      "year": "1600",
+      "name": "British East India Company Founding",
+      "hook": "A trading company was granted a royal monopoly on Asian trade — and ended up ruling most of India.",
+      "def": "Chartered by Elizabeth I with a monopoly on English trade with Asia, the East India Company gradually built its own private army, collected taxes, and administered territory, eventually governing large parts of the Indian subcontinent directly — until the 1857 rebellion led the British Crown to take direct control away from the company entirely.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Royal charter grants trade monopoly",
+            "note": "1600"
+          },
+          {
+            "label": "Company builds its own army"
+          },
+          {
+            "label": "Company governs large parts of India directly"
+          },
+          {
+            "label": "Crown takes direct control",
+            "note": "1858, after the 1857 rebellion"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "At its peak, had an army twice the size of Britain's",
+          "b": "A private company commanding a larger military force than its own home government is a scale of corporate power with essentially no modern parallel."
+        },
+        {
+          "t": "Its collapse directly led to formal British colonial rule",
+          "b": "The 1857 rebellion's aftermath is the direct hinge point between 'company rule' and the British Raj."
+        }
+      ]
+    },
+    {
+      "id": "bayh-dole",
+      "genre": "biz",
+      "year": "1980",
+      "name": "Bayh-Dole Act",
+      "hook": "One law let universities patent inventions made with federal research money — and arguably built the US biotech industry.",
+      "def": "Before 1980, inventions from federally funded research generally stayed with the government and were rarely commercialized. Bayh-Dole let universities and small businesses patent and license those inventions themselves, creating a direct financial incentive to turn federally funded lab research into commercial products.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Before, 1980",
+          "note": "Federal research inventions largely stayed uncommercialized."
+        },
+        "right": {
+          "label": "After Bayh-Dole",
+          "note": "Universities patent and license their own federally funded research."
+        },
+        "vs": "commercialization incentive"
+      },
+      "notes": [
+        {
+          "t": "University patenting surged afterward",
+          "b": "University technology-transfer offices and patent filings grew substantially in the years following the Act's passage."
+        },
+        {
+          "t": "Widely credited with accelerating US biotech",
+          "b": "Many analyses of the US biotech industry's growth cite this Act as a foundational enabling condition."
+        }
+      ]
+    },
+    {
+      "id": "berne-convention",
+      "genre": "biz",
+      "year": "1886",
+      "name": "Berne Convention",
+      "hook": "The treaty that made copyright automatic — no registration required — across the countries that signed it.",
+      "def": "The first major international copyright treaty established that creative works are automatically protected the moment they're created, without needing registration, and that member countries must extend the same copyright protection to foreign works as to their own — the foundation of essentially all modern international copyright law.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "Berne Convention, 1886"
+        },
+        "spokes": [
+          {
+            "label": "Automatic copyright, no registration"
+          },
+          {
+            "label": "Equal treatment for foreign works"
+          },
+          {
+            "label": "Minimum protection terms set"
+          },
+          {
+            "label": "Basis of modern global copyright law"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "The US didn't join until 1989",
+          "b": "Despite being foundational to global copyright, the US held out for over a century before finally joining."
+        },
+        {
+          "t": "Still the backbone of the WTO's TRIPS agreement",
+          "b": "Later international IP agreements were built directly on top of Berne's core principles."
+        }
+      ]
+    },
+    {
+      "id": "trips-agreement",
+      "genre": "biz",
+      "year": "1994",
+      "name": "TRIPS Agreement",
+      "hook": "Joining the WTO now meant every country had to enforce roughly the same patent and copyright rules — including on medicine.",
+      "def": "The Agreement on Trade-Related Aspects of Intellectual Property Rights required all WTO member countries to enforce minimum standards for patents, copyrights, and trademarks — including pharmaceutical patents, which sparked years of controversy over developing countries' access to affordable medicines, notably HIV/AIDS drugs.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "WTO membership now requires IP enforcement",
+            "note": "1994"
+          },
+          {
+            "label": "Pharmaceutical patents included"
+          },
+          {
+            "label": "Access-to-medicine crisis in developing nations"
+          },
+          {
+            "label": "Doha Declaration, 2001, carves out public-health flexibility"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "The HIV/AIDS medicine access fight",
+          "b": "South Africa's attempt to import generic HIV drugs in the late 1990s directly clashed with TRIPS patent rules, becoming a global flashpoint."
+        },
+        {
+          "t": "Later amended for public health emergencies",
+          "b": "The 2001 Doha Declaration explicitly affirmed countries' right to override patents during public health crises."
+        }
+      ]
+    },
+    {
+      "id": "uk-limited-liability-1855",
+      "genre": "biz",
+      "year": "1855",
+      "name": "UK Limited Liability Act",
+      "hook": "This single act first established that a shareholder could only lose what they invested — not their entire personal fortune.",
+      "def": "Before 1855, most UK business partners and shareholders could be held personally liable for a failed company's full debts. This Act, soon consolidated into the 1862 Companies Act, capped shareholder liability at the amount invested — a change economist Nicholas Murray Butler later called one of the most important innovations of the era.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Before, 1855",
+          "note": "Investors risked personal bankruptcy for a failed company's debts."
+        },
+        "right": {
+          "label": "After",
+          "note": "Losses capped at the amount actually invested."
+        },
+        "vs": "risk made bounded"
+      },
+      "notes": [
+        {
+          "t": "Directly enabled mass investment culture",
+          "b": "Bounding downside risk is widely credited with making it viable for ordinary savers, not just wealthy partners, to invest in industrial ventures."
+        },
+        {
+          "t": "Folded into the 1862 Companies Act",
+          "b": "This Act's core principle was consolidated and expanded just seven years later into the broader companies framework."
+        }
+      ]
+    },
+    {
+      "id": "ford-five-dollar-day",
+      "genre": "biz",
+      "year": "1914",
+      "name": "Ford's $5 Workday",
+      "hook": "Henry Ford more than doubled his own workers' pay overnight — a decision competitors called reckless and copied within years.",
+      "def": "Ford Motor Company abruptly raised its minimum wage from about $2.34 to $5 a day and cut shifts to eight hours, reasoning that better-paid workers would stay longer, work harder, and — crucially — be able to afford the cars they were building. Turnover collapsed, and the model was gradually adopted across American industry.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Before",
+          "note": "~$2.34/day, high worker turnover."
+        },
+        "right": {
+          "label": "After, 1914",
+          "note": "$5/day, 8-hour shifts, turnover collapses."
+        },
+        "vs": "more than doubled"
+      },
+      "notes": [
+        {
+          "t": "Annual turnover reportedly fell from ~370% to under 20%",
+          "b": "The scale of the retention improvement is the specific data point Ford's own executives cited to justify the raise to skeptical shareholders."
+        },
+        {
+          "t": "'Fordism' became a broader economic idea",
+          "b": "The notion that paying workers enough to afford what they build sustains mass-market demand is still referenced in economic history as 'Fordism.'"
+        }
+      ]
+    },
+    {
+      "id": "ibm-consent-decree",
+      "genre": "biz",
+      "year": "1956",
+      "name": "IBM Consent Decree",
+      "hook": "IBM avoided a breakup by agreeing to sell — not just lease — its own machines, cracking open the computing market to competitors.",
+      "def": "Settling a Justice Department antitrust suit over its dominance of the punch-card tabulating machine market, IBM agreed to sell equipment outright (not just lease it, its prior default) and to license its patents to competitors — a consent decree that shaped IBM's business practices for decades and eased entry for rival computer makers.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Before, 1956",
+          "note": "IBM leased-only, tightly controlled patents."
+        },
+        "right": {
+          "label": "After the decree",
+          "note": "Required to sell equipment and license patents to rivals."
+        },
+        "vs": "market opened"
+      },
+      "notes": [
+        {
+          "t": "Shaped IBM's conduct into the 1980s",
+          "b": "This decree remained legally binding and influential in IBM's business practices for decades, well into the personal-computer era."
+        },
+        {
+          "t": "A quieter precedent to later Big Tech cases",
+          "b": "Less famous than Standard Oil or Microsoft, but frequently cited by antitrust scholars as an early template for behavioral (not structural) remedies."
+        }
+      ]
+    },
+    {
+      "id": "shenzhen-sez",
+      "genre": "biz",
+      "year": "1980",
+      "name": "Shenzhen Special Economic Zone",
+      "hook": "A fishing village of 30,000 people was designated a controlled capitalist experiment — and became a megacity of over 10 million.",
+      "def": "As part of Deng Xiaoping's reforms, Shenzhen was designated China's first Special Economic Zone, permitted market-driven pricing, foreign investment, and reduced state control as a contained test case — its explosive success became the template for dozens of further zones across China's coast.",
+      "anatomy": {
+        "type": "curve",
+        "xLabel": "Years since 1980",
+        "yLabel": "Shenzhen population / GDP",
+        "points": [
+          {
+            "x": 10,
+            "y": 5,
+            "label": "~30,000 people, 1980"
+          },
+          {
+            "x": 40,
+            "y": 25
+          },
+          {
+            "x": 70,
+            "y": 60
+          },
+          {
+            "x": 100,
+            "y": 100,
+            "label": "10M+ people, major tech hub"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Went from fishing village to tech megacity",
+          "b": "Now headquarters to Tencent, Huawei, and DJI — among the most dramatic urban transformations in modern economic history."
+        },
+        {
+          "t": "The proof-of-concept for China's broader reforms",
+          "b": "Its success is widely credited with giving Beijing the confidence to expand market reforms nationally through the 1980s and 90s."
+        }
+      ]
+    },
+    {
+      "id": "nasdaq-founding",
+      "genre": "biz",
+      "year": "1971",
+      "name": "NASDAQ Founding",
+      "hook": "The world's first electronic stock market replaced the shouted, paper-ticket trading floor with a screen.",
+      "def": "Launched by the National Association of Securities Dealers, NASDAQ was the world's first electronic stock exchange, automating what had been a phone-and-paper 'over the counter' market — an infrastructure shift that let it later become the natural home for fast-growing technology companies like Apple, Microsoft, and Amazon.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Before, 1971",
+          "note": "Phone- and paper-based over-the-counter trading."
+        },
+        "right": {
+          "label": "NASDAQ",
+          "note": "First electronic, automated quotation system."
+        },
+        "vs": "trading goes digital"
+      },
+      "notes": [
+        {
+          "t": "Became synonymous with tech stocks",
+          "b": "Its early embrace of electronic trading made it the natural listing venue as the technology sector grew explosively from the 1980s onward."
+        },
+        {
+          "t": "Forced the NYSE to modernize too",
+          "b": "Competitive pressure from NASDAQ's electronic model is widely cited as accelerating the older exchange's own eventual automation."
+        }
+      ]
+    },
+    {
+      "id": "gramm-leach-bliley",
+      "genre": "biz",
+      "year": "1999",
+      "name": "Gramm-Leach-Bliley Act",
+      "hook": "This act tore down the wall Glass-Steagall had built in 1933, letting commercial and investment banks merge again.",
+      "def": "Repealing the core provisions of the 1933 Glass-Steagall Act, Gramm-Leach-Bliley allowed commercial banks, investment banks, and insurance companies to combine into single financial conglomerates — a deregulation still debated today as a contributing factor to the scale and interconnection risk exposed by the 2008 financial crisis.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Glass-Steagall era",
+          "note": "Commercial and investment banking legally separated."
+        },
+        "right": {
+          "label": "After Gramm-Leach-Bliley, 1999",
+          "note": "Banks, brokerages, and insurers allowed to combine."
+        },
+        "vs": "wall removed"
+      },
+      "notes": [
+        {
+          "t": "Passed with broad bipartisan support at the time",
+          "b": "It cleared both chambers of Congress comfortably, reflecting the era's broader deregulatory consensus."
+        },
+        {
+          "t": "Still cited in 2008 crisis post-mortems",
+          "b": "Economists remain divided, but its role in enabling the 'too big to fail' megabanks of 2008 is a standard reference point in the debate."
+        }
+      ]
+    },
+    {
+      "id": "osha",
+      "genre": "biz",
+      "year": "1970",
+      "name": "Occupational Safety and Health Act",
+      "hook": "One law created a federal agency with the power to inspect any American workplace and shut down unsafe conditions.",
+      "def": "Responding to persistently high rates of workplace death and injury, the Act created OSHA, empowering the federal government to set and enforce binding workplace safety standards across nearly all US private employers — before it, workplace safety regulation was inconsistent and largely left to individual states.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "OSHA, 1970"
+        },
+        "spokes": [
+          {
+            "label": "Federal safety standards set"
+          },
+          {
+            "label": "Workplace inspection authority"
+          },
+          {
+            "label": "Employers required to report injuries"
+          },
+          {
+            "label": "Whistleblower protections"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Workplace fatality rates have fallen substantially since",
+          "b": "US workplace death rates per worker are a small fraction of pre-1970 levels, a trend safety researchers partly attribute to OSHA's standards regime."
+        },
+        {
+          "t": "Still debated on enforcement resources",
+          "b": "Critics have long argued OSHA's inspector staffing is too small relative to the number of US worksites it's responsible for."
+        }
+      ]
+    },
+    {
+      "id": "bell-labs-transistor",
+      "genre": "biz",
+      "year": "1952",
+      "name": "Bell Labs' Transistor Patent Licensing",
+      "hook": "Rather than hoard the invention that built the digital age, Bell Labs licensed the transistor to almost anyone for a flat fee.",
+      "def": "Facing antitrust pressure and its own regulated-monopoly status, AT&T's Bell Labs — inventor of the transistor — licensed the technology broadly to other companies, including foreign firms like Sony, for a relatively modest fee, seeding an entire global electronics industry rather than keeping the breakthrough proprietary.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "Transistor patent, licensed 1952"
+        },
+        "spokes": [
+          {
+            "label": "US electronics firms license it"
+          },
+          {
+            "label": "Sony licenses it, launches transistor radios"
+          },
+          {
+            "label": "Seeds the global semiconductor industry"
+          },
+          {
+            "label": "Bell Labs itself later spins off much of the industry's talent"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Sony's transistor radio changed consumer electronics",
+          "b": "Licensing the patent for a reported $25,000 let Sony build the product that established Japan's postwar electronics industry."
+        },
+        {
+          "t": "Regulatory pressure, not pure altruism, drove it",
+          "b": "AT&T's status as a regulated monopoly made broad licensing a way to defuse antitrust scrutiny, not simply a generous choice."
+        }
+      ]
+    },
+    {
+      "id": "sykes-picot",
+      "genre": "geo",
+      "year": "1916",
+      "name": "Sykes-Picot Agreement",
+      "hook": "Two diplomats secretly drew the borders of the modern Middle East on a map, without consulting anyone who lived there.",
+      "def": "A secret wartime agreement between Britain and France (with Russian assent), Sykes-Picot divided the Ottoman Empire's Arab provinces into British and French zones of direct and indirect control — carving lines that, with modification, became the basis for the modern borders of Iraq, Syria, Lebanon, and Jordan.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "Sykes-Picot, 1916"
+        },
+        "spokes": [
+          {
+            "label": "France: Syria, Lebanon, Cilicia"
+          },
+          {
+            "label": "Britain: southern Mesopotamia, Haifa corridor"
+          },
+          {
+            "label": "Palestine: international zone (proposed)"
+          },
+          {
+            "label": "Arab self-rule promises sidelined"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Contradicted earlier British promises to Arab leaders",
+          "b": "Britain had separately promised Sharif Hussein of Mecca support for a unified Arab state — a contradiction that fueled lasting regional distrust of Western powers."
+        },
+        {
+          "t": "Its borders are still cited in conflicts today",
+          "b": "Commentary on modern Middle East conflicts still regularly invokes Sykes-Picot as the origin point of borders many argue don't reflect the region's actual communities."
+        }
+      ]
+    },
+    {
+      "id": "balfour-declaration",
+      "genre": "geo",
+      "year": "1917",
+      "name": "Balfour Declaration",
+      "hook": "A single letter from a British foreign secretary set in motion the process that led to the creation of Israel three decades later.",
+      "def": "In a public letter to Lord Rothschild, British Foreign Secretary Arthur Balfour stated the government's support for 'the establishment in Palestine of a national home for the Jewish people' — while also stipulating that nothing should prejudice the rights of Palestine's existing non-Jewish communities, a tension that has shaped the conflict ever since.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Stated support",
+          "note": "A national home for the Jewish people in Palestine."
+        },
+        "right": {
+          "label": "Stated caveat",
+          "note": "Existing communities' civil and religious rights protected."
+        },
+        "vs": "unresolved tension"
+      },
+      "notes": [
+        {
+          "t": "Issued during WWI, for wartime strategic reasons",
+          "b": "Historians widely note it was issued partly to build Allied support among Jewish communities internationally during the war."
+        },
+        {
+          "t": "Became foundational to British Mandate Palestine policy",
+          "b": "It shaped British administration of Palestine after WWI and remains a central reference point in the region's history and disputes."
+        }
+      ]
+    },
+    {
+      "id": "treaty-tordesillas",
+      "genre": "geo",
+      "year": "1494",
+      "name": "Treaty of Tordesillas",
+      "hook": "The Pope helped Spain and Portugal literally divide the unexplored world between them with a single line on a map.",
+      "def": "Brokered with papal involvement, the Treaty drew a north-south line roughly 370 leagues west of the Cape Verde islands: lands to the west would belong to Spain, lands to the east to Portugal — a division that determined why Brazil speaks Portuguese while the rest of Latin America speaks Spanish.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "West of the line",
+          "note": "Spanish claim — most of the Americas."
+        },
+        "right": {
+          "label": "East of the line",
+          "note": "Portuguese claim — Brazil, Africa, Asia routes."
+        },
+        "vs": "one drawn line"
+      },
+      "notes": [
+        {
+          "t": "Directly explains Brazil's language today",
+          "b": "Brazil falls east of the line and became Portuguese; nearly every other Latin American nation falls west and became Spanish-speaking."
+        },
+        {
+          "t": "Completely ignored existing populations",
+          "b": "The treaty divided already-inhabited continents between two European crowns without any consultation with the peoples living there."
+        }
+      ]
+    },
+    {
+      "id": "berlin-conference",
+      "genre": "geo",
+      "year": "1884",
+      "name": "Berlin Conference",
+      "hook": "European powers carved up an entire continent's borders in a Berlin meeting room — without a single African representative present.",
+      "def": "Convened by German Chancellor Bismarck, the Conference set rules for European colonization of Africa and formalized territorial claims among European powers — drawing borders that frequently split ethnic and linguistic groups apart or forced rival groups together, with lasting consequences for post-colonial African states.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "European powers meet in Berlin",
+            "note": "1884-85, no African representatives"
+          },
+          {
+            "label": "Rules for colonial claims agreed"
+          },
+          {
+            "label": "Borders drawn with no regard for existing groups"
+          },
+          {
+            "label": "Most African states inherit these borders at independence"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "No African leaders were present or consulted",
+          "b": "Every border decision affecting the continent's future was made entirely by outside powers."
+        },
+        {
+          "t": "Modern African border disputes still trace to it",
+          "b": "Numerous post-independence conflicts have been linked by historians to ethnic groups split or merged arbitrarily by these lines."
+        }
+      ]
+    },
+    {
+      "id": "monroe-doctrine",
+      "genre": "geo",
+      "year": "1823",
+      "name": "Monroe Doctrine",
+      "hook": "The US declared the entire Western Hemisphere off-limits to further European colonization — with a navy too small to enforce it.",
+      "def": "In a message to Congress, President Monroe declared that further European colonization or intervention in the Americas would be viewed as a hostile act against the United States — a doctrine the US initially lacked the military power to enforce, but which became a cornerstone of American foreign policy for the next two centuries.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "European re-colonization feared",
+            "note": "Post-Latin American independence wars"
+          },
+          {
+            "label": "Monroe declares the hemisphere off-limits",
+            "note": "1823"
+          },
+          {
+            "label": "Initially unenforceable",
+            "note": "US navy far too small"
+          },
+          {
+            "label": "Becomes a durable pillar of US foreign policy"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Later expanded far beyond its original scope",
+          "b": "The 20th-century 'Roosevelt Corollary' used it to justify direct US intervention across Latin America, well beyond just blocking European powers."
+        },
+        {
+          "t": "Still invoked in modern US foreign policy debate",
+          "b": "References to 'Monroe Doctrine' logic still surface in discussions of US policy toward Latin America and, more loosely, other regions."
+        }
+      ]
+    },
+    {
+      "id": "louisiana-purchase",
+      "genre": "geo",
+      "year": "1803",
+      "name": "Louisiana Purchase",
+      "hook": "The US bought roughly 830,000 square miles from France for about 3 cents an acre — doubling the country's size overnight.",
+      "def": "Needing funds for war in Europe, Napoleon sold the entire Louisiana territory — from the Mississippi to the Rocky Mountains — to the United States for approximately $15 million, roughly 3 cents an acre in the money of the time. It remains one of the largest land transactions in world history.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Before, 1803",
+          "note": "US territory ends at the Mississippi River."
+        },
+        "right": {
+          "label": "After",
+          "note": "US territory roughly doubles westward to the Rockies."
+        },
+        "vs": "$15 million"
+      },
+      "notes": [
+        {
+          "t": "Jefferson himself doubted his constitutional authority",
+          "b": "He privately worried the purchase exceeded the president's constitutional powers, but moved forward given the scale of the opportunity."
+        },
+        {
+          "t": "Now home to 15 US states, wholly or in part",
+          "b": "The territory acquired eventually became all or part of 15 present-day states."
+        }
+      ]
+    },
+    {
+      "id": "alaska-purchase",
+      "genre": "geo",
+      "year": "1867",
+      "name": "Alaska Purchase",
+      "hook": "The US bought Alaska from Russia for about 2 cents an acre — a deal widely mocked at the time as 'Seward's Folly.'",
+      "def": "Secretary of State William Seward negotiated the purchase of Alaska from Russia for $7.2 million, roughly 2 cents an acre. Widely ridiculed in the press as a worthless purchase of frozen wasteland, it later proved immensely valuable for gold, oil, fisheries, and — during the Cold War — its strategic proximity to the Soviet Union.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Russia seeks to sell, fearing British seizure",
+            "note": "Post-Crimean War finances"
+          },
+          {
+            "label": "US buys for $7.2M",
+            "note": "1867, ~2 cents/acre"
+          },
+          {
+            "label": "Widely mocked as 'Seward's Folly'"
+          },
+          {
+            "label": "Later proves immensely valuable",
+            "note": "Gold, oil, Cold War strategic position"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Gold was discovered within three decades",
+          "b": "The Klondike-adjacent gold rushes of the 1890s were an early, dramatic reversal of the 'worthless purchase' narrative."
+        },
+        {
+          "t": "Became critical Cold War territory",
+          "b": "Alaska's proximity to Russia across the Bering Strait made it strategically vital for decades after the purchase's original mockery."
+        }
+      ]
+    },
+    {
+      "id": "hong-kong-handover",
+      "genre": "geo",
+      "year": "1997",
+      "name": "Hong Kong Handover",
+      "hook": "Britain returned Hong Kong to China after 156 years, under a promise that its systems would stay different for 50 more.",
+      "def": "Under the 1984 Sino-British Joint Declaration, Britain returned Hong Kong to Chinese sovereignty in 1997, with China committing to a 'one country, two systems' framework preserving Hong Kong's separate legal, economic, and political systems until at least 2047 — an arrangement whose durability became a major point of tension in the 2019-20 protests and subsequent security law.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Joint Declaration signed",
+            "note": "1984"
+          },
+          {
+            "label": "Handover ceremony",
+            "note": "July 1, 1997"
+          },
+          {
+            "label": "'One country, two systems' begins",
+            "note": "Guaranteed to at least 2047"
+          },
+          {
+            "label": "2020 national security law tightens Beijing's control"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "The 50-year guarantee is now roughly half elapsed",
+          "b": "The framework's promised duration extends to 2047, putting current developments roughly at its midpoint."
+        },
+        {
+          "t": "2019-2020 protests directly tested the arrangement",
+          "b": "Mass pro-democracy protests and the subsequent 2020 security law became the most significant challenge yet to the 'two systems' framework's practical meaning."
+        }
+      ]
+    },
+    {
+      "id": "partition-india",
+      "genre": "geo",
+      "year": "1947",
+      "name": "Partition of India",
+      "hook": "British India was split into two countries along religious lines in weeks — triggering one of history's largest, bloodiest migrations.",
+      "def": "As British colonial rule ended, the subcontinent was divided into India and Pakistan along a hastily drawn religious boundary (the Radcliffe Line, drawn by a lawyer who had never visited India before). An estimated 10-15 million people were displaced and hundreds of thousands to over a million died in the accompanying violence.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "British rule ends",
+            "note": "Independence set for Aug 1947"
+          },
+          {
+            "label": "Radcliffe Line drawn in weeks",
+            "note": "By a lawyer new to India"
+          },
+          {
+            "label": "Mass cross-border migration begins"
+          },
+          {
+            "label": "10-15 million displaced, mass violence"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "The border line wasn't published until after independence",
+          "b": "Sir Cyril Radcliffe's boundary wasn't announced until two days after both nations had already become independent — leaving people not knowing which country they'd wake up in."
+        },
+        {
+          "t": "Among the largest migrations in human history",
+          "b": "The scale of displacement in such a short window remains one of the largest forced migrations ever recorded."
+        }
+      ]
+    },
+    {
+      "id": "suez-nationalization",
+      "genre": "geo",
+      "year": "1956",
+      "name": "Suez Canal Nationalization",
+      "hook": "Egypt seized the canal Britain and France considered theirs — triggering a war that exposed both as no longer superpowers.",
+      "def": "President Nasser nationalized the Suez Canal Company after Western powers withdrew funding for the Aswan Dam. Britain, France, and Israel responded with a military invasion, but US and Soviet pressure forced their withdrawal — a humiliation widely seen as marking the definitive end of Britain and France's status as global superpowers.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "West withdraws Aswan Dam funding"
+          },
+          {
+            "label": "Nasser nationalizes the Suez Canal",
+            "note": "1956"
+          },
+          {
+            "label": "Britain, France, Israel invade"
+          },
+          {
+            "label": "US/Soviet pressure forces withdrawal"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Marked the real end of British/French global primacy",
+          "b": "Historians widely treat the forced withdrawal as the moment it became clear the old European powers no longer set global terms without US and Soviet consent."
+        },
+        {
+          "t": "Egypt kept the canal",
+          "b": "Nasser's nationalization ultimately succeeded — the canal has remained under Egyptian control ever since."
+        }
+      ]
+    },
+    {
+      "id": "jcpoa",
+      "genre": "geo",
+      "year": "2015",
+      "name": "Iran Nuclear Deal (JCPOA)",
+      "hook": "Six world powers and Iran struck a deal trading sanctions relief for strict, verified limits on Iran's nuclear program.",
+      "def": "The Joint Comprehensive Plan of Action, negotiated by Iran and the P5+1 (US, UK, France, Russia, China, Germany), sharply limited Iran's uranium enrichment and stockpiles in exchange for lifting international sanctions, with UN-monitored verification — an agreement the US unilaterally withdrew from in 2018, after which Iran gradually resumed enrichment activity.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Iran's commitment",
+          "note": "Sharp limits on enrichment, stockpiles; UN inspections."
+        },
+        "right": {
+          "label": "P5+1's commitment",
+          "note": "Lifting of major international sanctions."
+        },
+        "vs": "the trade"
+      },
+      "notes": [
+        {
+          "t": "US withdrew unilaterally in 2018",
+          "b": "The Trump administration exited the deal and reimposed sanctions, despite the other signatories and UN inspectors affirming Iranian compliance at the time."
+        },
+        {
+          "t": "Iran resumed enrichment after the US exit",
+          "b": "Enrichment levels rose well beyond the deal's caps in the years following the US withdrawal."
+        }
+      ]
+    },
+    {
+      "id": "paris-agreement",
+      "genre": "geo",
+      "year": "2015",
+      "name": "Paris Agreement",
+      "hook": "196 parties agreed to try to hold global warming 'well below' 2°C — via national pledges with no binding enforcement mechanism.",
+      "def": "Adopted at the UN climate conference in Paris, the Agreement set a collective goal of limiting global warming to well below 2°C above pre-industrial levels, pursuing efforts toward 1.5°C, through nationally determined emissions targets that countries set and update themselves — a structure designed to be flexible enough to secure near-universal participation, at the cost of binding enforcement.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "Paris Agreement, 2015"
+        },
+        "spokes": [
+          {
+            "label": "Well below 2°C target, pursue 1.5°C"
+          },
+          {
+            "label": "Nationally set emissions targets"
+          },
+          {
+            "label": "No binding enforcement mechanism"
+          },
+          {
+            "label": "196 parties, near-universal participation"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "The US has both exited and rejoined it",
+          "b": "The US formally withdrew in 2020 and rejoined in 2021, illustrating how dependent the agreement's participation is on individual national politics."
+        },
+        {
+          "t": "Relies entirely on voluntary, self-set targets",
+          "b": "Unlike the earlier Kyoto Protocol's binding targets for developed nations, Paris deliberately uses a bottom-up pledge system to maximize participation."
+        }
+      ]
+    },
+    {
+      "id": "kyoto-protocol",
+      "genre": "geo",
+      "year": "1997",
+      "name": "Kyoto Protocol",
+      "hook": "The first treaty with legally binding emissions targets — but the US, the era's largest emitter, never ratified it.",
+      "def": "Building on the 1992 UN climate framework, the Kyoto Protocol set binding greenhouse gas reduction targets for developed nations, backed by market mechanisms like emissions trading. The US signed but never ratified it, and it was eventually superseded by the more flexible Paris Agreement structure in 2015.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "Kyoto's approach",
+          "note": "Binding targets, only for developed nations."
+        },
+        "right": {
+          "label": "Paris's approach",
+          "note": "Voluntary targets, for essentially all nations."
+        },
+        "vs": "the strategy shift"
+      },
+      "notes": [
+        {
+          "t": "The US never ratified it",
+          "b": "The Senate had already voted 95-0 against any climate treaty that didn't bind developing nations too, before Kyoto was even finalized."
+        },
+        {
+          "t": "Introduced international emissions trading",
+          "b": "Its carbon market mechanisms became the template many national and regional cap-and-trade systems later drew from."
+        }
+      ]
+    },
+    {
+      "id": "schengen-agreement",
+      "genre": "geo",
+      "year": "1985",
+      "name": "Schengen Agreement",
+      "hook": "European nations agreed to remove their internal border checks entirely — creating the largest passport-free zone in the world.",
+      "def": "Signed by five countries on a boat on the Moselle River, the Schengen Agreement gradually eliminated passport and border controls between member states, creating a single area — now encompassing most of the EU plus several non-EU states — where people can cross internal borders without stopping for checks.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "5 countries sign, 1985",
+            "note": "Aboard a boat on the Moselle"
+          },
+          {
+            "label": "Internal border checks gradually removed"
+          },
+          {
+            "label": "Zone expands to most of Europe"
+          },
+          {
+            "label": "External border security standardized instead"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Now covers 29 countries",
+          "b": "The zone has expanded well beyond its 5 original signatories to most of Europe, including several non-EU states."
+        },
+        {
+          "t": "Strained by the 2015 migration crisis",
+          "b": "Several member states temporarily reinstated internal border checks during the European migrant crisis, testing the agreement's core premise."
+        }
+      ]
+    },
+    {
+      "id": "two-plus-four",
+      "genre": "geo",
+      "year": "1990",
+      "name": "Two Plus Four Agreement",
+      "hook": "In one treaty, the four WWII Allied powers formally gave up their remaining rights over Germany — clearing the way for reunification.",
+      "def": "Negotiated by East and West Germany plus the four WWII Allied powers (US, UK, France, USSR), the Treaty ended the Allies' remaining postwar occupation rights over Germany, confirmed Germany's post-1945 borders as final, and cleared the last legal obstacle to German reunification, which followed within months.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Berlin Wall falls",
+            "note": "Nov 1989"
+          },
+          {
+            "label": "Two Plus Four talks begin",
+            "note": "Germanys + 4 WWII Allies"
+          },
+          {
+            "label": "Allied occupation rights formally end"
+          },
+          {
+            "label": "German reunification follows",
+            "note": "Oct 1990"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Confirmed Germany's postwar borders permanently",
+          "b": "A key Soviet condition — final confirmation that a reunified Germany wouldn't reopen territorial claims from WWII."
+        },
+        {
+          "t": "Cleared reunification in under a year of the Wall falling",
+          "b": "The speed from the Wall's fall to formal reunification surprised even many diplomats involved at the time."
+        }
+      ]
+    },
+    {
+      "id": "panama-canal-treaty",
+      "genre": "geo",
+      "year": "1977",
+      "name": "Panama Canal Treaties",
+      "hook": "The US agreed to hand over one of its most strategically vital assets — the canal it had controlled for over 60 years.",
+      "def": "Negotiated by President Carter and Panama's Omar Torrijos, the treaties set a schedule for the US to transfer full control of the Panama Canal to Panama by the end of 1999, ending nearly a century of direct US control over the strategically critical waterway — a politically unpopular decision in the US at the time.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "US controls the canal directly",
+            "note": "Since 1914"
+          },
+          {
+            "label": "Torrijos-Carter Treaties signed",
+            "note": "1977"
+          },
+          {
+            "label": "Phased handover schedule set"
+          },
+          {
+            "label": "Full transfer to Panama completed",
+            "note": "Dec 31, 1999"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Deeply controversial in the US Senate",
+          "b": "Ratification passed the Senate by only one vote more than the required two-thirds — a genuinely close call for a treaty of this significance."
+        },
+        {
+          "t": "Panama has operated it successfully since",
+          "b": "Canal traffic and revenue have grown substantially under Panamanian management since the 1999 handover."
+        }
+      ]
+    },
+    {
+      "id": "oslo-accords",
+      "genre": "geo",
+      "year": "1993",
+      "name": "Oslo Accords",
+      "hook": "Israel and the PLO recognized each other for the first time — and set a path toward Palestinian self-governance that stalled.",
+      "def": "Negotiated secretly in Norway, the Accords marked the first direct agreement between Israel and the Palestine Liberation Organization: mutual recognition, and a framework establishing limited Palestinian self-government in parts of the West Bank and Gaza, intended as a transition toward a fuller final-status agreement that was never reached.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Secret talks in Norway",
+            "note": "1993"
+          },
+          {
+            "label": "Mutual recognition: Israel and the PLO"
+          },
+          {
+            "label": "Palestinian Authority established",
+            "note": "Limited self-rule"
+          },
+          {
+            "label": "Intended final-status talks never conclude"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Rabin, Peres, and Arafat shared the 1994 Nobel Peace Prize",
+          "b": "Awarded specifically for the Accords, before the peace process later stalled."
+        },
+        {
+          "t": "Yitzhak Rabin was assassinated two years later",
+          "b": "By an Israeli opposed to the Accords — a stark marker of how contested the agreement was on both sides."
+        }
+      ]
+    },
+    {
+      "id": "munich-agreement",
+      "genre": "geo",
+      "year": "1938",
+      "name": "Munich Agreement",
+      "hook": "Britain and France let Hitler annex part of Czechoslovakia to avoid war — buying a year of peace that historians call a catastrophic bet.",
+      "def": "Meeting without any Czechoslovak representative present, Britain, France, Germany, and Italy agreed to let Germany annex the Sudetenland region of Czechoslovakia, in exchange for Hitler's promise to seek no further territorial expansion. Germany invaded the rest of Czechoslovakia within six months, and Poland less than a year later.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Hitler demands the Sudetenland"
+          },
+          {
+            "label": "Britain/France agree, without Czechoslovakia present",
+            "note": "1938"
+          },
+          {
+            "label": "Chamberlain declares 'peace for our time'"
+          },
+          {
+            "label": "Germany invades the rest of Czechoslovakia within months"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "'Appeasement' became a lasting cautionary term",
+          "b": "This agreement is the primary historical reference point whenever the strategy of conceding to an aggressor to avoid war is invoked, almost always critically."
+        },
+        {
+          "t": "Bought roughly 11 months, not lasting peace",
+          "b": "Germany's invasion of Poland in September 1939 began WWII well within a year of the agreement."
+        }
+      ]
+    },
+    {
+      "id": "brexit-referendum",
+      "genre": "geo",
+      "year": "2016",
+      "name": "Brexit Referendum",
+      "hook": "By a margin of about 4 points, UK voters chose to leave the European Union after 43 years of membership.",
+      "def": "In a nationwide referendum, 51.9% of UK voters chose to leave the European Union, triggering years of negotiation over trade, borders (especially with Northern Ireland), and citizens' rights before the UK formally exited in January 2020 and left the EU's single market and customs union at the end of that year.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Referendum held",
+            "note": "June 2016, 51.9% leave"
+          },
+          {
+            "label": "Article 50 triggered",
+            "note": "2017"
+          },
+          {
+            "label": "Years of withdrawal-agreement negotiation"
+          },
+          {
+            "label": "UK formally exits",
+            "note": "Jan 2020; single market Dec 2020"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "The Irish border became the hardest problem",
+          "b": "Avoiding a hard border with EU-member Ireland while leaving the EU's customs union required a specific, still-contested Northern Ireland Protocol."
+        },
+        {
+          "t": "Narrower than many expected",
+          "b": "Pre-referendum polling had been close, but the actual outcome still came as a significant shock to financial markets the next morning."
+        }
+      ]
+    },
+    {
+      "id": "belt-and-road",
+      "genre": "geo",
+      "year": "2013",
+      "name": "Belt and Road Initiative",
+      "hook": "China is financing ports, railways, and highways across dozens of countries — the largest infrastructure investment program in history.",
+      "def": "Announced by Xi Jinping, the Belt and Road Initiative funds infrastructure — ports, railways, roads, pipelines — across Asia, Africa, Europe, and Latin America, deepening China's economic and diplomatic ties with participating countries while drawing criticism from some Western analysts over 'debt-trap' lending concerns.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "Belt and Road, 2013"
+        },
+        "spokes": [
+          {
+            "label": "Ports and shipping routes"
+          },
+          {
+            "label": "Railways and highways"
+          },
+          {
+            "label": "Energy pipelines"
+          },
+          {
+            "label": "140+ participating countries"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Sri Lanka's Hambantota Port is the most-cited case",
+          "b": "Sri Lanka leased the Chinese-financed port to a Chinese state firm for 99 years after struggling to repay its debt — the case most often invoked in 'debt-trap' criticism, though the framing itself remains disputed by researchers."
+        },
+        {
+          "t": "The largest infrastructure program by any single country",
+          "b": "By total committed investment, it dwarfs earlier comparable efforts like the Marshall Plan, adjusted for scale."
+        }
+      ]
+    },
+    {
+      "id": "treaty-of-rome",
+      "genre": "geo",
+      "year": "1957",
+      "name": "Treaty of Rome",
+      "hook": "Six countries agreed to form a common market — the direct founding document of what became the European Union.",
+      "def": "Signed by France, West Germany, Italy, and the Benelux countries, the Treaty established the European Economic Community, creating a common market with free movement of goods, services, capital, and eventually people among members — the institutional and legal foundation later treaties (including Maastricht) built the modern EU on top of.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "6 founding members sign",
+            "note": "1957"
+          },
+          {
+            "label": "European Economic Community created"
+          },
+          {
+            "label": "Common market, free movement goals set"
+          },
+          {
+            "label": "Evolves into the European Union"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Built directly on the 1951 Coal and Steel Community",
+          "b": "The same six countries simply expanded their existing cooperation from two industries into a full common market."
+        },
+        {
+          "t": "Its 'ever closer union' phrase is still debated today",
+          "b": "The Treaty's founding language about deepening integration remains a live political flashpoint in debates over EU sovereignty."
+        }
+      ]
+    },
+    {
+      "id": "cuban-missile-crisis",
+      "genre": "geo",
+      "year": "1962",
+      "name": "Cuban Missile Crisis Resolution",
+      "hook": "The world's closest brush with nuclear war ended with a secret trade neither superpower publicly admitted for decades.",
+      "def": "After the US discovered Soviet nuclear missiles in Cuba, a 13-day standoff ended with a public deal (Soviet missiles removed, US pledges not to invade Cuba) and a secret one — the US quietly agreed to remove its own missiles from Turkey — a resolution kept confidential for over 25 years to avoid the appearance of a US concession.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Soviet missiles discovered in Cuba",
+            "note": "Oct 1962"
+          },
+          {
+            "label": "US naval blockade, 13-day standoff"
+          },
+          {
+            "label": "Public deal: missiles removed, no US invasion"
+          },
+          {
+            "label": "Secret deal: US missiles leave Turkey too"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "The secret Turkey trade stayed hidden for decades",
+          "b": "It wasn't publicly confirmed until the 1980s-90s, once key participants began writing memoirs and archives were declassified."
+        },
+        {
+          "t": "Directly led to the US-Soviet 'hotline'",
+          "b": "The crisis's near-miss communication delays led directly to the creation of a direct emergency communication link between Washington and Moscow the following year."
+        }
+      ]
+    },
+    {
+      "id": "crimea-annexation",
+      "genre": "geo",
+      "year": "2014",
+      "name": "Crimea Annexation",
+      "hook": "Russia annexed Crimea from Ukraine following a disputed referendum — a move most of the world refused to recognize.",
+      "def": "After Ukraine's pro-Russian president was ousted in the Euromaidan protests, Russian forces took control of Crimea, and a subsequent referendum (widely regarded by the international community as illegitimate, held under military occupation) reported overwhelming support for joining Russia. The UN General Assembly voted to declare the referendum invalid; most countries still recognize Crimea as Ukrainian territory.",
+      "anatomy": {
+        "type": "steps",
+        "nodes": [
+          {
+            "label": "Euromaidan protests oust Ukraine's president",
+            "note": "Feb 2014"
+          },
+          {
+            "label": "Russian forces take control of Crimea"
+          },
+          {
+            "label": "Disputed referendum held under occupation"
+          },
+          {
+            "label": "Russia annexes; most of the world does not recognize it"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "UN General Assembly declared the referendum invalid",
+          "b": "A 2014 resolution affirmed Ukraine's territorial integrity, with 100 countries voting in favor."
+        },
+        {
+          "t": "Directly preceded the far larger 2022 invasion",
+          "b": "The 2014 annexation is widely treated by analysts as the opening phase of the conflict that escalated into Russia's full-scale invasion of Ukraine in 2022."
+        }
+      ]
+    },
+    {
+      "id": "asean-founding",
+      "genre": "geo",
+      "year": "1967",
+      "name": "ASEAN Founding",
+      "hook": "Five Southeast Asian nations, several recently at odds, agreed to cooperate economically instead — now a 10-member bloc.",
+      "def": "Founded by Indonesia, Malaysia, the Philippines, Singapore, and Thailand amid Cold War-era regional tensions, the Association of Southeast Asian Nations aimed to promote economic growth and regional stability through cooperation rather than conflict — later expanding to 10 members and becoming one of the world's most significant regional economic and diplomatic blocs.",
+      "anatomy": {
+        "type": "hub",
+        "center": {
+          "label": "ASEAN, 1967"
+        },
+        "spokes": [
+          {
+            "label": "Economic cooperation promoted"
+          },
+          {
+            "label": "Regional stability prioritized"
+          },
+          {
+            "label": "Expands from 5 to 10 members"
+          },
+          {
+            "label": "Major regional trade bloc today"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "t": "Founded partly to reduce regional Cold War tensions",
+          "b": "Several founding members had recent territorial or political disputes with each other — cooperation was explicitly meant to defuse this."
+        },
+        {
+          "t": "Now a combined economy among the world's largest",
+          "b": "ASEAN's combined GDP today ranks among the largest economic blocs globally, alongside the EU, US, and China."
+        }
+      ]
+    },
+    {
+      "id": "african-union-founding",
+      "genre": "geo",
+      "year": "2002",
+      "name": "African Union Founding",
+      "hook": "Africa replaced its Cold War-era unity body with one holding real authority to intervene in member states' conflicts.",
+      "def": "Succeeding the more limited Organisation of African Unity (founded 1963), the African Union was established with a broader mandate — including, notably, the explicit authority to intervene militarily in a member state during grave circumstances like genocide or war crimes, a power its predecessor never held.",
+      "anatomy": {
+        "type": "comparison",
+        "left": {
+          "label": "OAU, 1963-2002",
+          "note": "Strict non-interference in members' internal affairs."
+        },
+        "right": {
+          "label": "African Union, 2002",
+          "note": "Explicit authority to intervene in grave circumstances."
+        },
+        "vs": "sovereignty norm loosened"
+      },
+      "notes": [
+        {
+          "t": "Explicitly created power to intervene in genocide",
+          "b": "This was a deliberate response to the international community's failure to stop the 1994 Rwandan genocide under the OAU's old non-interference norm."
+        },
+        {
+          "t": "Now 55 member states",
+          "b": "Covers essentially the entire African continent, making it one of the largest regional political bodies in the world."
+        }
+      ]
+    }
+  ]
+}
