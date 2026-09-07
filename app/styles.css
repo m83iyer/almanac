@@ -192,16 +192,6 @@ a { color: inherit; }
   color: var(--shell-ink);
   border-bottom-color: var(--tab-accent, var(--shell-ink));
 }
-.shell-tab .soon {
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--shell-ink-soft);
-  opacity: 0.65;
-  margin-left: 5px;
-}
-
 /* ============================================================
    Section content
    ============================================================ */
