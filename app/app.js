@@ -1,36 +1,7 @@
-import { renderAnatomy, SHAPE_LABEL, esc } from "./diagrams.js";
+import { SHAPE_LABEL, esc } from "./diagrams.js";
 import { createPdfBlob } from "./pdf.js";
-
-const SECTIONS = [
-  {
-    id: "concepts",
-    label: "Concepts",
-    dataFile: "data/concepts.json",
-    eyebrow: "A Field Codex · Vol. I",
-    title: "Ideas Worth Recognizing on Sight",
-    sub: "A specimen catalog of the mental models, biases, and market mechanics that keep recurring across thinking, psychology, economics, and investing — each one classified, diagrammed, and stocked with field notes so you know it when you see it.",
-    searchLabel: "Search the catalog",
-    genreVar: { models: "g1", psychology: "g2", economics: "g3", investing: "g4" },
-    hasYear: false,
-    notesLabel: "Field Notes",
-    mechanismLabel: "Anatomy",
-    footName: "Field Codex · Vol. I",
-  },
-  {
-    id: "acts",
-    label: "Historical Acts & Policies",
-    dataFile: "data/acts.json",
-    eyebrow: "The Dossier · Vol. I",
-    title: "100 Acts That Redrew the Map",
-    sub: "A case file of the treaties, laws, corporate decisions, and policy shifts whose consequences are still being paid out today — each one dated, diagrammed, and filed with what actually happened next.",
-    searchLabel: "Search the dossier",
-    genreVar: { econ: "g1", war: "g2", biz: "g3", geo: "g4" },
-    hasYear: true,
-    notesLabel: "Aftermath",
-    mechanismLabel: "Mechanism",
-    footName: "The Dossier · Vol. I",
-  },
-];
+import { SECTIONS } from "./sections.js";
+import { codeFor, sheetBodyHTML } from "./sheet.js";
 
 const cache = {};
 const state = { sectionId: null, genre: "all", query: "" };
@@ -50,12 +21,6 @@ async function loadSection(id) {
   const data = await res.json();
   cache[id] = data;
   return data;
-}
-
-function codeFor(entry, data, sec) {
-  const genreList = data.entries.filter((x) => x.genre === entry.genre);
-  const n = genreList.indexOf(entry) + 1;
-  return data.genres[entry.genre].code + "·" + (n < 10 ? "0" + n : n);
 }
 
 function matches(entry) {
@@ -181,29 +146,7 @@ function openSheet(entry, data, sec) {
   sheetEl.style.setProperty("--sheet-color", "var(--" + varName + ")");
   sheetEl.style.setProperty("--sheet-color-soft", "var(--" + varName + "-soft)");
 
-  const notesHtml = entry.notes.map((n) =>
-    '<div class="note-item"><p class="note-title">' + esc(n.t) + '</p><p class="note-body">' + esc(n.b) + '</p></div>'
-  ).join("");
-
-  const code = codeFor(entry, data, sec);
-  const g = data.genres[entry.genre];
-
-  sheetBody.innerHTML =
-    '<div class="sheet-stamp">On File</div>' +
-    '<div class="sheet-code-row"><span>' + code + '</span><span class="rule"></span><span>' + esc(g.label.toUpperCase()) + '</span></div>' +
-    (sec.hasYear ? '<div class="sheet-year">' + esc(entry.year) + '</div>' : '') +
-    '<h2 class="sheet-name">' + esc(entry.name) + '</h2>' +
-    '<p class="sheet-hook">' + esc(entry.hook) + '</p>' +
-    '<p class="sheet-def">' + esc(entry.def) + '</p>' +
-    '<p class="anatomy-label">' + esc(sec.mechanismLabel) + '</p>' +
-    '<div class="anatomy-box">' + renderAnatomy(entry.anatomy, "var(--" + varName + ")", "var(--" + varName + "-soft)") + '</div>' +
-    '<p class="notes-label">' + esc(sec.notesLabel) + '</p>' +
-    '<div class="notes-list">' + notesHtml + '</div>' +
-    '<div class="sheet-foot"><span>' + esc(sec.footName) + '</span><span>' + code + '</span></div>' +
-    '<div class="export-row"><button class="export-btn" id="export-btn">' +
-      '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 3v13m0 0l-5-5m5 5l5-5M4 20h16"/></svg>' +
-      'Export as PDF</button></div>' +
-    '<div class="export-msg" id="export-msg"></div>';
+  sheetBody.innerHTML = sheetBodyHTML(entry, data, sec);
 
   document.getElementById("export-btn").addEventListener("click", exportCurrentPdf);
   overlay.hidden = false;

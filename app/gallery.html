@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en" data-section="concepts">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Almanac — Diagram Gallery</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&family=Work+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Zilla+Slab:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Public+Sans:wght@400;500;600;700&family=Cutive+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=2">
+<style>
+  body { padding: 24px; }
+  .gallery-toolbar { display: flex; gap: 10px; align-items: center; margin-bottom: 20px; font-family: var(--font-mono); }
+  .gallery-toolbar button { font-family: inherit; font-size: 12px; padding: 6px 12px; border-radius: 6px; border: 1px solid var(--line); background: var(--paper-raised); color: var(--ink); cursor: pointer; }
+  .gallery-toolbar button.active { background: var(--ink); color: var(--paper); }
+  .gallery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); gap: 16px; }
+  .gallery-item { background: var(--paper-raised); border: 1px solid var(--line); border-radius: 6px; padding: 14px; }
+  .gallery-item-head { display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: 10.5px; color: var(--ink-faint); margin-bottom: 6px; }
+  .gallery-item-name { font-family: var(--font-display); font-weight: 600; font-size: 15px; margin-bottom: 8px; }
+</style>
+</head>
+<body>
+  <div class="gallery-toolbar">
+    <span>Section:</span>
+    <button data-section-btn="concepts" class="active">Concepts</button>
+    <button data-section-btn="acts">Acts</button>
+    <span style="margin-left:16px">Theme:</span>
+    <button data-theme-btn="light" class="active">Light</button>
+    <button data-theme-btn="dark">Dark</button>
+  </div>
+  <div class="gallery-grid" id="grid"></div>
+<script type="module">
+import { renderAnatomy } from "./diagrams.js";
+import { SECTIONS } from "./sections.js";
+
+const grid = document.getElementById("grid");
+const root = document.documentElement;
+let currentSection = "concepts";
+
+async function render() {
+  const sec = SECTIONS.find((s) => s.id === currentSection);
+  root.setAttribute("data-section", sec.id);
+  const res = await fetch(sec.dataFile);
+  const data = await res.json();
+  grid.innerHTML = "";
+  data.entries.forEach((entry) => {
+    const varName = sec.genreVar[entry.genre];
+    const item = document.createElement("div");
+    item.className = "gallery-item";
+    item.innerHTML =
+      '<div class="gallery-item-head"><span>' + entry.anatomy.type + '</span><span>' + entry.id + '</span></div>' +
+      '<div class="gallery-item-name">' + entry.name + '</div>' +
+      '<div class="anatomy-box" style="margin-bottom:0">' + renderAnatomy(entry.anatomy, "var(--" + varName + ")", "var(--" + varName + "-soft)") + '</div>';
+    grid.appendChild(item);
+  });
+}
+
+document.querySelectorAll("[data-section-btn]").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll("[data-section-btn]").forEach((b) => b.classList.remove("active"));
+    btn.classList.add("active");
+    currentSection = btn.dataset.sectionBtn;
+    render();
+  });
+});
+document.querySelectorAll("[data-theme-btn]").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll("[data-theme-btn]").forEach((b) => b.classList.remove("active"));
+    btn.classList.add("active");
+    root.setAttribute("data-theme", btn.dataset.themeBtn);
+  });
+});
+
+render();
+</script>
+</body>
+</html>
