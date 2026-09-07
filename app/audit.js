@@ -186,15 +186,18 @@ function checkEntry(entry, data, sec) {
     violations.push({ kind: "diagram-escapes-sheet", detail: "anatomy-box" });
   }
 
-  // 3. pairwise overlap among diagram text leaves
-  for (let i = 0; i < diagramLeaves.length; i++) {
-    for (let j = i + 1; j < diagramLeaves.length; j++) {
-      const a = diagramLeaves[i].getBoundingClientRect();
-      const b = diagramLeaves[j].getBoundingClientRect();
+  // 3. pairwise overlap among ALL text leaves in the sheet (not just the
+  // diagram's absolutely-positioned ones) — normal document flow can't
+  // self-overlap, but .sheet-stamp is position:absolute over the sheet body
+  // and must be checked against .sheet-name/.sheet-hook for long titles.
+  for (let i = 0; i < allLeaves.length; i++) {
+    for (let j = i + 1; j < allLeaves.length; j++) {
+      const a = allLeaves[i].getBoundingClientRect();
+      const b = allLeaves[j].getBoundingClientRect();
       if (rectsOverlap(a, b)) {
         violations.push({
           kind: "text-overlap",
-          detail: diagramLeaves[i].textContent.slice(0, 30) + " ↔ " + diagramLeaves[j].textContent.slice(0, 30),
+          detail: allLeaves[i].textContent.slice(0, 30) + " ↔ " + allLeaves[j].textContent.slice(0, 30),
         });
       }
     }

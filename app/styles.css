@@ -21,7 +21,7 @@
   --paper-raised: #F4F6F0;
   --ink: #17212A;
   --ink-soft: #52626A;
-  --ink-faint: #8B9A9E;
+  --ink-faint: #5B6568;
   --line: #C9D0C4;
   --line-soft: #DBE0D5;
   --shadow: 0 1px 2px rgba(23,33,42,0.06), 0 10px 24px -14px rgba(23,33,42,0.28);
@@ -29,7 +29,7 @@
   --g1: #3E5C76; --g1-soft: #DCE4EC;   /* models & frameworks */
   --g2: #7A4C6B; --g2-soft: #EBDDE6;   /* psychology & society */
   --g3: #3F6B4C; --g3-soft: #DCE7DE;   /* economics */
-  --g4: #96691F; --g4-soft: #ECE0C9;   /* investing */
+  --g4: #845C1B; --g4-soft: #ECE0C9;   /* investing */
   --accent: var(--g1);
 
   --font-display: "EB Garamond", Georgia, serif;
@@ -50,12 +50,12 @@
   --paper-raised: #F2EFE4;
   --ink: #221E12;
   --ink-soft: #5C5644;
-  --ink-faint: #8C8570;
+  --ink-faint: #666152;
   --line: #CBC2A8;
   --line-soft: #DEDACB;
   --shadow: 0 1px 2px rgba(34,30,18,0.07), 0 10px 24px -14px rgba(34,30,18,0.32);
 
-  --g1: #8A6A1E; --g1-soft: #EAE0C4;   /* economic policy */
+  --g1: #7C5F1B; --g1-soft: #EAE0C4;   /* economic policy */
   --g2: #7A2E2E; --g2-soft: #EBDAD5;   /* war & politics */
   --g3: #38505A; --g3-soft: #DAE1E2;   /* business */
   --g4: #1F5C4F; --g4-soft: #D8E6E1;   /* geopolitics */
@@ -84,7 +84,7 @@
   }
   :root:not([data-theme="light"])[data-section="concepts"] {
     --paper: #14191C; --paper-raised: #1B2226;
-    --ink: #E9EBE4; --ink-soft: #9FADAE; --ink-faint: #647275;
+    --ink: #E9EBE4; --ink-soft: #9FADAE; --ink-faint: #909B9C;
     --line: #303A38; --line-soft: #262F2D;
     --shadow: 0 1px 2px rgba(0,0,0,0.4), 0 10px 28px -14px rgba(0,0,0,0.6);
     --g1: #8CACCF; --g1-soft: #263241;
@@ -94,14 +94,14 @@
   }
   :root:not([data-theme="light"])[data-section="acts"] {
     --paper: #15130C; --paper-raised: #1D1A11;
-    --ink: #EDE7D6; --ink-soft: #A79E86; --ink-faint: #6B6350;
+    --ink: #EDE7D6; --ink-soft: #A79E86; --ink-faint: #999386;
     --line: #362F1F; --line-soft: #262115;
     --shadow: 0 1px 2px rgba(0,0,0,0.5), 0 10px 28px -14px rgba(0,0,0,0.7);
     --g1: #CDA64C; --g1-soft: #362B14;
-    --g2: #C4726A; --g2-soft: #3A2420;
+    --g2: #C87C75; --g2-soft: #3A2420;
     --g3: #85A3AD; --g3-soft: #202E32;
     --g4: #57AC97; --g4-soft: #172E28;
-    --stamp: #C4726A;
+    --stamp: #CB827B;
   }
 }
 :root[data-theme="dark"] {
@@ -110,7 +110,7 @@
 }
 :root[data-theme="dark"][data-section="concepts"] {
   --paper: #14191C; --paper-raised: #1B2226;
-  --ink: #E9EBE4; --ink-soft: #9FADAE; --ink-faint: #647275;
+  --ink: #E9EBE4; --ink-soft: #9FADAE; --ink-faint: #909B9C;
   --line: #303A38; --line-soft: #262F2D;
   --shadow: 0 1px 2px rgba(0,0,0,0.4), 0 10px 28px -14px rgba(0,0,0,0.6);
   --g1: #8CACCF; --g1-soft: #263241;
@@ -120,14 +120,14 @@
 }
 :root[data-theme="dark"][data-section="acts"] {
   --paper: #15130C; --paper-raised: #1D1A11;
-  --ink: #EDE7D6; --ink-soft: #A79E86; --ink-faint: #6B6350;
+  --ink: #EDE7D6; --ink-soft: #A79E86; --ink-faint: #999386;
   --line: #362F1F; --line-soft: #262115;
   --shadow: 0 1px 2px rgba(0,0,0,0.5), 0 10px 28px -14px rgba(0,0,0,0.7);
   --g1: #CDA64C; --g1-soft: #362B14;
-  --g2: #C4726A; --g2-soft: #3A2420;
+  --g2: #C87C75; --g2-soft: #3A2420;
   --g3: #85A3AD; --g3-soft: #202E32;
   --g4: #57AC97; --g4-soft: #172E28;
-  --stamp: #C4726A;
+  --stamp: #CB827B;
 }
 
 /* ============================================================
@@ -234,6 +234,7 @@ h1 {
   border: 1px solid var(--line); background: var(--paper-raised); border-radius: var(--radius-chip); padding: 8px 14px; min-width: 200px;
 }
 .search-box input { border: none; background: transparent; outline: none; font-family: var(--font-body); font-size: 13px; color: var(--ink); width: 100%; }
+.search-box:focus-within { outline: 2px solid var(--accent, var(--shell-ink)); outline-offset: 2px; }
 .search-box svg { flex-shrink: 0; color: var(--ink-faint); }
 .search-label { font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faint); white-space: nowrap; }
 
@@ -284,8 +285,12 @@ h1 {
 
 .sheet-code-row { display: flex; align-items: center; gap: 10px; font-family: var(--font-mono); font-size: 11.5px; letter-spacing: 0.08em; color: var(--sheet-color); margin-bottom: 8px; }
 .sheet-code-row .rule { flex: 1; height: 1px; background: var(--line); }
-.sheet-year { font-family: var(--font-mono); font-size: 12.5px; color: var(--ink-faint); margin-bottom: 8px; display: none; }
+.sheet-year { font-family: var(--font-mono); font-size: 12.5px; color: var(--ink-faint); margin-bottom: 8px; display: none; width: fit-content; }
 [data-section="acts"] .sheet-year { display: block; }
+/* .sheet-stamp is an absolutely-positioned corner mark (right:40px, ~90px
+   wide) over this same top band — reserve room so it never sits on top of
+   the genre label at the end of the row. */
+[data-section="acts"] .sheet-code-row { padding-right: 140px; }
 
 .sheet-name { font-family: var(--font-display); font-weight: 700; font-size: 32px; line-height: 1.07; letter-spacing: -0.005em; text-wrap: balance; overflow-wrap: break-word; margin: 0 0 8px; max-width: 88%; }
 .sheet-hook { font-family: var(--font-display); font-style: italic; font-weight: 500; font-size: 16.5px; line-height: 1.42; color: var(--sheet-color); margin: 0 0 16px; text-wrap: balance; overflow-wrap: break-word; }
